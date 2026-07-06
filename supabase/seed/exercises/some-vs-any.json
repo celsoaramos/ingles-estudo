@@ -1,0 +1,166 @@
+[
+  {
+    "question": "I have ___ friends in Canada.",
+    "options": ["any", "some", "anything", "no one"],
+    "answer": 1,
+    "explanation": "Frase **afirmativa** → **some**: I have some friends.",
+    "difficulty": 1
+  },
+  {
+    "question": "She doesn't have ___ brothers or sisters.",
+    "options": ["some", "something", "any", "someone"],
+    "answer": 2,
+    "explanation": "Frase **negativa** (doesn't) → **any**: she doesn't have any brothers or sisters.",
+    "difficulty": 1
+  },
+  {
+    "question": "Do you have ___ pets at home?",
+    "options": ["any", "some", "something", "a"],
+    "answer": 0,
+    "explanation": "**Pergunta comum** (não é oferta) → **any**: Do you have any pets?",
+    "difficulty": 1
+  },
+  {
+    "question": "There are ___ cookies on the table.",
+    "options": ["any", "anything", "anyone", "some"],
+    "answer": 3,
+    "explanation": "Frase **afirmativa** → **some**: there are some cookies.",
+    "difficulty": 1
+  },
+  {
+    "question": "We didn't buy ___ vegetables at the market.",
+    "options": ["some", "any", "someone", "something"],
+    "answer": 1,
+    "explanation": "Frase **negativa** (didn't) → **any**: we didn't buy any vegetables.",
+    "difficulty": 1
+  },
+  {
+    "question": "Are there ___ good restaurants near here?",
+    "options": ["some", "someone", "any", "something"],
+    "answer": 2,
+    "explanation": "**Pergunta comum** → **any**: Are there any good restaurants?",
+    "difficulty": 1
+  },
+  {
+    "question": "He told me ___ interesting news.",
+    "options": ["any", "anyone", "anything", "some"],
+    "answer": 3,
+    "explanation": "Frase **afirmativa** → **some**: some interesting news. \"Any\" ficaria para negativas e perguntas.",
+    "difficulty": 1
+  },
+  {
+    "question": "I don't want ___ sugar in my tea.",
+    "options": ["any", "some", "a", "many"],
+    "answer": 0,
+    "explanation": "Frase **negativa** (don't) → **any**: I don't want any sugar.",
+    "difficulty": 1
+  },
+  {
+    "question": "Can I borrow ___ money until Friday?",
+    "options": ["any", "anything", "some", "none"],
+    "answer": 2,
+    "explanation": "É um **pedido** (espero resposta \"sim\") → **some**, mesmo sendo pergunta: Can I borrow some money?",
+    "difficulty": 2
+  },
+  {
+    "question": "Is there ___ in the meeting room right now?",
+    "options": ["anyone", "someone", "some", "something"],
+    "answer": 0,
+    "explanation": "**Pergunta comum** sobre pessoa → **anyone**. \"Someone\" ficaria para afirmativas.",
+    "difficulty": 2
+  },
+  {
+    "question": "I'm bored — let's watch ___ funny.",
+    "options": ["anything", "nothing", "anyone", "something"],
+    "answer": 3,
+    "explanation": "Frase **afirmativa** sobre coisa → **something**: let's watch something funny.",
+    "difficulty": 2
+  },
+  {
+    "question": "She never tells me ___ about her plans.",
+    "options": ["something", "nothing", "anything", "someone"],
+    "answer": 2,
+    "explanation": "**Never** já torna a frase negativa → **anything**. \"Never … nothing\" seria dupla negativa, erro em inglês.",
+    "difficulty": 2
+  },
+  {
+    "question": "Como se diz \"Não precisamos de ajuda nenhuma\" em inglês?",
+    "options": [
+      "We don't need any help.",
+      "We don't need some help.",
+      "We don't need no help.",
+      "We doesn't need any help."
+    ],
+    "answer": 0,
+    "explanation": "Negativa com \"we\" usa **don't + any**. \"Some\" não combina com negativa e \"don't … no\" é dupla negativa.",
+    "difficulty": 2
+  },
+  {
+    "question": "I didn't see ___ I knew at the party.",
+    "options": ["someone", "somebody", "nothing", "anyone"],
+    "answer": 3,
+    "explanation": "Frase **negativa** (didn't) sobre pessoa → **anyone**: I didn't see anyone I knew.",
+    "difficulty": 2
+  },
+  {
+    "question": "He needs ___ to talk to about the problem.",
+    "options": ["anyone", "someone", "anything", "any"],
+    "answer": 1,
+    "explanation": "Frase **afirmativa** sobre pessoa → **someone**: he needs someone to talk to.",
+    "difficulty": 2
+  },
+  {
+    "question": "Do we have ___ homework for tomorrow?",
+    "options": ["some", "something", "any", "someone"],
+    "answer": 2,
+    "explanation": "**Pergunta comum** → **any**: Do we have any homework?",
+    "difficulty": 2
+  },
+  {
+    "question": "There were ___ problems with my order.",
+    "options": ["any", "anything", "some", "anyone"],
+    "answer": 2,
+    "explanation": "Frase **afirmativa** → **some**: there were some problems.",
+    "difficulty": 2
+  },
+  {
+    "question": "Would you like ___ to drink?",
+    "options": ["nothing", "no", "something", "any"],
+    "answer": 2,
+    "explanation": "É uma **oferta** (espero que aceite) → **something**, mesmo sendo pergunta: Would you like something to drink?",
+    "difficulty": 3
+  },
+  {
+    "question": "Could I have ___ more coffee, please?",
+    "options": ["any", "some", "anything", "no"],
+    "answer": 1,
+    "explanation": "É um **pedido educado** (espero \"sim\") → **some**, mesmo em forma de pergunta: Could I have some more coffee?",
+    "difficulty": 3
+  },
+  {
+    "question": "Como se diz \"Não encontro minhas chaves em lugar nenhum\" em inglês?",
+    "options": [
+      "I can't find my keys anywhere.",
+      "I can't find my keys nowhere.",
+      "I can't find my keys somewhere.",
+      "I don't can find my keys anywhere."
+    ],
+    "answer": 0,
+    "explanation": "Verbo já negativo (can't) → **anywhere**. \"Can't … nowhere\" é dupla negativa, e \"somewhere\" fica para afirmativas.",
+    "difficulty": 3
+  },
+  {
+    "question": "Why don't you invite ___ friends over this weekend?",
+    "options": ["any", "no", "anything", "some"],
+    "answer": 3,
+    "explanation": "É uma **sugestão/convite** (espero que aceite) → **some**: invite some friends. Mesma lógica das ofertas com \"Would you like…?\".",
+    "difficulty": 3
+  },
+  {
+    "question": "There isn't ___ juice left — can you buy ___ on your way home?",
+    "options": ["some / any", "any / some", "any / any", "some / some"],
+    "answer": 1,
+    "explanation": "Negativa (isn't) → **any**; o pedido \"can you buy…?\" espera \"sim\" → **some**.",
+    "difficulty": 3
+  }
+]

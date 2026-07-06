@@ -1,0 +1,203 @@
+[
+  {
+    "question": "The girl ___ won the race is my cousin.",
+    "options": ["who", "which", "whose", "where"],
+    "answer": 0,
+    "explanation": "Pessoa (the girl) como sujeito → **who** (ou that). \"Which\" é para coisas.",
+    "difficulty": 1
+  },
+  {
+    "question": "I lost the keys ___ open the garage.",
+    "options": ["who", "that", "whose", "where"],
+    "answer": 1,
+    "explanation": "Coisa (the keys) → **that** (ou which). \"Who\" é só para pessoas.",
+    "difficulty": 1
+  },
+  {
+    "question": "That's the hotel ___ we stayed last summer.",
+    "options": ["which", "who", "whose", "where"],
+    "answer": 3,
+    "explanation": "Lugar + \"ficamos NELE\" → **where** (= onde / em que).",
+    "difficulty": 1
+  },
+  {
+    "question": "The boy ___ bike was stolen is crying.",
+    "options": ["whose", "who", "which", "that"],
+    "answer": 0,
+    "explanation": "Posse (a bicicleta DELE) → **whose** + substantivo (whose bike).",
+    "difficulty": 1
+  },
+  {
+    "question": "The song ___ is playing right now is my favorite.",
+    "options": ["which", "who", "where", "whose"],
+    "answer": 0,
+    "explanation": "Coisa (the song) como sujeito → **which** (ou that).",
+    "difficulty": 1
+  },
+  {
+    "question": "Brazil is a country ___ has many beautiful beaches.",
+    "options": ["which", "who", "whose", "where"],
+    "answer": 0,
+    "explanation": "Vem **verbo** logo depois (has), então precisamos de um pronome sujeito → **which**. \"Where\" não funciona como sujeito.",
+    "difficulty": 1
+  },
+  {
+    "question": "The teacher ___ I like most teaches history.",
+    "options": ["which", "where", "whose", "that"],
+    "answer": 3,
+    "explanation": "Pessoa como objeto (I like) → **that** (ou who). \"Which\" é para coisas.",
+    "difficulty": 1
+  },
+  {
+    "question": "Is this the café ___ serves the best coffee in town?",
+    "options": ["where", "which", "whose", "who"],
+    "answer": 1,
+    "explanation": "Apesar de ser um lugar, o café é o **sujeito** de \"serves\" → **which/that**. **Where** só quando algo acontece NELE.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence has a mistake?",
+    "options": [
+      "The restaurant where we met is closing.",
+      "The neighborhood where I live is quiet.",
+      "The museum where we visited was huge.",
+      "The office where she works is downtown."
+    ],
+    "answer": 2,
+    "explanation": "\"Visit\" já leva objeto direto: o certo é \"the museum **(that/which)** we visited\". **Where** exige que a ação aconteça NO lugar, sem objeto.",
+    "difficulty": 2
+  },
+  {
+    "question": "Combine: 'I met a woman. Her son is a famous actor.'",
+    "options": [
+      "I met a woman whose son is a famous actor.",
+      "I met a woman who son is a famous actor.",
+      "I met a woman which son is a famous actor.",
+      "I met a woman that her son is a famous actor."
+    ],
+    "answer": 0,
+    "explanation": "Posse (o filho DELA) → **whose** + substantivo. Não se repete o possessivo (\"that her\").",
+    "difficulty": 2
+  },
+  {
+    "question": "Combine: 'The film was boring. We watched it last night.'",
+    "options": [
+      "The film which we watched it last night was boring.",
+      "The film we watched last night was boring.",
+      "The film what we watched last night was boring.",
+      "The film whose we watched last night was boring."
+    ],
+    "answer": 1,
+    "explanation": "O pronome é **objeto** (we watched), então pode ser omitido. E nunca repita o objeto (\"watched **it**\").",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence is wrong?",
+    "options": [
+      "The book that I borrowed was long.",
+      "The car that he sold it was old.",
+      "The house that they built is huge.",
+      "The salad that she ordered looked fresh."
+    ],
+    "answer": 1,
+    "explanation": "Não se repete o objeto: **that** já é o objeto de \"sold\". O certo é \"the car that he sold\".",
+    "difficulty": 2
+  },
+  {
+    "question": "The company ___ CEO resigned is in the news.",
+    "options": ["which", "who", "that", "whose"],
+    "answer": 3,
+    "explanation": "Posse (o CEO DA empresa) → **whose**, que também funciona para coisas/empresas.",
+    "difficulty": 2
+  },
+  {
+    "question": "In which sentence can the pronoun be omitted?",
+    "options": [
+      "The dog that bit me ran away.",
+      "The letter that arrived today is for you.",
+      "The bus that goes downtown is late.",
+      "The jacket that I wore yesterday is dirty."
+    ],
+    "answer": 3,
+    "explanation": "Em \"the jacket that **I wore**\", that é **objeto** (vem sujeito depois) → pode omitir. Nas outras, that é sujeito.",
+    "difficulty": 2
+  },
+  {
+    "question": "The people ___ live upstairs are very noisy.",
+    "options": ["which", "whose", "who", "where"],
+    "answer": 2,
+    "explanation": "Pessoas (the people) como sujeito → **who** (ou that). \"Which\" é para coisas.",
+    "difficulty": 2
+  },
+  {
+    "question": "She showed me the photos ___ she took in Japan.",
+    "options": ["who", "what", "whose", "which"],
+    "answer": 3,
+    "explanation": "Coisa (the photos) como objeto → **which** (ou that, ou omitir). \"What\" nunca é pronome relativo.",
+    "difficulty": 2
+  },
+  {
+    "question": "Everything ___ he said was true.",
+    "options": ["what", "that", "who", "where"],
+    "answer": 1,
+    "explanation": "Depois de everything/all/nothing, usa-se **that**. \"What\" não funciona como pronome relativo.",
+    "difficulty": 2
+  },
+  {
+    "question": "The waiter ___ served us was very friendly.",
+    "options": ["which", "whose", "where", "that"],
+    "answer": 3,
+    "explanation": "Pessoa como sujeito → **that** (ou who). \"Which\" é só para coisas e animais.",
+    "difficulty": 2
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "My father, that works in a bank, is retiring.",
+      "My father, who works in a bank, is retiring.",
+      "My father who works in a bank is retiring.",
+      "My father, which works in a bank, is retiring."
+    ],
+    "answer": 1,
+    "explanation": "Informação extra sobre alguém único → non-defining clause com **vírgulas + who**. **That** é proibido depois de vírgula.",
+    "difficulty": 3
+  },
+  {
+    "question": "My hometown, ___ has 50,000 people, is in Minas Gerais.",
+    "options": ["that", "where", "which", "who"],
+    "answer": 2,
+    "explanation": "Non-defining (com vírgulas) + coisa como sujeito → **which**. **That** nunca aparece depois de vírgula.",
+    "difficulty": 3
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "This laptop, that I bought last year, already broke.",
+      "This laptop, I bought last year, already broke.",
+      "This laptop, which I bought last year, already broke.",
+      "This laptop, what I bought last year, already broke."
+    ],
+    "answer": 2,
+    "explanation": "Em non-defining clauses (com vírgulas), o pronome **não pode ser omitido** e **that** não é permitido → **which**.",
+    "difficulty": 3
+  },
+  {
+    "question": "In a non-defining relative clause (after a comma), which pronoun is NOT allowed?",
+    "options": ["who", "which", "that", "whose"],
+    "answer": 2,
+    "explanation": "**That** só funciona em defining clauses (sem vírgula). Depois de vírgula, use who, which ou whose.",
+    "difficulty": 3
+  },
+  {
+    "question": "Combine: 'Sarah is my best friend. She lives in London.'",
+    "options": [
+      "Sarah, who lives in London, is my best friend.",
+      "Sarah, that lives in London, is my best friend.",
+      "Sarah which lives in London is my best friend.",
+      "Sarah, whose lives in London, is my best friend."
+    ],
+    "answer": 0,
+    "explanation": "Nome próprio → informação extra com **vírgulas + who**. **That** não pode após vírgula e **whose** exige substantivo depois.",
+    "difficulty": 3
+  }
+]

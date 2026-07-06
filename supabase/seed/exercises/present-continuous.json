@@ -1,0 +1,166 @@
+[
+  {
+    "question": "Look! The children ___ in the garden.",
+    "options": ["play", "plays", "are playing", "is playing"],
+    "answer": 2,
+    "explanation": "**Look!** indica ação acontecendo agora → Present Continuous. \"Children\" é plural → **are** playing.",
+    "difficulty": 1
+  },
+  {
+    "question": "I ___ to music right now.",
+    "options": ["listen", "am listening", "listening", "listens"],
+    "answer": 1,
+    "explanation": "**Right now** = agora → **am** + listening. Sem o \"am\", a frase fica sem verbo to be.",
+    "difficulty": 1
+  },
+  {
+    "question": "He ___ a shower — can you call back later?",
+    "options": ["is taking", "takes", "take", "taking"],
+    "answer": 0,
+    "explanation": "Ação em progresso **neste momento** → is + taking. \"Takes\" seria rotina, não agora.",
+    "difficulty": 1
+  },
+  {
+    "question": "We ___ studying for the test now.",
+    "options": ["is", "be", "do", "are"],
+    "answer": 3,
+    "explanation": "Com **we**, o verbo to be é **are**: we are studying. \"Is\" é para he/she/it.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ it raining outside?",
+    "options": ["Are", "Does", "Is", "Do"],
+    "answer": 2,
+    "explanation": "Pergunta no Continuous inverte o **to be**: **Is** it raining? \"Does\" seria Present Simple.",
+    "difficulty": 1
+  },
+  {
+    "question": "They ___ working today; it's a holiday.",
+    "options": ["isn't", "aren't", "don't", "not"],
+    "answer": 1,
+    "explanation": "Negativa do Continuous: to be + not. Com **they** → **aren't** working. \"Don't working\" não existe.",
+    "difficulty": 1
+  },
+  {
+    "question": "My mom ___ dinner in the kitchen now.",
+    "options": ["cooking", "cook", "cooks", "is cooking"],
+    "answer": 3,
+    "explanation": "Ação agora → **is + cooking**. Só \"cooking\" sem o to be é um erro clássico.",
+    "difficulty": 1
+  },
+  {
+    "question": "What ___ you ___ at the moment?",
+    "options": ["do / do", "are / doing", "are / do", "do / doing"],
+    "answer": 1,
+    "explanation": "**At the moment** = agora → **are** you **doing**. O Continuous sempre tem to be + verbo-ing.",
+    "difficulty": 2
+  },
+  {
+    "question": "Look, the kids ___ in the pool!",
+    "options": ["are swiming", "swimming", "swim", "are swimming"],
+    "answer": 3,
+    "explanation": "Ortografia: **swim** dobra a última consoante → swi**mm**ing. E o \"are\" é obrigatório.",
+    "difficulty": 2
+  },
+  {
+    "question": "She ___ a cake for the party right now.",
+    "options": ["is makeing", "makes", "is making", "making"],
+    "answer": 2,
+    "explanation": "Verbos terminados em **-e** perdem o e antes do -ing: make → **making** (não \"makeing\").",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He believing the story.",
+      "He is believing the story.",
+      "He believes the story.",
+      "He believe the story."
+    ],
+    "answer": 2,
+    "explanation": "**Believe** é verbo de estado — não usa -ing. Present Simple com he → believe**s**.",
+    "difficulty": 2
+  },
+  {
+    "question": "I ___ my grandmother this weekend — it's all arranged.",
+    "options": ["visit", "am visiting", "visits", "visited"],
+    "answer": 1,
+    "explanation": "Compromisso **já combinado** para o futuro → Present Continuous: am visiting.",
+    "difficulty": 2
+  },
+  {
+    "question": "Why ___ the baby crying?",
+    "options": ["is", "are", "does", "do"],
+    "answer": 0,
+    "explanation": "\"The baby\" = **it** → **is** crying. No Continuous, a pergunta usa to be, não do/does.",
+    "difficulty": 2
+  },
+  {
+    "question": "Don't turn off the TV! I ___ that show.",
+    "options": ["am watching", "watch", "watching", "watches"],
+    "answer": 0,
+    "explanation": "A pessoa está assistindo **agora** → **am watching**. \"Watch\" indicaria hábito, não este momento.",
+    "difficulty": 2
+  },
+  {
+    "question": "Are you using this chair? — No, I ___.",
+    "options": ["am not", "don't", "isn't", "not"],
+    "answer": 0,
+    "explanation": "Resposta curta repete o **to be** da pergunta: Are you…? → No, I **am not** (I'm not).",
+    "difficulty": 2
+  },
+  {
+    "question": "This soup ___ delicious!",
+    "options": ["tastes", "is tasting", "taste", "tasting"],
+    "answer": 0,
+    "explanation": "**Taste** com sentido de \"ter sabor\" é verbo de **estado** → Present Simple: tastes (soup = it → -s).",
+    "difficulty": 3
+  },
+  {
+    "question": "I ___ at my sister's house until my apartment is ready.",
+    "options": ["stay", "stays", "am staying", "stayed"],
+    "answer": 2,
+    "explanation": "Situação **temporária** (até o apartamento ficar pronto) → Present Continuous: **am staying**.",
+    "difficulty": 3
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I am needing help now.",
+      "She is having two cars.",
+      "They are wanting a bigger house.",
+      "She is having lunch now."
+    ],
+    "answer": 3,
+    "explanation": "**Have** = posse é estado (\"is having two cars\" é errado), mas **have lunch** = ação de almoçar → pode ficar no Continuous.",
+    "difficulty": 3
+  },
+  {
+    "question": "Listen! Somebody ___ at the door.",
+    "options": ["knocks", "are knocking", "is knocking", "knock"],
+    "answer": 2,
+    "explanation": "**Listen!** = agora. \"Somebody\" é singular → **is** knocking (não \"are\").",
+    "difficulty": 2
+  },
+  {
+    "question": "She ___ harder this semester because she wants a scholarship.",
+    "options": ["studies", "is studying", "study", "studied"],
+    "answer": 1,
+    "explanation": "**This semester** indica período **temporário** ao redor de agora → is studying. \"Studies\" descreveria rotina permanente.",
+    "difficulty": 3
+  },
+  {
+    "question": "___ your parents coming to the graduation?",
+    "options": ["Is", "Do", "Does", "Are"],
+    "answer": 3,
+    "explanation": "Futuro já combinado no Continuous: **Are** + your parents (plural) + coming?",
+    "difficulty": 2
+  },
+  {
+    "question": "I ___ what you mean.",
+    "options": ["am understanding", "understand", "understanding", "am understand"],
+    "answer": 1,
+    "explanation": "**Understand** é verbo de estado — não vai para -ing. Use o Present Simple: I understand.",
+    "difficulty": 3
+  }
+]

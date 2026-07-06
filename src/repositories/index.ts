@@ -1,7 +1,7 @@
-import { JsonTopicRepository } from './JsonTopicRepository';
+import { SupabaseTopicRepository } from './SupabaseTopicRepository';
 import type { TopicRepository } from './TopicRepository';
 
-/** Ponto único de troca da fonte de dados (JSON local → API futura). */
-export const topicRepository: TopicRepository = new JsonTopicRepository();
+/** Ponto único de troca da fonte de dados. */
+export const topicRepository: TopicRepository = new SupabaseTopicRepository();
 
 export type { TopicRepository };

@@ -1,0 +1,171 @@
+[
+  {
+    "question": "We ___ a great time at the party last Saturday.",
+    "options": ["have", "had", "has", "having"],
+    "answer": 1,
+    "explanation": "Tempo definido no passado (**last Saturday**) → Past Simple. Have é irregular: **had**.",
+    "difficulty": 1
+  },
+  {
+    "question": "He ___ his car two years ago.",
+    "options": ["sell", "selled", "sold", "sells"],
+    "answer": 2,
+    "explanation": "**Ago** = passado definido. Sell é irregular: **sold** (\"selled\" não existe).",
+    "difficulty": 1
+  },
+  {
+    "question": "I ___ up late yesterday morning.",
+    "options": ["wake", "woke", "waked", "woken"],
+    "answer": 1,
+    "explanation": "**Yesterday** → Past Simple. Wake é irregular: **woke**. \"Woken\" é o particípio, usado com have.",
+    "difficulty": 1
+  },
+  {
+    "question": "They ___ visit us last month.",
+    "options": ["don't", "doesn't", "weren't", "didn't"],
+    "answer": 3,
+    "explanation": "Negativa no passado (**last month**) → **didn't** + verbo base, para todas as pessoas.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ you enjoy the concert?",
+    "options": ["Did", "Do", "Were", "Have"],
+    "answer": 0,
+    "explanation": "Pergunta sobre um evento passado com verbo de ação → auxiliar **Did** + verbo base (enjoy).",
+    "difficulty": 1
+  },
+  {
+    "question": "She ___ a beautiful dress to the wedding.",
+    "options": ["wear", "weared", "wore", "worn"],
+    "answer": 2,
+    "explanation": "Wear é irregular: **wore** no passado. \"Worn\" é o particípio e \"weared\" não existe.",
+    "difficulty": 1
+  },
+  {
+    "question": "We ___ at a small hotel near the beach.",
+    "options": ["stay", "stayed", "staied", "staying"],
+    "answer": 1,
+    "explanation": "Verbo regular: stay + **-ed** → stayed. Vogal + y **não** vira -ied.",
+    "difficulty": 1
+  },
+  {
+    "question": "Where ___ you ___ last summer?",
+    "options": ["did / go", "did / went", "do / went", "did / gone"],
+    "answer": 0,
+    "explanation": "Pergunta no passado: **did** + sujeito + verbo **base** (go). \"Did you went\" é duplo passado.",
+    "difficulty": 2
+  },
+  {
+    "question": "He didn't ___ anything at the meeting.",
+    "options": ["said", "says", "saying", "say"],
+    "answer": 3,
+    "explanation": "Depois de **didn't**, o verbo volta à forma base: **say**. O did já marca o passado.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She teached math for years.",
+      "She teach math for years.",
+      "She did taught math for years.",
+      "She taught math for years."
+    ],
+    "answer": 3,
+    "explanation": "Teach é irregular: **taught**. \"Teached\" não existe, e \"did taught\" repete o passado duas vezes.",
+    "difficulty": 2
+  },
+  {
+    "question": "I ___ my homework, so the teacher was angry.",
+    "options": ["didn't do", "didn't did", "don't did", "didn't done"],
+    "answer": 0,
+    "explanation": "Negativa no passado: **didn't + do** (forma base). \"Didn't did\" é duplo passado.",
+    "difficulty": 2
+  },
+  {
+    "question": "Did you finish the project? — Yes, I ___.",
+    "options": ["was", "do", "did", "done"],
+    "answer": 2,
+    "explanation": "Resposta curta repete o auxiliar da pergunta: Did you…? → Yes, I **did**.",
+    "difficulty": 2
+  },
+  {
+    "question": "The movie ___ at 9 and ended at 11.",
+    "options": ["begun", "beginned", "begins", "began"],
+    "answer": 3,
+    "explanation": "Begin é irregular: **began** no passado. \"Begun\" é o particípio (usado com have).",
+    "difficulty": 2
+  },
+  {
+    "question": "They ___ to Salvador by plane last year.",
+    "options": ["flied", "flyed", "flew", "flown"],
+    "answer": 2,
+    "explanation": "Fly é irregular: **flew**. \"Flown\" é o particípio; \"flied\" e \"flyed\" não existem.",
+    "difficulty": 2
+  },
+  {
+    "question": "How much ___ you pay for that jacket?",
+    "options": ["do", "did", "was", "have"],
+    "answer": 1,
+    "explanation": "Compra já concluída → passado: How much **did** you pay? O verbo fica na base (pay).",
+    "difficulty": 2
+  },
+  {
+    "question": "Which question is correct?",
+    "options": [
+      "Where did she bought the cake?",
+      "Where she bought the cake?",
+      "Where did she buy the cake?",
+      "Where does she bought the cake?"
+    ],
+    "answer": 2,
+    "explanation": "**Did** + sujeito + verbo **base**: did she **buy**. O passado aparece uma vez só na frase.",
+    "difficulty": 2
+  },
+  {
+    "question": "When I was a child, I ___ believe in ghosts.",
+    "options": ["didn't", "don't", "wasn't", "doesn't"],
+    "answer": 0,
+    "explanation": "\"When I was a child\" = passado → **didn't** believe. \"Wasn't\" não combina com verbo de ação na base.",
+    "difficulty": 2
+  },
+  {
+    "question": "The company ___ 200 people last year.",
+    "options": ["hire", "has hired", "hires", "hired"],
+    "answer": 3,
+    "explanation": "**Last year** é tempo definido e encerrado → Past Simple: **hired**. \"Has hired\" (Present Perfect) não combina com tempo definido.",
+    "difficulty": 3
+  },
+  {
+    "question": "Shakespeare ___ many famous plays.",
+    "options": ["has written", "writes", "wrote", "was writing"],
+    "answer": 2,
+    "explanation": "Pessoa que já morreu = período **encerrado** → Past Simple: **wrote**. Present Perfect exigiria conexão com o presente.",
+    "difficulty": 3
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He felt asleep during the movie.",
+      "He fell asleep during the movie.",
+      "He falled asleep during the movie.",
+      "He feeled asleep during the movie."
+    ],
+    "answer": 1,
+    "explanation": "**Fall → fell**: he **fell** asleep (adormeceu). \"Felt\" é o passado de **feel** (sentir) — pegadinha clássica.",
+    "difficulty": 3
+  },
+  {
+    "question": "We ___ have time to eat before the flight.",
+    "options": ["didn't", "don't", "hadn't", "weren't"],
+    "answer": 0,
+    "explanation": "Negativa de **have** (ter) no passado usa o auxiliar did: **didn't have**. \"Hadn't time\" não é a forma padrão.",
+    "difficulty": 3
+  },
+  {
+    "question": "She ___ her arm when she ___ off the bike.",
+    "options": ["broke / fell", "breaked / fell", "broke / falled", "broken / fell"],
+    "answer": 0,
+    "explanation": "Dois irregulares: break → **broke** e fall → **fell**. \"Broken\" é particípio, e \"breaked/falled\" não existem.",
+    "difficulty": 3
+  }
+]

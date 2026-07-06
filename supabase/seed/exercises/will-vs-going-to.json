@@ -1,0 +1,183 @@
+[
+  {
+    "question": "A: \"The phone is ringing!\" B: \"I ___ it.\"",
+    "options": ["am going to answer", "will answer", "answering", "answer"],
+    "answer": 1,
+    "explanation": "Decisão tomada **na hora de falar** → **will**. \"Going to\" seria para um plano decidido antes.",
+    "difficulty": 1
+  },
+  {
+    "question": "Look at those dark clouds! It ___ soon.",
+    "options": ["is going to rain", "will rain", "rains", "raining"],
+    "answer": 0,
+    "explanation": "Previsão com **evidência visível** (as nuvens estão ali) → **going to**. \"Will\" seria para opinião sem evidência.",
+    "difficulty": 1
+  },
+  {
+    "question": "We ___ a party next Saturday. We've already sent the invitations.",
+    "options": ["will have", "are going to have", "have", "will to have"],
+    "answer": 1,
+    "explanation": "Plano **decidido antes** (os convites já foram enviados) → **are going to have**.",
+    "difficulty": 1
+  },
+  {
+    "question": "I promise I ___ you back tomorrow.",
+    "options": ["am going to pay", "pay", "will pay", "paying"],
+    "answer": 2,
+    "explanation": "**Promessa** → will: \"I promise I **will pay** you back\".",
+    "difficulty": 1
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I will to help you.",
+      "I will helping you.",
+      "I will help you.",
+      "I going to help you."
+    ],
+    "answer": 2,
+    "explanation": "**Will + verbo base**, sem \"to\" e sem -ing. E \"going to\" precisaria do am/is/are.",
+    "difficulty": 1
+  },
+  {
+    "question": "She ___ a doctor. She starts medical school in September.",
+    "options": ["will be", "is going to be", "is be", "going to be"],
+    "answer": 1,
+    "explanation": "Intenção/plano já definido (ela já vai começar a faculdade) → **is going to be**. Não esqueça o verbo to be antes de \"going to\".",
+    "difficulty": 1
+  },
+  {
+    "question": "We ___ out tonight; we've decided to stay home.",
+    "options": ["aren't going to go", "won't to go", "not going to go", "don't going to go"],
+    "answer": 0,
+    "explanation": "Decisão tomada **antes** (\"we've decided\") → going to; na negativa: **aren't going to go**. \"Won't to go\" está errado (will não usa \"to\").",
+    "difficulty": 1
+  },
+  {
+    "question": "Your bags look heavy. I ___ you.",
+    "options": ["am going to help", "will help", "help", "helping"],
+    "answer": 1,
+    "explanation": "**Oferta de ajuda** feita na hora → **will help** (\"I'll help you\").",
+    "difficulty": 2
+  },
+  {
+    "question": "A: \"Why are you wearing your running shoes?\" B: \"I ___ for a run.\"",
+    "options": ["will go", "go", "will going", "am going to go"],
+    "answer": 3,
+    "explanation": "Intenção já decidida (a pessoa já está com o tênis) → **am going to go**.",
+    "difficulty": 2
+  },
+  {
+    "question": "I'm sure you ___ the new movie. It's really funny.",
+    "options": ["love", "loves", "are going to loving", "will love"],
+    "answer": 3,
+    "explanation": "Previsão baseada em **opinião** (\"I'm sure\") → **will love**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Watch out! You ___ that glass!",
+    "options": ["will knock over", "knock over", "are going to knock over", "knocked over"],
+    "answer": 2,
+    "explanation": "Previsão com **evidência visível agora** (está prestes a acontecer) → **are going to knock over**.",
+    "difficulty": 2
+  },
+  {
+    "question": "A: \"It's cold in here.\" B: \"You're right — I ___ the heating on.\"",
+    "options": ["turn", "am going to turn", "will turn", "turned"],
+    "answer": 2,
+    "explanation": "Decisão que **nasce na hora** da conversa → **will turn** (\"I'll turn the heating on\").",
+    "difficulty": 2
+  },
+  {
+    "question": "What ___ this weekend? Any plans?",
+    "options": ["you going to do", "are you going to do", "will you to do", "you will do"],
+    "answer": 1,
+    "explanation": "Pergunta sobre **planos** → going to, com inversão correta: \"What **are you going to** do?\".",
+    "difficulty": 2
+  },
+  {
+    "question": "If you don't stop right now, I ___ your teacher!",
+    "options": ["will call", "am going to calling", "calls", "will to call"],
+    "answer": 0,
+    "explanation": "Promessa/ameaça no momento da fala → **will + verbo base**: \"I **will call** your teacher\".",
+    "difficulty": 2
+  },
+  {
+    "question": "She's saving money because she ___ a new laptop.",
+    "options": ["will buy", "buys", "is buying to", "is going to buy"],
+    "answer": 3,
+    "explanation": "**Intenção/plano prévio** (por isso ela já está economizando) → **is going to buy**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence contains a mistake?",
+    "options": [
+      "I'll see you tomorrow.",
+      "They're going to sell their house.",
+      "He will goes to the gym later.",
+      "It's going to snow tonight."
+    ],
+    "answer": 2,
+    "explanation": "Depois de **will**, o verbo fica na forma **base**: \"He will **go**\", nunca \"will goes\".",
+    "difficulty": 2
+  },
+  {
+    "question": "Maria has already enrolled: she ___ Italian classes next month.",
+    "options": ["is going to take", "will take", "takes", "is go to take"],
+    "answer": 0,
+    "explanation": "Plano **já organizado antes** (ela já se matriculou) → **is going to take**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Don't worry about the report. I ___ it before Friday — I promise.",
+    "options": ["will finish", "am going to finishing", "finishing", "will to finish"],
+    "answer": 0,
+    "explanation": "**Promessa** → will + verbo base: \"I **will finish** it\".",
+    "difficulty": 2
+  },
+  {
+    "question": "A: \"Did you know Sarah is in the hospital?\" B: \"No, I didn't! I ___ her this afternoon.\"",
+    "options": ["am going to visit", "will visit", "visit", "am visiting to"],
+    "answer": 1,
+    "explanation": "A pessoa **acabou de saber** da notícia, então a decisão nasceu agora → **will visit**. \"Going to\" indicaria um plano que já existia.",
+    "difficulty": 3
+  },
+  {
+    "question": "A: \"Why did you buy so much flour?\" B: \"I ___ a cake for Tom's birthday.\"",
+    "options": ["will bake", "bake", "will baking", "am going to bake"],
+    "answer": 3,
+    "explanation": "A compra da farinha mostra uma **intenção prévia** → **am going to bake**. \"Will\" seria uma decisão tomada só agora.",
+    "difficulty": 3
+  },
+  {
+    "question": "The score is 4–0 and there are only five minutes left. Our team ___ .",
+    "options": ["will win", "wins", "is going to win", "winning"],
+    "answer": 2,
+    "explanation": "Previsão com **evidência concreta agora** (o placar) → **is going to win**. \"Will\" seria só uma opinião, sem evidência.",
+    "difficulty": 3
+  },
+  {
+    "question": "Which sentence is appropriate in a formal email?",
+    "options": [
+      "I'm gonna send the documents tomorrow.",
+      "I gonna send the documents tomorrow.",
+      "I will to send the documents tomorrow.",
+      "I will send the documents tomorrow."
+    ],
+    "answer": 3,
+    "explanation": "**Gonna** é informal (fala) — evite na escrita formal. E \"will\" nunca leva \"to\": \"I **will send**\".",
+    "difficulty": 3
+  },
+  {
+    "question": "We ___ dinner with my parents on Sunday — it's all arranged. But I don't know what time we ___ back.",
+    "options": [
+      "will have / are going to be",
+      "are going to have / will be",
+      "are going to have / are going to be",
+      "will have / will be"
+    ],
+    "answer": 1,
+    "explanation": "Plano combinado (\"it's all arranged\") → **are going to have**; previsão incerta, sem plano (\"I don't know\") → **will be**.",
+    "difficulty": 3
+  }
+]

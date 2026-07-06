@@ -1,0 +1,166 @@
+[
+  {
+    "question": "We ___ that movie three times.",
+    "options": ["have seen", "has seen", "have saw", "seeing"],
+    "answer": 0,
+    "explanation": "Experiência repetida, sem dizer quando → **have + particípio**: have **seen** (nunca \"have saw\").",
+    "difficulty": 1
+  },
+  {
+    "question": "He ___ his leg — he can't play today.",
+    "options": ["breaks", "has broken", "have broken", "has broke"],
+    "answer": 1,
+    "explanation": "Ação passada com **efeito no presente** (não pode jogar) → has + particípio: **broken**.",
+    "difficulty": 1
+  },
+  {
+    "question": "I ___ never ___ to Argentina.",
+    "options": ["have / been", "has / been", "have / went", "did / go"],
+    "answer": 0,
+    "explanation": "Experiência de vida com **never** → Present Perfect: I **have** never **been**. Com I, o auxiliar é have.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ you finished the report?",
+    "options": ["Did", "Do", "Have", "Has"],
+    "answer": 2,
+    "explanation": "\"Finished\" aqui é particípio → pergunta com **Have** + you + particípio. \"Did you finished\" seria duplo passado.",
+    "difficulty": 1
+  },
+  {
+    "question": "She ___ here since March.",
+    "options": ["has worked", "works", "worked", "is work"],
+    "answer": 0,
+    "explanation": "**Since** (ponto de partida) + ação que continua → Present Perfect: **has worked**.",
+    "difficulty": 1
+  },
+  {
+    "question": "They ___ lunch yet.",
+    "options": ["didn't have", "haven't had", "hasn't had", "don't have"],
+    "answer": 1,
+    "explanation": "**Yet** pede Present Perfect na negativa. Com they → **haven't** + particípio (had).",
+    "difficulty": 1
+  },
+  {
+    "question": "My parents ___ married for 30 years.",
+    "options": ["are been", "have been", "has been", "were be"],
+    "answer": 1,
+    "explanation": "Situação que começou no passado e **continua** (for 30 years) → **have been**. \"Are been\" não existe.",
+    "difficulty": 1
+  },
+  {
+    "question": "I have known her ___ we were children.",
+    "options": ["for", "during", "from", "since"],
+    "answer": 3,
+    "explanation": "**Since** marca o ponto de partida (\"desde quando?\"): since we were children. **For** seria duração.",
+    "difficulty": 2
+  },
+  {
+    "question": "He has lived abroad ___ six months.",
+    "options": ["since", "from", "for", "in"],
+    "answer": 2,
+    "explanation": "\"Six months\" é **duração** (\"por quanto tempo?\") → **for**. \"Since\" pediria um ponto de partida.",
+    "difficulty": 2
+  },
+  {
+    "question": "Have you called the client? — Yes, I ___.",
+    "options": ["did", "haven't", "have", "has"],
+    "answer": 2,
+    "explanation": "Resposta curta repete o auxiliar da pergunta: Have you…? → Yes, I **have**.",
+    "difficulty": 2
+  },
+  {
+    "question": "I've ___ seen this episode — let's watch another one.",
+    "options": ["already", "ever", "yet", "never"],
+    "answer": 0,
+    "explanation": "**Already** = \"já\" em frases afirmativas, entre o auxiliar e o particípio. **Yet** só em negativas e perguntas.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He has wrote three books.",
+      "He has written three books.",
+      "He has writes three books.",
+      "He have written three books."
+    ],
+    "answer": 1,
+    "explanation": "Depois de has/have vem o **particípio** (3ª coluna): write → wrote → **written**.",
+    "difficulty": 2
+  },
+  {
+    "question": "It's the best book I ___ ever ___.",
+    "options": ["have / read", "has / read", "have / readed", "did / read"],
+    "answer": 0,
+    "explanation": "Superlativo + **ever** pede Present Perfect: the best book I **have** ever **read**. \"Read\" é irregular (readed não existe).",
+    "difficulty": 3
+  },
+  {
+    "question": "How long ___ you had this car?",
+    "options": ["do", "did", "are", "have"],
+    "answer": 3,
+    "explanation": "**How long** + situação que continua até agora → Present Perfect: How long **have** you had…?",
+    "difficulty": 2
+  },
+  {
+    "question": "Somebody has ___ my sandwich! The plate is empty.",
+    "options": ["ate", "eat", "eaten", "eating"],
+    "answer": 2,
+    "explanation": "Resultado visível agora (prato vazio) → has + **particípio**: eaten. \"Has ate\" é um erro comum.",
+    "difficulty": 2
+  },
+  {
+    "question": "We haven't decided ___.",
+    "options": ["already", "just", "since", "yet"],
+    "answer": 3,
+    "explanation": "Em frases **negativas**, usa-se **yet** (\"ainda não\"), sempre no **fim** da frase.",
+    "difficulty": 2
+  },
+  {
+    "question": "My grandfather ___ in two countries when he was young.",
+    "options": ["has lived", "lives", "lived", "has been living"],
+    "answer": 2,
+    "explanation": "**When he was young** = período encerrado do passado → Past Simple: **lived**. Present Perfect não combina com tempo definido.",
+    "difficulty": 3
+  },
+  {
+    "question": "It's only Wednesday, and she ___ to the gym three times this week.",
+    "options": ["went", "goes", "is going", "has gone"],
+    "answer": 3,
+    "explanation": "**This week** é um período que **ainda não terminou** → Present Perfect: has gone.",
+    "difficulty": 3
+  },
+  {
+    "question": "She has ___ to Italy, so she knows Rome well.",
+    "options": ["gone", "been", "went", "being"],
+    "answer": 1,
+    "explanation": "**Been** = foi e **voltou** (experiência). **Gone** = foi e ainda está lá — não faria sentido aqui.",
+    "difficulty": 3
+  },
+  {
+    "question": "___ has she worked here? — Since 2019.",
+    "options": ["When", "How often", "How long", "How much"],
+    "answer": 2,
+    "explanation": "A resposta \"Since 2019\" indica duração até agora → a pergunta é **How long** + Present Perfect.",
+    "difficulty": 2
+  },
+  {
+    "question": "I ___ my keys! I can't get into the house.",
+    "options": ["have losed", "has lost", "am losing", "have lost"],
+    "answer": 3,
+    "explanation": "Efeito no presente (estou sem as chaves) → **have + particípio**. Lose é irregular: lose → lost → **lost**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I have finished the course in 2020.",
+      "Have you ever saw a whale?",
+      "She hasn't never been to Rome.",
+      "They have just left the office."
+    ],
+    "answer": 3,
+    "explanation": "**Just** entre have e o particípio = \"acabou de\". As outras erram: tempo definido (in 2020), \"saw\" em vez de seen, e dupla negativa (hasn't never).",
+    "difficulty": 3
+  }
+]

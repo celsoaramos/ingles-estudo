@@ -1,0 +1,158 @@
+{
+  "slug": "useful-expressions",
+  "title": "Expressões do Dia a Dia",
+  "description": "30 expressões de conversação que os nativos usam o tempo todo.",
+  "accent": "teal",
+  "cards": [
+    {
+      "front": "What's up?",
+      "back": "E aí? / Tudo bem? (informal)",
+      "example": "Hey Mike, what's up?"
+    },
+    {
+      "front": "Never mind",
+      "back": "Deixa pra lá / Esquece",
+      "example": "Never mind, I found my keys."
+    },
+    {
+      "front": "It's up to you",
+      "back": "Você que sabe / A decisão é sua",
+      "example": "We can eat out or cook at home — it's up to you."
+    },
+    {
+      "front": "I'm broke",
+      "back": "Estou sem dinheiro / duro",
+      "example": "I can't go to the concert; I'm broke this month."
+    },
+    {
+      "front": "Hang on",
+      "back": "Espera aí / Aguenta aí",
+      "example": "Hang on, I'll be right there."
+    },
+    {
+      "front": "By the way",
+      "back": "A propósito / Aliás",
+      "example": "By the way, did you call your mom?"
+    },
+    {
+      "front": "Take your time",
+      "back": "Sem pressa / Fica à vontade",
+      "example": "Take your time, we're not in a hurry."
+    },
+    {
+      "front": "It makes sense",
+      "back": "Faz sentido",
+      "example": "Now that you explained it, it makes sense."
+    },
+    {
+      "front": "No way!",
+      "back": "Sem chance! / Não acredito!",
+      "example": "No way! You won the lottery?"
+    },
+    {
+      "front": "I have no idea",
+      "back": "Não faço ideia",
+      "example": "I have no idea where she went."
+    },
+    {
+      "front": "Long time no see!",
+      "back": "Quanto tempo! (quando reencontra alguém)",
+      "example": "Carlos! Long time no see! How have you been?"
+    },
+    {
+      "front": "It's a deal",
+      "back": "Fechado / Combinado",
+      "example": "You wash, I dry — it's a deal."
+    },
+    {
+      "front": "I'm on my way",
+      "back": "Estou a caminho / Estou indo",
+      "example": "Don't worry, I'm on my way."
+    },
+    {
+      "front": "So far, so good",
+      "back": "Até agora, tudo bem",
+      "example": "How's the new job? So far, so good."
+    },
+    {
+      "front": "You're kidding!",
+      "back": "Você está brincando! / Sério?",
+      "example": "You're kidding! They canceled the flight?"
+    },
+    {
+      "front": "It's not a big deal",
+      "back": "Não é grande coisa / Não tem problema",
+      "example": "Don't apologize, it's not a big deal."
+    },
+    {
+      "front": "Help yourself",
+      "back": "Sirva-se / Fica à vontade",
+      "example": "There's coffee in the kitchen — help yourself."
+    },
+    {
+      "front": "I can't help it",
+      "back": "Não consigo evitar",
+      "example": "I know I shouldn't laugh, but I can't help it."
+    },
+    {
+      "front": "It's worth it",
+      "back": "Vale a pena",
+      "example": "The course is expensive, but it's worth it."
+    },
+    {
+      "front": "Guess what?",
+      "back": "Adivinha? / Sabe de uma coisa?",
+      "example": "Guess what? I got the job!"
+    },
+    {
+      "front": "I mean it",
+      "back": "Estou falando sério",
+      "example": "Stop doing that — I mean it."
+    },
+    {
+      "front": "Make yourself at home",
+      "back": "Sinta-se em casa",
+      "example": "Come in, make yourself at home."
+    },
+    {
+      "front": "It slipped my mind",
+      "back": "Me fugiu da cabeça / Esqueci completamente",
+      "example": "Sorry I didn't call — it totally slipped my mind."
+    },
+    {
+      "front": "Better late than never",
+      "back": "Antes tarde do que nunca",
+      "example": "He finally apologized. Better late than never."
+    },
+    {
+      "front": "How come?",
+      "back": "Como assim? / Por quê? (informal)",
+      "example": "You didn't go to the party? How come?"
+    },
+    {
+      "front": "That's the last straw",
+      "back": "Foi a gota d'água",
+      "example": "He arrived late again — that's the last straw."
+    },
+    {
+      "front": "Speak of the devil",
+      "back": "Falando no diabo... (quando a pessoa aparece)",
+      "example": "Speak of the devil — we were just talking about you!"
+    },
+    {
+      "front": "I'm in / I'm out",
+      "back": "Estou dentro / Estou fora (topar ou não)",
+      "example": "Road trip this weekend? I'm in!"
+    },
+    {
+      "front": "Sounds good",
+      "back": "Parece bom / Combinado",
+      "example": "Lunch at noon? Sounds good."
+    },
+    {
+      "front": "Take it easy",
+      "back": "Calma / Pega leve; também usado como despedida",
+      "example": "Take it easy, we still have plenty of time."
+    }
+  ]
+}

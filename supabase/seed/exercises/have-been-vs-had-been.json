@@ -1,0 +1,176 @@
+[
+  {
+    "question": "I ___ to Japan twice, and I'd love to go again someday.",
+    "options": ["had been", "have been", "was been", "am been"],
+    "answer": 1,
+    "explanation": "Experiência de vida contada a partir do **agora** (e a porta continua aberta: \"I'd love to go again\") → Present Perfect: **have been**.",
+    "difficulty": 1
+  },
+  {
+    "question": "When the teacher walked in, the students ___ noisy for ten minutes.",
+    "options": ["have been", "are being", "had been", "was being"],
+    "answer": 2,
+    "explanation": "\"Walked in\" é a **âncora no passado**: a bagunça durava até aquele momento → **had been**.",
+    "difficulty": 1
+  },
+  {
+    "question": "She ___ a nurse for 20 years, and she still loves her job.",
+    "options": ["have been", "had been", "was being", "has been"],
+    "answer": 3,
+    "explanation": "A situação continua até **agora** (\"still loves\") e o sujeito é **she** → **has been**. \"Have been\" seria erro de concordância.",
+    "difficulty": 1
+  },
+  {
+    "question": "By the time rescuers found them, the hikers ___ lost for two days.",
+    "options": ["had been", "have been", "has been", "are being"],
+    "answer": 0,
+    "explanation": "**By the time + passado** (\"found\") ancora tudo no passado → **had been** (perdidos até aquele momento).",
+    "difficulty": 1
+  },
+  {
+    "question": "He ___ very quiet lately — I wonder if something is wrong.",
+    "options": ["had been", "has been", "was been", "have been"],
+    "answer": 1,
+    "explanation": "**Lately** conecta a situação ao **agora** → Present Perfect. Com **he**, a forma é **has been**.",
+    "difficulty": 1
+  },
+  {
+    "question": "I ___ never ___ so happy as I am right now.",
+    "options": ["had / been", "was / being", "have / been", "am / been"],
+    "answer": 2,
+    "explanation": "A comparação desemboca no presente (\"as I am **right now**\") → **have never been**.",
+    "difficulty": 1
+  },
+  {
+    "question": "It ___ a long day — I'm exhausted and ready for bed.",
+    "options": ["have been", "had been", "is been", "has been"],
+    "answer": 3,
+    "explanation": "O dia chega até o **agora** (\"I'm exhausted\") e o sujeito é **it** → **has been**.",
+    "difficulty": 1
+  },
+  {
+    "question": "The kitchen was a disaster because the kids ___ cooking all morning.",
+    "options": ["have been", "had been", "has been", "are been"],
+    "answer": 1,
+    "explanation": "\"Was a disaster\" ancora a cena no **passado** → **had been cooking** (a atividade anterior explica a bagunça).",
+    "difficulty": 2
+  },
+  {
+    "question": "She ___ studying English since 2020, and her progress is amazing.",
+    "options": ["has been", "had been", "have been", "was been"],
+    "answer": 0,
+    "explanation": "O estudo continua até **hoje** (\"her progress IS amazing\") → **has been** (she = has).",
+    "difficulty": 2
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "He have been my neighbor for years.",
+      "He is been my neighbor for years.",
+      "He had been my neighbor for years, and he still is.",
+      "He has been my neighbor for years."
+    ],
+    "answer": 3,
+    "explanation": "He/she/it usa **has been**. A opção com \"had been... and he still is\" se contradiz: se ainda é vizinho, a frase precisa de **has been**.",
+    "difficulty": 2
+  },
+  {
+    "question": "The boxers ___ fighting for eight rounds when the referee stopped the match.",
+    "options": ["have been", "has been", "had been", "are being"],
+    "answer": 2,
+    "explanation": "\"Stopped\" é o evento passado de referência → **had been fighting** (a luta durava até aquele momento).",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence means the person is STILL waiting now?",
+    "options": [
+      "I had been waiting for an hour.",
+      "I have been waiting for an hour.",
+      "I was waiting for an hour.",
+      "I waited for an hour."
+    ],
+    "answer": 1,
+    "explanation": "**Have been** conecta a espera ao **agora**: comecei há uma hora e continuo esperando. **Had been** pararia num ponto do passado.",
+    "difficulty": 2
+  },
+  {
+    "question": "My grandfather ___ a soldier before he became a teacher.",
+    "options": ["has been", "have been", "is", "had been"],
+    "answer": 3,
+    "explanation": "Ser soldado veio **antes** de outro evento passado (\"became\") → **had been**. \"Has been\" conectaria ao presente, o que não faz sentido aqui.",
+    "difficulty": 2
+  },
+  {
+    "question": "Find the mistake: \"She have been working here since March.\"",
+    "options": ["have → has", "working → work", "since → for", "here → there"],
+    "answer": 0,
+    "explanation": "Com **she**, o auxiliar é **has**: She **has been** working. \"Since March\" está correto (ponto de partida).",
+    "difficulty": 2
+  },
+  {
+    "question": "How long ___ you ___ married? — It'll be ten years next month!",
+    "options": ["had / been", "did / been", "have / been", "are / been"],
+    "answer": 2,
+    "explanation": "O casamento continua até **agora** (\"It'll be ten years\") → **Have you been married?**. \"Had\" precisaria de uma âncora no passado.",
+    "difficulty": 2
+  },
+  {
+    "question": "The road was closed because there ___ an accident earlier that day.",
+    "options": ["has been", "had been", "have been", "was being"],
+    "answer": 1,
+    "explanation": "\"Was closed\" ancora tudo no passado; o acidente aconteceu **antes** → **there had been**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Sorry I'm late! ___ you ___ long?",
+    "options": ["Have / been waiting", "Had / been waiting", "Did / been waiting", "Were / been waiting"],
+    "answer": 0,
+    "explanation": "A conversa acontece **agora** (\"I'm late\") e a espera acabou de terminar → **Have you been waiting long?**.",
+    "difficulty": 2
+  },
+  {
+    "question": "She explained that she ___ ill the previous week.",
+    "options": ["has been", "is", "had been", "have been"],
+    "answer": 2,
+    "explanation": "Discurso indireto no passado (\"explained\") + \"the previous week\" → a doença é anterior à fala → **had been**.",
+    "difficulty": 3
+  },
+  {
+    "question": "\"I had been in Rome for a week when Marco called.\" — What do we know for sure?",
+    "options": [
+      "I am still in Rome now.",
+      "Marco called before I arrived in Rome.",
+      "I left Rome before Marco called.",
+      "The call came after I had spent a week in Rome."
+    ],
+    "answer": 3,
+    "explanation": "**Had been... when** = a estadia durava até o momento da ligação: primeiro uma semana em Roma, **depois** a ligação. A frase não diz nada sobre o agora.",
+    "difficulty": 3
+  },
+  {
+    "question": "Choose the sentence where \"had been\" is used INCORRECTLY:",
+    "options": [
+      "The ground was white because it had been snowing.",
+      "She had been tired since morning, and she still is.",
+      "I had been to that city before, so I knew my way around.",
+      "They had been friends long before the war."
+    ],
+    "answer": 1,
+    "explanation": "\"And she still is\" mostra que o cansaço chega até o **agora** → o certo seria **has been**. **Had been** encerra a situação num ponto do passado.",
+    "difficulty": 3
+  },
+  {
+    "question": "He ___ to the gym a lot recently — you can really see the difference.",
+    "options": ["has been going", "had been going", "was been going", "have been going"],
+    "answer": 0,
+    "explanation": "**Recently** + resultado visível **agora** (\"you can see\") → Present Perfect Continuous: **has been going** (he = has).",
+    "difficulty": 3
+  },
+  {
+    "question": "When I met Sara in 2019, she ___ a vegetarian for five years. Today she eats meat again.",
+    "options": ["has been", "have been", "had been", "is"],
+    "answer": 2,
+    "explanation": "A referência é o encontro em 2019 (**passado**): até ali, cinco anos de vegetarianismo → **had been**. \"Has been\" não serve porque a situação **não** chega até hoje.",
+    "difficulty": 3
+  }
+]

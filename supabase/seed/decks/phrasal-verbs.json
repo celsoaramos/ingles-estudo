@@ -1,0 +1,158 @@
+{
+  "slug": "phrasal-verbs",
+  "title": "Phrasal Verbs",
+  "description": "30 phrasal verbs essenciais para o dia a dia, com nota sobre quando são separáveis.",
+  "accent": "orange",
+  "cards": [
+    {
+      "front": "give up",
+      "back": "desistir; largar (hábito) — separável",
+      "example": "Don't give up on your dreams."
+    },
+    {
+      "front": "look for",
+      "back": "procurar",
+      "example": "I'm looking for my glasses."
+    },
+    {
+      "front": "turn on",
+      "back": "ligar (aparelho, luz) — separável",
+      "example": "Can you turn on the lights, please?"
+    },
+    {
+      "front": "turn off",
+      "back": "desligar — separável",
+      "example": "She turned off her phone during the meeting."
+    },
+    {
+      "front": "run out of",
+      "back": "ficar sem, acabar (algo)",
+      "example": "We ran out of milk this morning."
+    },
+    {
+      "front": "figure out",
+      "back": "descobrir, entender, resolver — separável",
+      "example": "I can't figure out how this app works."
+    },
+    {
+      "front": "wake up",
+      "back": "acordar",
+      "example": "I wake up at six every day."
+    },
+    {
+      "front": "get up",
+      "back": "levantar-se (da cama)",
+      "example": "He got up late and missed the bus."
+    },
+    {
+      "front": "pick up",
+      "back": "pegar, buscar (alguém/algo) — separável",
+      "example": "I'll pick you up at the airport."
+    },
+    {
+      "front": "drop off",
+      "back": "deixar (alguém/algo em um lugar) — separável",
+      "example": "She drops the kids off at school every morning."
+    },
+    {
+      "front": "find out",
+      "back": "descobrir (informação)",
+      "example": "I just found out that she's moving to Canada."
+    },
+    {
+      "front": "go on",
+      "back": "continuar; acontecer",
+      "example": "What's going on here?"
+    },
+    {
+      "front": "come back",
+      "back": "voltar",
+      "example": "He came back from vacation yesterday."
+    },
+    {
+      "front": "look after",
+      "back": "cuidar de",
+      "example": "Can you look after my dog this weekend?"
+    },
+    {
+      "front": "look forward to",
+      "back": "estar ansioso por, aguardar com expectativa",
+      "example": "I'm looking forward to seeing you next week."
+    },
+    {
+      "front": "put on",
+      "back": "vestir, colocar (roupa) — separável",
+      "example": "Put on your jacket; it's cold outside."
+    },
+    {
+      "front": "take off",
+      "back": "tirar (roupa); decolar (avião) — separável no sentido de roupa",
+      "example": "The plane took off on time."
+    },
+    {
+      "front": "get along (with)",
+      "back": "dar-se bem (com alguém)",
+      "example": "I get along really well with my coworkers."
+    },
+    {
+      "front": "hang out",
+      "back": "passar tempo, sair (com amigos)",
+      "example": "We hung out at the mall after class."
+    },
+    {
+      "front": "show up",
+      "back": "aparecer, chegar (a um lugar)",
+      "example": "He showed up an hour late to the meeting."
+    },
+    {
+      "front": "set up",
+      "back": "montar, configurar, organizar — separável",
+      "example": "I need to set up my new computer."
+    },
+    {
+      "front": "throw away",
+      "back": "jogar fora — separável",
+      "example": "Don't throw away those boxes; we might need them."
+    },
+    {
+      "front": "try on",
+      "back": "experimentar (roupa) — separável",
+      "example": "Can I try on these jeans?"
+    },
+    {
+      "front": "call off",
+      "back": "cancelar — separável",
+      "example": "They called off the game because of the rain."
+    },
+    {
+      "front": "put off",
+      "back": "adiar — separável",
+      "example": "Stop putting off your dentist appointment."
+    },
+    {
+      "front": "carry on",
+      "back": "continuar",
+      "example": "Carry on with your work; don't mind me."
+    },
+    {
+      "front": "check out",
+      "back": "dar uma olhada, conferir; fazer check-out — separável",
+      "example": "Check out this video; it's hilarious."
+    },
+    {
+      "front": "come up with",
+      "back": "ter (uma ideia), inventar, bolar",
+      "example": "She came up with a brilliant solution."
+    },
+    {
+      "front": "get over",
+      "back": "superar (doença, término, problema)",
+      "example": "It took him months to get over the breakup."
+    },
+    {
+      "front": "work out",
+      "back": "malhar; dar certo; resolver",
+      "example": "I work out at the gym three times a week."
+    }
+  ]
+}

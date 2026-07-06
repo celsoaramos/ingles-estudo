@@ -1,0 +1,198 @@
+[
+  {
+    "question": "___ I borrow your pen, please?",
+    "options": ["May", "Would", "Should", "Must"],
+    "answer": 0,
+    "explanation": "Pedir **permissão** para si mesmo, de forma educada/formal → **May I…?**.",
+    "difficulty": 1
+  },
+  {
+    "question": "He ___ come to the meeting — he hasn't decided yet.",
+    "options": ["would", "might", "must", "might to"],
+    "answer": 1,
+    "explanation": "Incerteza (\"ele ainda não decidiu\") → **might** = possibilidade remota, \"talvez\". Modal nunca leva \"to\".",
+    "difficulty": 1
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "Could you helps me?",
+      "Could you to help me?",
+      "Could you help me?",
+      "Could helping you?"
+    ],
+    "answer": 2,
+    "explanation": "Regra de ouro dos modais: **modal + verbo base** — sem \"to\", sem -s e sem -ing: \"Could you **help** me?\".",
+    "difficulty": 1
+  },
+  {
+    "question": "She ___ be at the library; she usually studies there in the afternoon.",
+    "options": ["would", "may to", "will can", "may"],
+    "answer": 3,
+    "explanation": "**Possibilidade real** (é o hábito dela) → **may + verbo base**: \"She **may be** at the library\".",
+    "difficulty": 1
+  },
+  {
+    "question": "He ___ read until he was seven years old.",
+    "options": ["couldn't", "may not", "might not", "wouldn't to"],
+    "answer": 0,
+    "explanation": "**Habilidade no passado** (negativa) → **couldn't** (passado de can): ele não sabia ler até os sete anos.",
+    "difficulty": 1
+  },
+  {
+    "question": "When we were kids, we ___ spend every summer at our grandmother's house.",
+    "options": ["will", "would", "may", "might"],
+    "answer": 1,
+    "explanation": "**Hábito repetido no passado** → **would**: \"we **would spend** every summer\" = \"a gente passava todo verão\".",
+    "difficulty": 1
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "She may to travel next week.",
+      "She may travels next week.",
+      "She mays travel next week.",
+      "She may travel next week."
+    ],
+    "answer": 3,
+    "explanation": "**Modal + verbo base**: \"She may **travel**\". Sem \"to\", sem -s no verbo e o modal nunca se conjuga.",
+    "difficulty": 1
+  },
+  {
+    "question": "We ___ go camping this weekend — it depends on the weather.",
+    "options": ["would", "must", "might", "shall to"],
+    "answer": 2,
+    "explanation": "Possibilidade **incerta** (\"depende do tempo\") → **might** = \"talvez, quem sabe\".",
+    "difficulty": 2
+  },
+  {
+    "question": "You want to ask your boss for a day off. What do you say?",
+    "options": [
+      "May I take a day off on Friday?",
+      "I take a day off Friday.",
+      "Might I taking a day off?",
+      "Would I take a day off?"
+    ],
+    "answer": 0,
+    "explanation": "Permissão **formal** (falando com o chefe) → **May I…?** + verbo base. \"Would I…?\" não serve para pedir permissão.",
+    "difficulty": 2
+  },
+  {
+    "question": "If I had more free time, I ___ learn to play the piano.",
+    "options": ["will", "would", "may", "can"],
+    "answer": 1,
+    "explanation": "**Hipótese** com \"if + passado\" (2ª condicional) → **would** = \"aprenderia\".",
+    "difficulty": 2
+  },
+  {
+    "question": "Don't wait for me — I ___ be late tonight.",
+    "options": ["would", "might", "could to", "will to"],
+    "answer": 1,
+    "explanation": "Possibilidade incerta no futuro → **might be** = \"pode ser que eu me atrase\". Modais nunca levam \"to\".",
+    "difficulty": 2
+  },
+  {
+    "question": "Nobody knows where John is. He ___ be stuck in traffic.",
+    "options": ["would", "must to", "will", "could"],
+    "answer": 3,
+    "explanation": "**Possibilidade/especulação** → **could be** = \"pode ser que ele esteja preso no trânsito\".",
+    "difficulty": 2
+  },
+  {
+    "question": "___ you like some coffee?",
+    "options": ["May", "Could", "Would", "Might"],
+    "answer": 2,
+    "explanation": "**Oferta educada** → expressão fixa \"**Would you like**…?\" (= \"você gostaria…?\").",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence contains a mistake?",
+    "options": [
+      "It might snow tomorrow.",
+      "Could you call me later?",
+      "He would helps if he could.",
+      "You may leave now."
+    ],
+    "answer": 2,
+    "explanation": "Depois de modal, o verbo fica na forma **base**: \"He would **help**\", nunca \"would helps\".",
+    "difficulty": 2
+  },
+  {
+    "question": "She didn't answer the phone. She ___ be in a meeting.",
+    "options": ["would", "should to", "might", "can to"],
+    "answer": 2,
+    "explanation": "Especulação incerta (\"quem sabe\") → **might be**. \"Should to\" e \"can to\" são impossíveis: modal + verbo base, sem \"to\".",
+    "difficulty": 2
+  },
+  {
+    "question": "My grandfather ___ tell us amazing stories every night before bed.",
+    "options": ["would", "may", "might", "could to"],
+    "answer": 0,
+    "explanation": "**Hábito repetido no passado** (\"every night\") → **would tell** = \"ele contava\".",
+    "difficulty": 2
+  },
+  {
+    "question": "___ I ask you a personal question?",
+    "options": ["Would", "May", "Should", "Am"],
+    "answer": 1,
+    "explanation": "Pedir **permissão** de forma educada → **May I…?**. \"Would I…?\" não funciona para permissão.",
+    "difficulty": 2
+  },
+  {
+    "question": "Transform: \"Maybe it will rain tomorrow.\" → \"It ___ tomorrow.\"",
+    "options": ["may rains", "may rain", "may to rain", "would rain"],
+    "answer": 1,
+    "explanation": "\"Maybe\" = possibilidade real → **may + verbo base**: \"It **may rain**\". Sem -s e sem \"to\" depois do modal.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence expresses the LEAST certainty?",
+    "options": [
+      "It will rain tomorrow.",
+      "It is going to rain tomorrow.",
+      "It may rain tomorrow.",
+      "It might rain tomorrow."
+    ],
+    "answer": 3,
+    "explanation": "Escala de certeza: will/going to (quase certo) > **may** (~50%) > **might** (o mais incerto de todos).",
+    "difficulty": 3
+  },
+  {
+    "question": "In the sentence \"I could swim when I was five\", the word \"could\" expresses ___.",
+    "options": ["a polite request", "permission", "a hypothesis", "past ability"],
+    "answer": 3,
+    "explanation": "\"Could\" aqui é o **passado de can** = habilidade no passado (\"eu sabia nadar\"). Não é pedido nem hipótese.",
+    "difficulty": 3
+  },
+  {
+    "question": "Which sentence asks for PERMISSION?",
+    "options": [
+      "Could you open the window?",
+      "May I open the window?",
+      "It may be cold outside.",
+      "Would you like some tea?"
+    ],
+    "answer": 1,
+    "explanation": "**May I…?** = permissão para **si mesmo**. \"Could you…?\" é um pedido para outra pessoa, \"It may be…\" é possibilidade e \"Would you like…?\" é oferta.",
+    "difficulty": 3
+  },
+  {
+    "question": "The keys aren't in my bag. I ___ them at the office.",
+    "options": ["might have left", "might left", "may leaving", "would have leave"],
+    "answer": 0,
+    "explanation": "Especulação sobre o **passado** → modal + **have + particípio**: \"I **might have left**\" = \"talvez eu tenha deixado\".",
+    "difficulty": 3
+  },
+  {
+    "question": "In \"When I lived in Recife, I would walk on the beach every morning\", the word \"would\" expresses ___.",
+    "options": [
+      "a hypothesis",
+      "a polite request",
+      "a repeated habit in the past",
+      "a future possibility"
+    ],
+    "answer": 2,
+    "explanation": "\"Would\" com contexto de passado + frequência (\"every morning\") = **hábito repetido no passado** (\"eu caminhava\"), não hipótese.",
+    "difficulty": 3
+  }
+]

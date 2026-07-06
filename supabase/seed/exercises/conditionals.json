@@ -1,0 +1,198 @@
+[
+  {
+    "question": "If you ___ the button, the machine starts.",
+    "options": ["press", "will press", "would press", "pressed"],
+    "answer": 0,
+    "explanation": "Zero conditional (fato/funcionamento): **Simple Present nos dois lados**. \"If\" aqui equivale a \"when\".",
+    "difficulty": 1
+  },
+  {
+    "question": "If she studies hard, she ___ the exam next week.",
+    "options": ["passes", "would pass", "will pass", "passed"],
+    "answer": 2,
+    "explanation": "1ª condicional (futuro possível, \"next week\"): If + Simple Present na condição e **will + verbo base** no resultado.",
+    "difficulty": 1
+  },
+  {
+    "question": "If I ___ you, I would apologize to her.",
+    "options": ["am", "will be", "be", "were"],
+    "answer": 3,
+    "explanation": "2ª condicional com o verbo \"to be\": use **were** para todas as pessoas — \"If I **were** you…\".",
+    "difficulty": 1
+  },
+  {
+    "question": "We ___ the bus if we don't leave now.",
+    "options": ["will miss", "would miss", "missed", "miss"],
+    "answer": 0,
+    "explanation": "1ª condicional: o **will** fica na cláusula principal (\"we **will miss**\"), e o Simple Present fica no \"if\" (\"if we don't leave\").",
+    "difficulty": 1
+  },
+  {
+    "question": "If you mix blue and yellow, you ___ green.",
+    "options": ["would get", "get", "got", "will getting"],
+    "answer": 1,
+    "explanation": "Zero conditional (verdade geral/fato científico): **Simple Present** nas duas cláusulas — \"you **get** green\".",
+    "difficulty": 1
+  },
+  {
+    "question": "If it ___ cold tonight, I will close the windows.",
+    "options": ["will get", "would get", "gets", "got"],
+    "answer": 2,
+    "explanation": "1ª condicional: dentro do \"if\" usamos **Simple Present** (\"gets\"), nunca **will** — esse é um erro clássico.",
+    "difficulty": 1
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "If I will see him, I will tell him.",
+      "If I see him, I will tell him.",
+      "If I saw him, I will tell him.",
+      "If I see him, I would tell him."
+    ],
+    "answer": 1,
+    "explanation": "1ª condicional: **If + Simple Present** + will. Não se usa \"will\" no if, nem se mistura Simple Past com will.",
+    "difficulty": 1
+  },
+  {
+    "question": "If I had a car, I ___ to work every day.",
+    "options": ["will drive", "drove", "would have driven", "would drive"],
+    "answer": 3,
+    "explanation": "2ª condicional (hipótese no presente): If + Simple Past + **would + verbo base** = \"eu **dirigiria**\".",
+    "difficulty": 2
+  },
+  {
+    "question": "If they ___ the invitation, they would have come to the party.",
+    "options": ["had received", "received", "would receive", "receive"],
+    "answer": 0,
+    "explanation": "3ª condicional (passado irreal): **If + Past Perfect** (had received) combina com \"would have come\".",
+    "difficulty": 2
+  },
+  {
+    "question": "She ___ happier if she lived closer to her family.",
+    "options": ["will be", "is", "would have been", "would be"],
+    "answer": 3,
+    "explanation": "2ª condicional: \"if she **lived**\" (Simple Past) pede **would be** na cláusula principal — situação hipotética no presente.",
+    "difficulty": 2
+  },
+  {
+    "question": "If we had left earlier, we ___ stuck in traffic for two hours yesterday.",
+    "options": ["wouldn't have been", "wouldn't be", "won't be", "hadn't been"],
+    "answer": 0,
+    "explanation": "3ª condicional (passado irreal, \"yesterday\"): **would have + particípio** — \"wouldn't **have been** stuck\".",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence contains a mistake?",
+    "options": [
+      "If you heat metal, it expands.",
+      "If she calls me, I will pick up.",
+      "If he had known, he would have said something.",
+      "If I would have money, I would lend it to you."
+    ],
+    "answer": 3,
+    "explanation": "**Would nunca entra na cláusula do if**. O correto é \"If I **had** money, I would lend it to you\" (2ª condicional).",
+    "difficulty": 2
+  },
+  {
+    "question": "If dogs ___ talk, what would they say?",
+    "options": ["will", "can", "could", "would to"],
+    "answer": 2,
+    "explanation": "Hipótese irreal (2ª condicional): o passado de \"can\" é **could** — \"If dogs **could** talk…\" combina com \"would say\".",
+    "difficulty": 2
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I will call you, if I go.",
+      "If I go I will call you.",
+      "I will call you if I go.",
+      "If I will go, I will call you."
+    ],
+    "answer": 2,
+    "explanation": "Quando o \"if\" vem **depois** da cláusula principal, **não usamos vírgula**. Se viesse antes, precisaria de vírgula: \"If I go, I will call you.\"",
+    "difficulty": 2
+  },
+  {
+    "question": "If you had told me about the meeting, I ___ prepared a presentation.",
+    "options": ["would", "would have", "will have", "had"],
+    "answer": 1,
+    "explanation": "3ª condicional: If + Past Perfect + **would have + particípio**. Sem o \"have\", a frase fica incompleta.",
+    "difficulty": 2
+  },
+  {
+    "question": "If he ___ so busy, he would join us for lunch.",
+    "options": ["weren't", "isn't", "won't be", "wouldn't be"],
+    "answer": 0,
+    "explanation": "2ª condicional negativa com \"to be\": use **weren't** para todas as pessoas — \"If he **weren't** so busy…\".",
+    "difficulty": 2
+  },
+  {
+    "question": "Transform: \"I didn't study, so I failed.\" → \"If I ___, I wouldn't have failed.\"",
+    "options": ["studied", "would have studied", "have studied", "had studied"],
+    "answer": 3,
+    "explanation": "Fato real no passado vira 3ª condicional: **If + Past Perfect** (\"had studied\") + would have + particípio.",
+    "difficulty": 2
+  },
+  {
+    "question": "If the traffic ___ bad, we'll take the subway.",
+    "options": ["will be", "would be", "were", "is"],
+    "answer": 3,
+    "explanation": "1ª condicional (situação real e possível): **If + Simple Present** (\"is\") + will na cláusula principal.",
+    "difficulty": 2
+  },
+  {
+    "question": "You missed the flight because you woke up late. Complete: \"If you ___ up earlier, you ___ the flight.\"",
+    "options": [
+      "woke / wouldn't miss",
+      "had woken / wouldn't have missed",
+      "woke / wouldn't have missed",
+      "had woken / wouldn't miss"
+    ],
+    "answer": 1,
+    "explanation": "O fato já aconteceu no **passado** (você perdeu o voo) → 3ª condicional completa: **had + particípio** no if e **would have + particípio** no resultado.",
+    "difficulty": 3
+  },
+  {
+    "question": "Which sentence expresses an unreal situation in the PAST?",
+    "options": [
+      "If I have time, I will help you.",
+      "If I had time, I would help you.",
+      "If I had had time, I would have helped you.",
+      "If I have had time, I would help you."
+    ],
+    "answer": 2,
+    "explanation": "Passado irreal = **3ª condicional**: If + Past Perfect (\"had had\") + would have + particípio. A 2ª (\"If I had time…\") fala do **presente** hipotético.",
+    "difficulty": 3
+  },
+  {
+    "question": "She turned down the job offer last year. If she ___ it, she would be living in London now.",
+    "options": ["had accepted", "accepted", "would accept", "accepts"],
+    "answer": 0,
+    "explanation": "Condicional mista: condição **irreal no passado** (\"last year\") → **Past Perfect** (had accepted), mesmo com resultado no presente (\"now\").",
+    "difficulty": 3
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "If I'd known, I would of helped.",
+      "If I'd known, I would've helped.",
+      "If I would know, I would've helped.",
+      "If I'd have known, I would helped."
+    ],
+    "answer": 1,
+    "explanation": "**Would've = would have** (forma reduzida correta). \"Would **of**\" é um erro de escrita, e \"would\" não entra na cláusula do if.",
+    "difficulty": 3
+  },
+  {
+    "question": "You are very unlikely to win the lottery. Which sentence fits this idea?",
+    "options": [
+      "If I win the lottery, I will buy a boat.",
+      "If I won the lottery, I will buy a boat.",
+      "If I won the lottery, I would buy a boat.",
+      "If I had won the lottery, I would have bought a boat."
+    ],
+    "answer": 2,
+    "explanation": "Situação **improvável** no presente/futuro → **2ª condicional**: If + Simple Past + would. A 1ª seria para algo provável, e a 3ª para o passado.",
+    "difficulty": 3
+  }
+]

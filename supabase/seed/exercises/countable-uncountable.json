@@ -1,0 +1,161 @@
+[
+  {
+    "question": "How ___ students are there in your class?",
+    "options": ["much", "many", "little", "a"],
+    "answer": 1,
+    "explanation": "Students é **contável no plural** → **many**: How many students?",
+    "difficulty": 1
+  },
+  {
+    "question": "There isn't ___ sugar in this recipe.",
+    "options": ["many", "few", "much", "a"],
+    "answer": 2,
+    "explanation": "Sugar é **incontável** → **much**: there isn't much sugar.",
+    "difficulty": 1
+  },
+  {
+    "question": "She has ___ friends at her new school.",
+    "options": ["much", "little", "a little", "many"],
+    "answer": 3,
+    "explanation": "Friends é **contável plural** → **many friends**. \"Much\" e \"little\" só combinam com incontáveis.",
+    "difficulty": 1
+  },
+  {
+    "question": "We don't have ___ eggs for the cake.",
+    "options": ["many", "much", "little", "a"],
+    "answer": 0,
+    "explanation": "Eggs é **contável plural** → **many**: we don't have many eggs.",
+    "difficulty": 1
+  },
+  {
+    "question": "How ___ coffee do you drink every day?",
+    "options": ["many", "much", "a", "few"],
+    "answer": 1,
+    "explanation": "Coffee é **incontável** → **much**: How much coffee?",
+    "difficulty": 1
+  },
+  {
+    "question": "There is ___ milk left in the bottle.",
+    "options": ["a little", "many", "few", "a"],
+    "answer": 0,
+    "explanation": "Milk é **incontável** → **a little** (um pouco). \"Few\" e \"many\" são para contáveis.",
+    "difficulty": 1
+  },
+  {
+    "question": "I don't have ___ time today, sorry.",
+    "options": ["many", "few", "much", "a"],
+    "answer": 2,
+    "explanation": "Time é **incontável** → **much**: I don't have much time.",
+    "difficulty": 1
+  },
+  {
+    "question": "There were ___ cars in the parking lot.",
+    "options": ["much", "little", "a little", "many"],
+    "answer": 3,
+    "explanation": "Cars é **contável plural** → **many cars**.",
+    "difficulty": 1
+  },
+  {
+    "question": "Could you give me ___ information about the flight?",
+    "options": ["an", "many", "some", "a few"],
+    "answer": 2,
+    "explanation": "**Information** é incontável: não aceita a/an nem plural → **some information**.",
+    "difficulty": 2
+  },
+  {
+    "question": "He gave me a useful piece of ___.",
+    "options": ["advices", "advice", "an advice", "advises"],
+    "answer": 1,
+    "explanation": "Depois de **a piece of** vem o incontável na forma básica: **a piece of advice**. \"Advices\" não existe.",
+    "difficulty": 2
+  },
+  {
+    "question": "I'd like two ___, please.",
+    "options": ["coffee", "milks", "breads", "cups of coffee"],
+    "answer": 3,
+    "explanation": "Para contar incontáveis, use uma **unidade**: two **cups of** coffee. A unidade (cups) é que vai para o plural.",
+    "difficulty": 2
+  },
+  {
+    "question": "There are only ___ seats left — hurry!",
+    "options": ["a little", "a few", "much", "little"],
+    "answer": 1,
+    "explanation": "Seats é **contável plural** → **a few** (alguns). \"A little\" é para incontáveis.",
+    "difficulty": 2
+  },
+  {
+    "question": "She has ___ money, so she can't travel this year.",
+    "options": ["little", "few", "a lot", "many"],
+    "answer": 0,
+    "explanation": "Money é **incontável** → **little** (pouco, quase nada — sentido negativo). \"Few\" seria para contáveis.",
+    "difficulty": 2
+  },
+  {
+    "question": "Qual frase sobre homework está correta?",
+    "options": [
+      "I have many homeworks.",
+      "I have much homeworks.",
+      "I have a lot of homework.",
+      "I have two homeworks."
+    ],
+    "answer": 2,
+    "explanation": "**Homework** é incontável: sem plural (\"homeworks\" não existe) → **a lot of homework**.",
+    "difficulty": 2
+  },
+  {
+    "question": "How much ___ do you need for the recipe?",
+    "options": ["tomatoes", "onions", "eggs", "rice"],
+    "answer": 3,
+    "explanation": "**Much** só combina com incontável → **rice**. Tomatoes, onions e eggs são contáveis e pediriam \"how many\".",
+    "difficulty": 2
+  },
+  {
+    "question": "The money on the table ___ not mine.",
+    "options": ["are", "is", "have", "were"],
+    "answer": 1,
+    "explanation": "Money é **incontável** → verbo sempre no **singular**: the money **is** not mine.",
+    "difficulty": 2
+  },
+  {
+    "question": "We bought ___ bananas and ___ juice.",
+    "options": ["some / some", "many / a", "a / some", "much / many"],
+    "answer": 0,
+    "explanation": "**Some** funciona com os dois: contável plural (some bananas) e incontável (some juice).",
+    "difficulty": 2
+  },
+  {
+    "question": "The news ___ good — we won the contract!",
+    "options": ["are", "have", "is", "were"],
+    "answer": 2,
+    "explanation": "**News** é incontável e termina em -s, mas o verbo fica no **singular**: the news **is** good.",
+    "difficulty": 3
+  },
+  {
+    "question": "We need ___ new furniture for the office.",
+    "options": ["a", "many", "several", "some"],
+    "answer": 3,
+    "explanation": "**Furniture** é incontável (mesmo \"móveis\" sendo plural em português) → **some furniture**, nunca \"a furniture\" ou \"furnitures\".",
+    "difficulty": 3
+  },
+  {
+    "question": "How ___ luggage can I take on the plane?",
+    "options": ["many", "much", "few", "a lot"],
+    "answer": 1,
+    "explanation": "**Luggage** (bagagem) é incontável → **how much luggage**. Para contar, diga \"pieces of luggage\".",
+    "difficulty": 3
+  },
+  {
+    "question": "Let me give you ___ advice: practice every day.",
+    "options": ["an", "some", "a", "one"],
+    "answer": 1,
+    "explanation": "**Advice** é incontável: não aceita a/an nem \"one\" → **some advice** (ou \"a piece of advice\").",
+    "difficulty": 3
+  },
+  {
+    "question": "We have ___ bread and ___ tomatoes for the sandwiches.",
+    "options": ["a little / a few", "a few / a little", "little / many of", "many / much"],
+    "answer": 0,
+    "explanation": "Bread é **incontável** → **a little**; tomatoes é **contável plural** → **a few**.",
+    "difficulty": 3
+  }
+]

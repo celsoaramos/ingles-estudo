@@ -1,0 +1,193 @@
+[
+  {
+    "question": "She swims ___ a fish.",
+    "options": ["as", "like", "so", "than"],
+    "answer": 1,
+    "explanation": "Semelhança (ela **não é** um peixe) → **like + substantivo**.",
+    "difficulty": 1
+  },
+  {
+    "question": "He got a job ___ a waiter last summer.",
+    "options": ["like", "so", "as", "such"],
+    "answer": 2,
+    "explanation": "Ele **foi** garçom de verdade — função/papel real usa **as**.",
+    "difficulty": 1
+  },
+  {
+    "question": "You sound just ___ your father on the phone.",
+    "options": ["like", "as", "so", "alike"],
+    "answer": 0,
+    "explanation": "Semelhança (parece o pai, mas não é) → **like**. \"Alike\" não vem antes de substantivo.",
+    "difficulty": 1
+  },
+  {
+    "question": "During the war, the school was used ___ a hospital.",
+    "options": ["like", "than", "so", "as"],
+    "answer": 3,
+    "explanation": "A escola **funcionou de verdade** como hospital — função real usa **as**.",
+    "difficulty": 1
+  },
+  {
+    "question": "My best friend is ___ a brother to me.",
+    "options": ["like", "as", "so", "that"],
+    "answer": 0,
+    "explanation": "Ele **não é** meu irmão de verdade — semelhança → **like**.",
+    "difficulty": 1
+  },
+  {
+    "question": "She started her career ___ a journalist in 2010.",
+    "options": ["so", "as", "like", "than"],
+    "answer": 1,
+    "explanation": "Profissão real → **as**. \"Like a journalist\" significaria apenas \"parecida com uma jornalista\".",
+    "difficulty": 1
+  },
+  {
+    "question": "This city looks ___ Paris at night.",
+    "options": ["as", "so", "like", "how"],
+    "answer": 2,
+    "explanation": "Semelhança visual (parece Paris, mas não é) → **look like + substantivo**.",
+    "difficulty": 1
+  },
+  {
+    "question": "Complete the formal email: \"___ I mentioned in my previous message, the meeting is at 10.\"",
+    "options": ["Like", "As", "Such as", "How"],
+    "answer": 1,
+    "explanation": "Antes de **sujeito + verbo** (\"I mentioned\"), o padrão formal é **as**. \"Like\" aqui é só informal.",
+    "difficulty": 2
+  },
+  {
+    "question": "He worked ___ a dog to finish the project on time.",
+    "options": ["like", "as", "so", "than"],
+    "answer": 0,
+    "explanation": "Ele **não é** um cachorro — comparação/semelhança → **like**. \"Work as\" indicaria profissão real.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence means he really IS a lawyer?",
+    "options": [
+      "He talks like a lawyer.",
+      "He argues like a lawyer.",
+      "He works as a lawyer.",
+      "He dresses like a lawyer."
+    ],
+    "answer": 2,
+    "explanation": "**As** = papel/profissão real. Com **like**, ele apenas se parece com um advogado.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence means she only RESEMBLES a manager (but isn't one)?",
+    "options": [
+      "She acts like a manager.",
+      "She works as a manager.",
+      "She was hired as a manager.",
+      "She serves as a manager."
+    ],
+    "answer": 0,
+    "explanation": "**Like** = semelhança, não realidade. As frases com **as** dizem que ela ocupa o cargo de verdade.",
+    "difficulty": 2
+  },
+  {
+    "question": "We used the garage ___ a home office during the pandemic.",
+    "options": ["like", "so", "than", "as"],
+    "answer": 3,
+    "explanation": "A garagem **virou** escritório de verdade — função real usa **as**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Everything went ___ we had planned.",
+    "options": ["as", "like to", "how", "so"],
+    "answer": 0,
+    "explanation": "Antes de **sujeito + verbo** (\"we had planned\"), use **as** = \"da forma que\".",
+    "difficulty": 2
+  },
+  {
+    "question": "He eats ___ a horse — three plates every meal!",
+    "options": ["as", "so", "like", "than"],
+    "answer": 2,
+    "explanation": "Semelhança exagerada (ele **não é** um cavalo) → **like + substantivo**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence has a mistake?",
+    "options": [
+      "She works as a dentist.",
+      "It smells like coffee in here.",
+      "He was acting as a fool at the party.",
+      "Do it as I showed you."
+    ],
+    "answer": 2,
+    "explanation": "Ele não **é** um bobo de verdade — semelhança pede **like**: \"acting **like** a fool\".",
+    "difficulty": 2
+  },
+  {
+    "question": "___ your doctor, I advise you to rest.",
+    "options": ["Like", "So", "Such as", "As"],
+    "answer": 3,
+    "explanation": "Quem fala **é** o médico da pessoa — papel real → **as**. \"Like your doctor\" = parecido com o seu médico.",
+    "difficulty": 2
+  },
+  {
+    "question": "The twins dress exactly ___ each other.",
+    "options": ["as", "like", "so", "alike"],
+    "answer": 1,
+    "explanation": "Semelhança antes de pronome/substantivo → **like**. \"Alike\" só funciona sozinho no fim (\"they dress alike\").",
+    "difficulty": 2
+  },
+  {
+    "question": "Nobody can bake bread ___ my grandmother does.",
+    "options": ["like to", "alike", "as", "so"],
+    "answer": 2,
+    "explanation": "Antes de **sujeito + verbo** (\"my grandmother does\"), o padrão é **as** = \"da forma que\".",
+    "difficulty": 2
+  },
+  {
+    "question": "Which is standard in formal English?",
+    "options": [
+      "Like I said, the report is ready.",
+      "As I said, the report is ready.",
+      "How I said, the report is ready.",
+      "Such as I said, the report is ready."
+    ],
+    "answer": 1,
+    "explanation": "Em contexto formal, antes de sujeito + verbo use **as**: \"**As** I said\". \"Like I said\" é comum, mas informal.",
+    "difficulty": 3
+  },
+  {
+    "question": "Choose the sentence that means he really IS the team's coach:",
+    "options": [
+      "He spoke as the team's coach at the press conference.",
+      "He gives orders like the coach.",
+      "He shouts like the coach.",
+      "He behaves like the coach."
+    ],
+    "answer": 0,
+    "explanation": "\"Spoke **as** the coach\" = falou no papel real de técnico. As opções com **like** só indicam semelhança.",
+    "difficulty": 3
+  },
+  {
+    "question": "___ a child, I spent every summer at my grandparents' farm.",
+    "options": ["Like", "As", "So as", "Such"],
+    "answer": 1,
+    "explanation": "**As a child** = quando eu **era** criança (realidade). \"Like a child\" significaria \"parecido com uma criança\".",
+    "difficulty": 3
+  },
+  {
+    "question": "After the manager left, Paula took over ___ team leader.",
+    "options": ["like", "so", "than", "as"],
+    "answer": 3,
+    "explanation": "Paula assumiu o cargo **de verdade** → **as** (papel real). \"Like\" diria apenas que ela age como líder.",
+    "difficulty": 3
+  },
+  {
+    "question": "Which sentence is wrong?",
+    "options": [
+      "She used her scarf as a bandage.",
+      "He cried like a baby.",
+      "As your friend, I must be honest with you.",
+      "I work like a translator for a big agency."
+    ],
+    "answer": 3,
+    "explanation": "É a profissão real dele, então o certo é \"I work **as** a translator\". **Like** indicaria só semelhança.",
+    "difficulty": 3
+  }
+]

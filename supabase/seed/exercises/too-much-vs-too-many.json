@@ -1,0 +1,176 @@
+[
+  {
+    "question": "There is ___ salt in this soup.",
+    "options": ["too many", "too much", "too", "many"],
+    "answer": 1,
+    "explanation": "Salt é **incontável** → **too much salt**.",
+    "difficulty": 1
+  },
+  {
+    "question": "I bought ___ apples — we can't eat them all.",
+    "options": ["too much", "much", "too many", "too"],
+    "answer": 2,
+    "explanation": "Apples é **contável plural** → **too many apples**.",
+    "difficulty": 1
+  },
+  {
+    "question": "She spends ___ money on clothes.",
+    "options": ["too many", "many", "too", "too much"],
+    "answer": 3,
+    "explanation": "Money é **incontável** → **too much money**.",
+    "difficulty": 1
+  },
+  {
+    "question": "There are ___ chairs in this small room.",
+    "options": ["too many", "too much", "much", "too"],
+    "answer": 0,
+    "explanation": "Chairs é **contável plural** → **too many chairs**.",
+    "difficulty": 1
+  },
+  {
+    "question": "He asks ___ questions during class.",
+    "options": ["too much", "much", "too many", "too"],
+    "answer": 2,
+    "explanation": "Questions é **contável plural** → **too many questions**.",
+    "difficulty": 1
+  },
+  {
+    "question": "I have ___ work this week.",
+    "options": ["too many", "many", "too much", "too"],
+    "answer": 2,
+    "explanation": "Work é **incontável** → **too much work**.",
+    "difficulty": 1
+  },
+  {
+    "question": "This soup is ___ salty.",
+    "options": ["too much", "too", "too many", "enough"],
+    "answer": 1,
+    "explanation": "Antes de **adjetivo** (salty) usa-se só **too**: too salty. \"Too much salty\" é erro clássico.",
+    "difficulty": 1
+  },
+  {
+    "question": "There was ___ traffic this morning.",
+    "options": ["too many", "too", "many", "too much"],
+    "answer": 3,
+    "explanation": "Traffic é **incontável** → **too much traffic**.",
+    "difficulty": 1
+  },
+  {
+    "question": "This jacket is ___ expensive for me.",
+    "options": ["too much", "too many", "very much", "too"],
+    "answer": 3,
+    "explanation": "Antes de **adjetivo** (expensive) → só **too**: too expensive = caro demais (não vou comprar).",
+    "difficulty": 2
+  },
+  {
+    "question": "He isn't strong ___ to lift that box.",
+    "options": ["enough", "too", "too much", "many"],
+    "answer": 0,
+    "explanation": "\"Suficiente\" com adjetivo: **enough** vem **depois** do adjetivo → strong **enough**.",
+    "difficulty": 2
+  },
+  {
+    "question": "We don't have ___ chairs for all the guests.",
+    "options": ["enough", "too many", "too much", "too"],
+    "answer": 0,
+    "explanation": "A ideia é falta, não excesso → **enough chairs** (enough vem **antes** do substantivo).",
+    "difficulty": 2
+  },
+  {
+    "question": "Como se diz \"Tem barulho demais aqui\" em inglês?",
+    "options": [
+      "There is too many noise here.",
+      "There is too noise here.",
+      "There are too much noises here.",
+      "There is too much noise here."
+    ],
+    "answer": 3,
+    "explanation": "Noise é **incontável** → **too much noise**, sempre no singular e com \"there is\".",
+    "difficulty": 2
+  },
+  {
+    "question": "I ate ___ — now my stomach hurts.",
+    "options": ["too many", "too", "too much", "enough"],
+    "answer": 2,
+    "explanation": "Sem substantivo, \"comi demais\" = **too much** sozinho: I ate too much.",
+    "difficulty": 2
+  },
+  {
+    "question": "She has ___ homework and ___ exams this week.",
+    "options": [
+      "too much / too many",
+      "too many / too much",
+      "too much / too much",
+      "too many / too many"
+    ],
+    "answer": 0,
+    "explanation": "Homework é **incontável** → too much; exams é **contável plural** → too many.",
+    "difficulty": 2
+  },
+  {
+    "question": "You're driving ___ fast!",
+    "options": ["too much", "too many", "too", "very many"],
+    "answer": 2,
+    "explanation": "Fast aqui funciona como advérbio/adjetivo → só **too**: too fast. Nunca \"too much fast\".",
+    "difficulty": 2
+  },
+  {
+    "question": "Is the room big ___ for the meeting?",
+    "options": ["too", "enough", "too much", "many"],
+    "answer": 1,
+    "explanation": "\"Grande o suficiente\" → adjetivo + **enough**: big **enough**.",
+    "difficulty": 2
+  },
+  {
+    "question": "We invited ___ guests for such a small apartment.",
+    "options": ["too much", "too many", "much", "very"],
+    "answer": 1,
+    "explanation": "Guests é **contável plural** → **too many guests**.",
+    "difficulty": 2
+  },
+  {
+    "question": "There's ___ information on this slide — simplify it.",
+    "options": ["too many", "too", "too much", "many"],
+    "answer": 2,
+    "explanation": "**Information** é incontável (mesmo \"informações\" tendo plural em português) → **too much information**.",
+    "difficulty": 3
+  },
+  {
+    "question": "There is ___ furniture in this room — we can't even walk.",
+    "options": ["too many", "too much", "many", "too"],
+    "answer": 1,
+    "explanation": "**Furniture** é incontável em inglês → **too much furniture**, nunca \"too many furnitures\".",
+    "difficulty": 3
+  },
+  {
+    "question": "He gave me ___ advice — now I'm more confused.",
+    "options": ["too many", "many", "too much", "too"],
+    "answer": 2,
+    "explanation": "**Advice** é incontável → **too much advice**. \"Too many advices\" é erro comum de brasileiro.",
+    "difficulty": 3
+  },
+  {
+    "question": "Como se diz \"Este problema é complicado demais\" em inglês?",
+    "options": [
+      "This problem is too much complicated.",
+      "This problem is very too complicated.",
+      "This problem is too many complicated.",
+      "This problem is too complicated."
+    ],
+    "answer": 3,
+    "explanation": "Antes de **adjetivo** usa-se apenas **too**: too complicated. \"Too much + adjetivo\" é o erro clássico.",
+    "difficulty": 3
+  },
+  {
+    "question": "We don't have ___ time, and there are ___ tasks on the list.",
+    "options": [
+      "enough / too many",
+      "too much / enough",
+      "enough / too much",
+      "too many / enough"
+    ],
+    "answer": 0,
+    "explanation": "Falta de tempo → **enough time**; excesso de tarefas (contável plural) → **too many tasks**.",
+    "difficulty": 3
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "question": "I ___ a blue car.",
+    "options": ["has", "have", "there is", "there are"],
+    "answer": 1,
+    "explanation": "Posse com **I** → **have**: I have a blue car. \"Has\" é só para he/she/it.",
+    "difficulty": 1
+  },
+  {
+    "question": "He ___ a big family.",
+    "options": ["have", "there is", "has", "are"],
+    "answer": 2,
+    "explanation": "Posse com **he** (3ª pessoa singular) → **has**.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ a cat on the roof.",
+    "options": ["There is", "Have", "There are", "Has"],
+    "answer": 0,
+    "explanation": "Existência (\"tem/há um gato\") + singular → **There is**. \"Have\" seria posse, com dono.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ five rooms in this house.",
+    "options": ["There is", "Has", "Have", "There are"],
+    "answer": 3,
+    "explanation": "Existência + **plural** (five rooms) → **There are**.",
+    "difficulty": 1
+  },
+  {
+    "question": "They ___ a small apartment downtown.",
+    "options": ["has", "have", "there is", "is"],
+    "answer": 1,
+    "explanation": "Posse com **they** → **have**: they have a small apartment.",
+    "difficulty": 1
+  },
+  {
+    "question": "My dog ___ brown eyes.",
+    "options": ["have", "there is", "there are", "has"],
+    "answer": 3,
+    "explanation": "My dog = **it** (3ª pessoa singular) → **has**: my dog has brown eyes.",
+    "difficulty": 1
+  },
+  {
+    "question": "We ___ two dogs and a cat.",
+    "options": ["has", "there are", "have", "there is"],
+    "answer": 2,
+    "explanation": "Posse com **we** → **have**. \"There are\" seria existência, sem dono.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ a lot of trees in the park.",
+    "options": ["There is", "There are", "Has", "Have"],
+    "answer": 1,
+    "explanation": "Existência + plural (a lot of trees) → **There are**.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ a good restaurant near the hotel?",
+    "options": ["Are there", "Is there", "Does have", "Has"],
+    "answer": 1,
+    "explanation": "Pergunta sobre existência + singular → **Is there** a good restaurant?",
+    "difficulty": 2
+  },
+  {
+    "question": "She ___ have a driver's license.",
+    "options": ["don't", "isn't", "doesn't", "hasn't"],
+    "answer": 2,
+    "explanation": "Negativa de posse com **she** pede auxiliar: **doesn't have**. \"She hasn't a license\" não se usa no dia a dia.",
+    "difficulty": 2
+  },
+  {
+    "question": "___ any parks in your neighborhood?",
+    "options": ["Is there", "There are", "Are there", "Have"],
+    "answer": 2,
+    "explanation": "Pergunta sobre existência + plural (parks) → **Are there**?",
+    "difficulty": 2
+  },
+  {
+    "question": "Como se diz \"Tem muita gente na festa\" em inglês?",
+    "options": [
+      "There are many people at the party.",
+      "Have many people at the party.",
+      "There is many people at the party.",
+      "Has many people at the party."
+    ],
+    "answer": 0,
+    "explanation": "\"Tem muita gente\" = **existência** → there is/are. Como \"many people\" é plural → **There are**. Começar com \"Have\" é o erro clássico do brasileiro.",
+    "difficulty": 2
+  },
+  {
+    "question": "Do you ___ a pen I can borrow?",
+    "options": ["has", "there is", "are", "have"],
+    "answer": 3,
+    "explanation": "Pergunta de posse usa **Do + have**: Do you have a pen?",
+    "difficulty": 2
+  },
+  {
+    "question": "___ a problem with my computer.",
+    "options": ["There is", "Have", "There are", "Does"],
+    "answer": 0,
+    "explanation": "\"Tem um problema\" = existência + singular → **There is** a problem. Nunca \"Have a problem\" nesse sentido.",
+    "difficulty": 2
+  },
+  {
+    "question": "My city ___ two big stadiums.",
+    "options": ["have", "there is", "there are", "has"],
+    "answer": 3,
+    "explanation": "Aqui há **dono** (my city = it) → posse: my city **has** two big stadiums.",
+    "difficulty": 2
+  },
+  {
+    "question": "___ twenty students in my English class.",
+    "options": ["There is", "There have", "Have", "There are"],
+    "answer": 3,
+    "explanation": "Existência + plural (twenty students) → **There are**. \"There have\" não existe.",
+    "difficulty": 2
+  },
+  {
+    "question": "He doesn't ___ time to play video games.",
+    "options": ["there is", "has", "have", "having"],
+    "answer": 2,
+    "explanation": "Depois do auxiliar **doesn't**, o verbo volta à forma base → **have** (não \"doesn't has\").",
+    "difficulty": 2
+  },
+  {
+    "question": "Como se diz \"Tem uma festa amanhã\" em inglês?",
+    "options": [
+      "There is a party tomorrow.",
+      "Have a party tomorrow.",
+      "There are a party tomorrow.",
+      "It has a party tomorrow."
+    ],
+    "answer": 0,
+    "explanation": "\"Tem\" sem dono = existência → **There is** + singular. \"Have a party tomorrow\" é o erro mais comum do brasileiro.",
+    "difficulty": 3
+  },
+  {
+    "question": "___ anything to eat at home?",
+    "options": ["Is there", "Are there", "Has", "Do there"],
+    "answer": 0,
+    "explanation": "Pergunta de existência com **anything** (singular) → **Is there** anything to eat?",
+    "difficulty": 3
+  },
+  {
+    "question": "Como se diz \"Minha rua tem duas padarias\" em inglês?",
+    "options": [
+      "There are two bakeries on my street.",
+      "My street there are two bakeries.",
+      "My street have two bakeries.",
+      "There is two bakeries on my street."
+    ],
+    "answer": 0,
+    "explanation": "O \"tem\" aqui vira **há** → existência + plural: **There are** two bakeries. Misturar sujeito + there are, ou usar \"have\" com \"my street\", está errado.",
+    "difficulty": 3
+  },
+  {
+    "question": "___ no milk left — we need to go shopping.",
+    "options": ["There is", "There are", "Have", "Has"],
+    "answer": 0,
+    "explanation": "Existência negativa com incontável (milk = singular) → **There is** no milk (= there isn't any milk).",
+    "difficulty": 3
+  },
+  {
+    "question": "How many bedrooms ___ your new house ___?",
+    "options": ["do / have", "does / have", "does / has", "is / there"],
+    "answer": 1,
+    "explanation": "Pergunta de posse com 3ª pessoa singular (your house = it) → auxiliar **does** + verbo na base **have**.",
+    "difficulty": 3
+  }
+]

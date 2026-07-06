@@ -1,0 +1,171 @@
+[
+  {
+    "question": "She was out of breath because she ___ .",
+    "options": ["has been running", "had been running", "was run", "had running"],
+    "answer": 1,
+    "explanation": "A corrida em andamento explica um **estado passado** (sem fôlego) → **had been + -ing**. \"Has been\" conectaria ao presente, mas a âncora é \"was\".",
+    "difficulty": 1
+  },
+  {
+    "question": "We ___ TV for two hours when the power went out.",
+    "options": ["have been watching", "watched been", "had been watching", "were watch"],
+    "answer": 2,
+    "explanation": "Duração (**for two hours**) até um momento do passado (\"went out\") → **had been watching**.",
+    "difficulty": 1
+  },
+  {
+    "question": "His eyes were red — he ___ .",
+    "options": ["had been crying", "has been crying", "had crying", "was cried"],
+    "answer": 0,
+    "explanation": "Ação em andamento que explica um estado passado (olhos vermelhos) → **had been crying**. Faltou o **been** em \"had crying\".",
+    "difficulty": 1
+  },
+  {
+    "question": "They ___ soccer all afternoon, so they were exhausted.",
+    "options": ["have been playing", "had been play", "had playing", "had been playing"],
+    "answer": 3,
+    "explanation": "**All afternoon** indica duração até um ponto passado → **had been + verbo-ing** (playing). Depois de had been, o verbo precisa do **-ing**.",
+    "difficulty": 1
+  },
+  {
+    "question": "She ___ well, so the doctor ordered some tests.",
+    "options": ["hadn't been sleeping", "didn't been sleeping", "hasn't been sleeping", "hadn't sleeping"],
+    "answer": 0,
+    "explanation": "Negativa: **hadn't been + -ing**. O contexto passado (\"ordered\") pede **had**, não have/has, e o **been** é obrigatório.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ you ___ long before the movie started?",
+    "options": ["Have / been waiting", "Had / been waiting", "Did / been waiting", "Had / waiting"],
+    "answer": 1,
+    "explanation": "Pergunta: **Had + sujeito + been + -ing**. \"Started\" ancora tudo no passado → **had**, e o **been** não pode faltar.",
+    "difficulty": 1
+  },
+  {
+    "question": "He had been ___ in the garden all morning, so his boots were muddy.",
+    "options": ["work", "worked", "working", "works"],
+    "answer": 2,
+    "explanation": "Depois de **had been**, o verbo principal sempre leva **-ing**: had been **working**.",
+    "difficulty": 1
+  },
+  {
+    "question": "The kitchen smelled delicious — my mom ___ cookies.",
+    "options": ["had been baking", "has been baking", "was been baking", "had baked been"],
+    "answer": 0,
+    "explanation": "O processo de assar explica o cheiro no **passado** (\"smelled\") → **had been baking**. \"Was been\" não existe.",
+    "difficulty": 2
+  },
+  {
+    "question": "They ___ in São Paulo for ten years when they decided to move.",
+    "options": ["have been living", "had been living", "has been living", "are living"],
+    "answer": 1,
+    "explanation": "Duração (**for ten years**) até uma decisão no passado (\"decided\") → **had been living**. Have/has been ligaria ao presente.",
+    "difficulty": 2
+  },
+  {
+    "question": "By noon, she ___ ten emails — her inbox was finally empty.",
+    "options": ["had been writing", "wrote been", "has written", "had written"],
+    "answer": 3,
+    "explanation": "A frase foca no **resultado/quantidade** (ten emails, inbox vazio) → Past Perfect **simples** (had written). O contínuo focaria na duração, não em \"quantos\".",
+    "difficulty": 2
+  },
+  {
+    "question": "They ___ that house since 2015 when they finally sold it.",
+    "options": ["had been owning", "have owned", "had owned", "were owning"],
+    "answer": 2,
+    "explanation": "**Own** é verbo de estado — não vai para o contínuo. Com âncora no passado (\"sold\") → **had owned**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Her hands were covered in paint because she ___ the fence.",
+    "options": ["has been painting", "had been painting", "was paint", "had painting"],
+    "answer": 1,
+    "explanation": "Atividade em andamento que explica um estado passado (mãos sujas de tinta) → **had been painting**. \"Were\" ancora a frase no passado.",
+    "difficulty": 2
+  },
+  {
+    "question": "Find the mistake: \"When I met her, she had been study French for two years.\"",
+    "options": ["met → meet", "had → has", "study → studying", "for → since"],
+    "answer": 2,
+    "explanation": "Depois de **had been**, o verbo leva **-ing**: had been **studying**. O restante da frase está correto.",
+    "difficulty": 2
+  },
+  {
+    "question": "He had been driving ___ six hours when he finally stopped to rest.",
+    "options": ["for", "since", "during", "by"],
+    "answer": 0,
+    "explanation": "**For + período de tempo** (six hours). **Since** seria para um ponto de partida (since 8 a.m., since Monday).",
+    "difficulty": 2
+  },
+  {
+    "question": "The players ___ hard for months before the championship, and it paid off.",
+    "options": ["have been training", "were train", "had been training", "had training"],
+    "answer": 2,
+    "explanation": "Duração (**for months**) antes de um evento passado (o campeonato) → **had been training**.",
+    "difficulty": 2
+  },
+  {
+    "question": "When we got to the party, people ___ for hours and all the food was gone.",
+    "options": ["have been dancing", "are dancing", "danced been", "had been dancing"],
+    "answer": 3,
+    "explanation": "A dança vinha acontecendo **antes** da nossa chegada (momento passado) → **had been dancing**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence best explains WHY his clothes were so dirty?",
+    "options": [
+      "He had been fixing the car.",
+      "He fixes cars every day.",
+      "He will fix the car.",
+      "He had a car."
+    ],
+    "answer": 0,
+    "explanation": "O Past Perfect Continuous é perfeito para **explicar um estado passado**: a atividade anterior (mexer no carro) deixou as roupas sujas.",
+    "difficulty": 2
+  },
+  {
+    "question": "She ___ the novel, so she was able to lend it to me.",
+    "options": ["had been reading", "had read", "has been reading", "was reading"],
+    "answer": 1,
+    "explanation": "Para emprestar o livro, ela precisou **terminar** de ler → foco no **resultado** → Past Perfect **simples** (had read). \"Had been reading\" sugeriria leitura ainda em andamento.",
+    "difficulty": 3
+  },
+  {
+    "question": "Choose the sentence where the action was probably STILL UNFINISHED:",
+    "options": [
+      "He had baked a cake.",
+      "He baked a cake.",
+      "He has baked a cake.",
+      "He had been baking a cake."
+    ],
+    "answer": 3,
+    "explanation": "**Had been baking** foca no processo em andamento — o bolo provavelmente ainda não estava pronto. As formas simples/perfeitas indicam ação **concluída**.",
+    "difficulty": 3
+  },
+  {
+    "question": "You looked confused in class. ___ you ___ attention?",
+    "options": ["Haven't / been paying", "Hadn't / been paying", "Didn't / been paying", "Weren't / been paying"],
+    "answer": 1,
+    "explanation": "Pergunta negativa ancorada no passado (\"looked\"): **Hadn't + sujeito + been + -ing**. \"Haven't\" conectaria ao presente.",
+    "difficulty": 3
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I have been waiting for an hour when the train arrived.",
+      "I had been waited for an hour when the train arrived.",
+      "I had been waiting for an hour when the train arrived.",
+      "I am waiting for an hour when the train arrived."
+    ],
+    "answer": 2,
+    "explanation": "\"Arrived\" ancora tudo no **passado** → **had been waiting**. \"Have been waiting\" é o erro clássico: Present Perfect não combina com âncora passada.",
+    "difficulty": 3
+  },
+  {
+    "question": "She had been working there ___ 2018 when the office finally closed.",
+    "options": ["for", "from", "during", "since"],
+    "answer": 3,
+    "explanation": "**Since + ponto de partida** (2018). **For** pediria um período (for five years), não uma data.",
+    "difficulty": 3
+  }
+]

@@ -81,12 +81,46 @@ export interface TipBlock {
 
 export type Block = CardBlock | TableBlock | MistakesBlock | TipBlock;
 
+export type Difficulty = 1 | 2 | 3;
+
 export interface Exercise {
+  /** UUID estável no banco — base do rastreio de acertos por usuário */
+  id: string;
+  topicId: string;
   question: string;
   options: string[];
   /** Índice da opção correta em options */
   answer: number;
   explanation: string;
+  difficulty: Difficulty;
+}
+
+/** 'imediata': corrige a cada resposta · 'simulado': corrige tudo no final */
+export type SessionMode = 'imediata' | 'simulado';
+
+export interface QuizConfig {
+  topicIds: string[];
+  mode: SessionMode;
+  /** false = excluir questões que o usuário já acertou alguma vez */
+  includeMastered: boolean;
+  questionCount: number | 'all';
+}
+
+export interface AttemptRecord {
+  exerciseId: string;
+  topicId: string;
+  chosen: number;
+  isCorrect: boolean;
+  answeredAt: string;
+}
+
+export interface SessionSummary {
+  mode: SessionMode;
+  topicIds: string[];
+  totalQuestions: number;
+  correctCount: number;
+  startedAt: string;
+  finishedAt: string;
 }
 
 export interface Topic {

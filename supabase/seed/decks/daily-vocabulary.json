@@ -1,0 +1,183 @@
+{
+  "slug": "daily-vocabulary",
+  "title": "Vocabulário Essencial",
+  "description": "35 palavras de alta frequência do dia a dia que brasileiros costumam não conhecer ou confundir.",
+  "accent": "purple",
+  "cards": [
+    {
+      "front": "schedule",
+      "back": "agenda, cronograma, horário",
+      "example": "My schedule is full this week."
+    },
+    {
+      "front": "appointment",
+      "back": "compromisso, consulta (médico, dentista)",
+      "example": "I have a dentist appointment at 3 p.m."
+    },
+    {
+      "front": "deadline",
+      "back": "prazo final",
+      "example": "The deadline for the report is Friday."
+    },
+    {
+      "front": "awesome",
+      "back": "incrível, demais (informal)",
+      "example": "The concert last night was awesome."
+    },
+    {
+      "front": "awkward",
+      "back": "constrangedor, sem jeito, desajeitado",
+      "example": "There was an awkward silence after his comment."
+    },
+    {
+      "front": "borrow",
+      "back": "pegar emprestado (você recebe; emprestar = lend)",
+      "example": "Can I borrow your pen for a second?"
+    },
+    {
+      "front": "lend",
+      "back": "emprestar (você dá; pegar emprestado = borrow)",
+      "example": "She lent me her umbrella."
+    },
+    {
+      "front": "remind",
+      "back": "lembrar alguém de algo (fazer lembrar; remember = lembrar-se)",
+      "example": "Remind me to call the bank tomorrow."
+    },
+    {
+      "front": "remember",
+      "back": "lembrar-se (você mesmo; remind = fazer alguém lembrar)",
+      "example": "I don't remember his name."
+    },
+    {
+      "front": "issue",
+      "back": "questão, problema; edição (revista)",
+      "example": "We need to fix this issue before launch."
+    },
+    {
+      "front": "available",
+      "back": "disponível",
+      "example": "Are you available for a call this afternoon?"
+    },
+    {
+      "front": "busy",
+      "back": "ocupado",
+      "example": "Sorry, I'm busy right now — can I call you back?"
+    },
+    {
+      "front": "crowded",
+      "back": "lotado, cheio (de gente)",
+      "example": "The subway was really crowded this morning."
+    },
+    {
+      "front": "reliable",
+      "back": "confiável",
+      "example": "She's the most reliable person on the team."
+    },
+    {
+      "front": "upset",
+      "back": "chateado, aborrecido",
+      "example": "He was upset about losing the game."
+    },
+    {
+      "front": "tired",
+      "back": "cansado (tired of = cansado/farto de algo)",
+      "example": "I'm tired of waiting in line."
+    },
+    {
+      "front": "hungry",
+      "back": "com fome (em inglês você 'está' faminto: I'm hungry)",
+      "example": "I'm hungry — let's grab something to eat."
+    },
+    {
+      "front": "weather",
+      "back": "clima, tempo (meteorológico; não confundir com time = tempo/horas)",
+      "example": "The weather is beautiful today."
+    },
+    {
+      "front": "traffic",
+      "back": "trânsito",
+      "example": "I was late because of the traffic."
+    },
+    {
+      "front": "neighborhood",
+      "back": "bairro, vizinhança",
+      "example": "We live in a quiet neighborhood."
+    },
+    {
+      "front": "landlord",
+      "back": "proprietário do imóvel, senhorio",
+      "example": "The landlord raised the rent again."
+    },
+    {
+      "front": "bill",
+      "back": "conta (a pagar); nota (dinheiro)",
+      "example": "Could we get the bill, please?"
+    },
+    {
+      "front": "change",
+      "back": "troco; mudança; trocar",
+      "example": "Keep the change."
+    },
+    {
+      "front": "discount",
+      "back": "desconto",
+      "example": "They gave me a 20% discount on the shoes."
+    },
+    {
+      "front": "cheap",
+      "back": "barato (pode soar 'de má qualidade'; inexpensive é mais neutro)",
+      "example": "This restaurant is really cheap and the food is great."
+    },
+    {
+      "front": "expensive",
+      "back": "caro",
+      "example": "That hotel is too expensive for us."
+    },
+    {
+      "front": "meeting",
+      "back": "reunião",
+      "example": "The meeting starts at nine sharp."
+    },
+    {
+      "front": "coworker",
+      "back": "colega de trabalho",
+      "example": "I'm having lunch with a coworker today."
+    },
+    {
+      "front": "boss",
+      "back": "chefe",
+      "example": "My boss approved my vacation request."
+    },
+    {
+      "front": "raise",
+      "back": "aumento (de salário); levantar, criar (filhos)",
+      "example": "She asked her boss for a raise."
+    },
+    {
+      "front": "luggage",
+      "back": "bagagem (incontável: não existe 'luggages')",
+      "example": "My luggage got lost at the airport."
+    },
+    {
+      "front": "flight",
+      "back": "voo",
+      "example": "Our flight was delayed by two hours."
+    },
+    {
+      "front": "ticket",
+      "back": "ingresso, passagem; multa (de trânsito)",
+      "example": "I bought two tickets for the show."
+    },
+    {
+      "front": "advice",
+      "back": "conselho (incontável: a piece of advice; o verbo é advise)",
+      "example": "Let me give you a piece of advice."
+    },
+    {
+      "front": "belongings",
+      "back": "pertences",
+      "example": "Please keep your belongings with you at all times."
+    }
+  ]
+}

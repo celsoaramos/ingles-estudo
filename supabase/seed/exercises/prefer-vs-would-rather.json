@@ -1,0 +1,188 @@
+[
+  {
+    "question": "I ___ dogs to cats.",
+    "options": ["would rather", "prefer", "rather", "am prefer"],
+    "answer": 1,
+    "explanation": "Preferência geral + comparação com **to** → **prefer** X to Y. \"Would rather\" usaria **than**.",
+    "difficulty": 1
+  },
+  {
+    "question": "She'd rather ___ at a restaurant than cook.",
+    "options": ["eating", "to eat", "eat", "ate"],
+    "answer": 2,
+    "explanation": "Would rather + **verbo base**, sem \"to\" e sem -ing: **'d rather eat**.",
+    "difficulty": 1
+  },
+  {
+    "question": "My parents prefer ___ early on weekends.",
+    "options": ["to waking", "waking up", "wake up", "woke up"],
+    "answer": 1,
+    "explanation": "Prefer + **-ing** (ou substantivo): prefer **waking up**. \"To waking\" mistura as formas.",
+    "difficulty": 1
+  },
+  {
+    "question": "I'd rather ___ the truth now than find out later.",
+    "options": ["knowing", "to know", "known", "know"],
+    "answer": 3,
+    "explanation": "Would rather + **verbo base**: **'d rather know**. Sem \"to\", sem -ing.",
+    "difficulty": 1
+  },
+  {
+    "question": "Which pair of structures is correct?",
+    "options": [
+      "prefer ... than / would rather ... to",
+      "prefer ... to / would rather ... than",
+      "prefer ... that / would rather ... than",
+      "prefer ... to / would rather ... to"
+    ],
+    "answer": 1,
+    "explanation": "Macete dos pares: **prefer ... to** e **would rather ... than**. \"Prefer than\" e \"rather to\" estão sempre errados.",
+    "difficulty": 1
+  },
+  {
+    "question": "I prefer ___ music while I work.",
+    "options": ["listening to", "listen", "to listening", "listened"],
+    "answer": 0,
+    "explanation": "Prefer + **-ing**: prefer **listening to** music. Verbo base sozinho não funciona depois de prefer.",
+    "difficulty": 1
+  },
+  {
+    "question": "They'd rather ___ by train.",
+    "options": ["travel", "to travel", "traveling", "travels"],
+    "answer": 0,
+    "explanation": "Would rather + **verbo base**: **'d rather travel**, sem \"to\" e sem -ing.",
+    "difficulty": 1
+  },
+  {
+    "question": "Which sentence has a mistake?",
+    "options": [
+      "She'd rather not answer that question.",
+      "I prefer tea with no sugar.",
+      "He'd rather to walk to work.",
+      "We prefer quiet evenings at home."
+    ],
+    "answer": 2,
+    "explanation": "Would rather **nunca** leva \"to\": o certo é \"He'd rather **walk** to work\".",
+    "difficulty": 2
+  },
+  {
+    "question": "___ you rather have the meeting in the morning?",
+    "options": ["Do", "Had", "Will", "Would"],
+    "answer": 3,
+    "explanation": "Pergunta com rather usa **would**: \"**Would** you rather...?\". \"Do you rather\" não existe.",
+    "difficulty": 2
+  },
+  {
+    "question": "I would prefer ___ at home this weekend.",
+    "options": ["stay", "to stay", "that stay", "stayed"],
+    "answer": 1,
+    "explanation": "**Would prefer** + **to + verbo**: would prefer **to stay**. Diferente de would rather, que usa verbo base.",
+    "difficulty": 2
+  },
+  {
+    "question": "In general, she prefers coffee ___ tea, but today she'd rather ___ tea.",
+    "options": ["to / drink", "than / drink", "to / drinking", "than / to drink"],
+    "answer": 0,
+    "explanation": "Prefer compara com **to**, e would rather usa **verbo base** (drink). Nunca \"prefer than\" nem \"rather drinking\".",
+    "difficulty": 2
+  },
+  {
+    "question": "He says he'd rather ___ unemployed than work for that company.",
+    "options": ["to be", "being", "be", "been"],
+    "answer": 2,
+    "explanation": "Would rather + **verbo base**: **'d rather be**. Comparação com **than** confirma a estrutura.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which question is correct?",
+    "options": [
+      "Do you prefer summer or winter?",
+      "Would you prefer summer than winter?",
+      "Do you rather summer or winter?",
+      "Are you prefer summer or winter?"
+    ],
+    "answer": 0,
+    "explanation": "Prefer é verbo comum: pergunta com **do**. \"Prefer than\" está errado e \"do you rather\" não existe.",
+    "difficulty": 2
+  },
+  {
+    "question": "My grandmother prefers ___ letters to sending emails.",
+    "options": ["write", "writing", "to writing", "wrote"],
+    "answer": 1,
+    "explanation": "Estrutura paralela: prefer **-ing** to **-ing** → prefers **writing** letters to sending emails.",
+    "difficulty": 2
+  },
+  {
+    "question": "I'd rather not ___ them until we have more information.",
+    "options": ["to contact", "contacting", "contacted", "contact"],
+    "answer": 3,
+    "explanation": "Negativa: **'d rather not + verbo base** → 'd rather not **contact**.",
+    "difficulty": 2
+  },
+  {
+    "question": "We ___ rather rent a small apartment than buy a big house.",
+    "options": ["would", "had", "will", "do"],
+    "answer": 0,
+    "explanation": "A estrutura é **would rather** ('d rather) + verbo base + than.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence expresses a GENERAL preference?",
+    "options": [
+      "I'd rather have fish tonight.",
+      "I'd rather not drive now.",
+      "I'd rather take a taxi this time.",
+      "I prefer fish to meat."
+    ],
+    "answer": 3,
+    "explanation": "**Prefer** = preferência geral, de sempre. **Would rather** (tonight, now, this time) = escolha na situação específica.",
+    "difficulty": 2
+  },
+  {
+    "question": "She'd rather work from home ___ commute two hours every day.",
+    "options": ["instead of", "to", "than", "as"],
+    "answer": 2,
+    "explanation": "Would rather compara com **than**. \"Instead of\" pediria -ing e \"to\" é o par do prefer.",
+    "difficulty": 2
+  },
+  {
+    "question": "I'd rather you ___ smoke in the house.",
+    "options": ["don't", "didn't", "not", "won't"],
+    "answer": 1,
+    "explanation": "Would rather + **outra pessoa** usa passado com sentido de presente: I'd rather you **didn't** smoke.",
+    "difficulty": 3
+  },
+  {
+    "question": "I'd rather my son ___ to a local university.",
+    "options": ["goes", "go", "went", "to go"],
+    "answer": 2,
+    "explanation": "Quando o sujeito muda (my son), would rather pede **passado**: I'd rather my son **went**.",
+    "difficulty": 3
+  },
+  {
+    "question": "I prefer to walk ___ drive in the city center.",
+    "options": ["rather than", "than to", "to", "that"],
+    "answer": 0,
+    "explanation": "Com prefer + **to-infinitive**, a comparação usa **rather than**: prefer to walk **rather than** drive.",
+    "difficulty": 3
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I'd rather you don't tell anyone.",
+      "I'd rather you not to tell anyone.",
+      "I'd rather you didn't tell anyone.",
+      "I'd rather you won't tell anyone."
+    ],
+    "answer": 2,
+    "explanation": "Would rather + outro sujeito → verbo no **passado** com sentido de presente/futuro: you **didn't** tell.",
+    "difficulty": 3
+  },
+  {
+    "question": "Would you rather ___ rich and unhappy or poor and happy?",
+    "options": ["being", "to be", "been", "be"],
+    "answer": 3,
+    "explanation": "Depois de would rather, sempre **verbo base**: would you rather **be**...",
+    "difficulty": 3
+  }
+]

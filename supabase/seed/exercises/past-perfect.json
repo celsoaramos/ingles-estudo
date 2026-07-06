@@ -1,0 +1,171 @@
+[
+  {
+    "question": "She was sad because her best friend ___ away.",
+    "options": ["has moved", "had moved", "had move", "was moved"],
+    "answer": 1,
+    "explanation": "A mudança aconteceu **antes** da tristeza (duas ações no passado) → **had + particípio** (had moved). \"Has moved\" conectaria ao presente, mas o contexto todo está no passado.",
+    "difficulty": 1
+  },
+  {
+    "question": "I ___ my homework before dinner, so I watched TV afterwards.",
+    "options": ["had finished", "have finished", "had finish", "was finish"],
+    "answer": 0,
+    "explanation": "Terminar a lição veio **antes** do jantar e de assistir TV → **had finished**. Depois de had, o verbo vai para o **particípio**.",
+    "difficulty": 1
+  },
+  {
+    "question": "We ___ that restaurant before, so we didn't know the menu.",
+    "options": ["didn't visited", "haven't visited", "hadn't visited", "hadn't visit"],
+    "answer": 2,
+    "explanation": "Negativa do Past Perfect: **hadn't + particípio** (hadn't visited). O contexto passado (\"didn't know\") pede **had**, não have.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ you ___ sushi before that trip to Japan?",
+    "options": ["Did / eaten", "Have / eaten", "Had / ate", "Had / eaten"],
+    "answer": 3,
+    "explanation": "Pergunta no Past Perfect: **Had + sujeito + particípio** (Had you eaten). \"Had you ate\" erra a forma: depois de had vem o **particípio** (eaten).",
+    "difficulty": 1
+  },
+  {
+    "question": "The kids were excited because they ___ a real lion for the first time.",
+    "options": ["had saw", "have seen", "had seen", "seen"],
+    "answer": 2,
+    "explanation": "Ver o leão aconteceu **antes** do momento passado da empolgação → **had seen**. \"Had saw\" mistura had com passado simples — o certo é o particípio **seen**.",
+    "difficulty": 1
+  },
+  {
+    "question": "After he ___ the letter, he put it in an envelope.",
+    "options": ["had written", "has written", "had wrote", "had writing"],
+    "answer": 0,
+    "explanation": "**After + Past Perfect, Past Simple**: escrever veio antes de colocar no envelope → **had written** (particípio, não \"wrote\").",
+    "difficulty": 1
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "She had ate lunch before the meeting.",
+      "She had eat lunch before the meeting.",
+      "She has eaten lunch before the meeting yesterday.",
+      "She had eaten lunch before the meeting."
+    ],
+    "answer": 3,
+    "explanation": "Depois de **had** vem o **particípio**: eaten (não ate, nem eat). E com \"yesterday\" (passado), não se usa **has**.",
+    "difficulty": 1
+  },
+  {
+    "question": "The house was silent — everyone ___ to bed.",
+    "options": ["has gone", "had gone", "had went", "was gone"],
+    "answer": 1,
+    "explanation": "Todos foram dormir **antes** do momento em que a casa estava silenciosa → **had gone**. \"Had went\" é erro clássico: use o particípio **gone**.",
+    "difficulty": 2
+  },
+  {
+    "question": "By 2010, she ___ three novels.",
+    "options": ["wrote", "has written", "had written", "writes"],
+    "answer": 2,
+    "explanation": "**By + data no passado** marca um ponto até o qual a ação já estava completa → **had written**. \"Has written\" conectaria ao agora, e \"wrote\" não combina com \"by 2010\".",
+    "difficulty": 2
+  },
+  {
+    "question": "Find the mistake: \"When the teacher arrived, the students has already left the room.\"",
+    "options": ["arrived → arrives", "has → had", "already → yet", "left → leave"],
+    "answer": 1,
+    "explanation": "O contexto todo está no **passado** (\"arrived\") → a ação anterior usa **had**, não has: **had already left**.",
+    "difficulty": 2
+  },
+  {
+    "question": "At the checkout, he realized he ___ his wallet at home.",
+    "options": ["has left", "was leaving", "had left", "had leave"],
+    "answer": 2,
+    "explanation": "Esquecer a carteira aconteceu **antes** de ele perceber (dois momentos no passado) → **had left**, o \"passado do passado\".",
+    "difficulty": 2
+  },
+  {
+    "question": "I recognized her immediately because I ___ her photos many times before.",
+    "options": ["had seen", "have seen", "had see", "am seeing"],
+    "answer": 0,
+    "explanation": "Ver as fotos veio **antes** do momento passado de reconhecê-la → **had seen**. \"Have seen\" não funciona porque a âncora da frase é o passado (\"recognized\").",
+    "difficulty": 2
+  },
+  {
+    "question": "Which action happened FIRST? \"When Anna got home, her husband had cooked dinner.\"",
+    "options": [
+      "Anna got home",
+      "Her husband cooked dinner",
+      "Both happened at the same time",
+      "The sentence doesn't tell us"
+    ],
+    "answer": 1,
+    "explanation": "O verbo com **had** marca a ação **mais antiga** na linha do tempo: o jantar já estava pronto quando Anna chegou.",
+    "difficulty": 2
+  },
+  {
+    "question": "They ___ each other for ten years before they got married.",
+    "options": ["have known", "are knowing", "had knew", "had known"],
+    "answer": 3,
+    "explanation": "Conhecer-se veio **antes** do casamento (ambos no passado) → **had known**. \"Had knew\" erra a forma: depois de had, use o particípio **known**.",
+    "difficulty": 2
+  },
+  {
+    "question": "She didn't recognize the city because she ___ there before.",
+    "options": ["hadn't been", "isn't", "hasn't been", "didn't been"],
+    "answer": 0,
+    "explanation": "A experiência (ou a falta dela) é anterior ao momento passado → **hadn't been**. \"Hasn't been\" conectaria ao presente, mas a âncora é \"didn't recognize\".",
+    "difficulty": 2
+  },
+  {
+    "question": "After the guests ___ , we started cleaning the house.",
+    "options": ["have left", "had left", "has left", "had leave"],
+    "answer": 1,
+    "explanation": "**After + Past Perfect**: os convidados saíram **antes** da limpeza começar → **had left**. \"Have/has left\" não cabe em contexto totalmente passado.",
+    "difficulty": 2
+  },
+  {
+    "question": "By the time the firefighters arrived, the fire ___ two houses.",
+    "options": ["destroyed", "has destroyed", "had destroyed", "destroys"],
+    "answer": 2,
+    "explanation": "**By the time + passado** indica que a outra ação **já tinha acontecido** → **had destroyed**. O passado simples (\"destroyed\") não deixa clara essa anterioridade.",
+    "difficulty": 2
+  },
+  {
+    "question": "It was my first visit to the opera — I ___ one before that night.",
+    "options": ["have never seen", "never am seeing", "was never seeing", "had never seen"],
+    "answer": 3,
+    "explanation": "\"It was the first time\" + experiência anterior a um momento passado → **had never seen**. \"Have never seen\" só serviria se a âncora fosse o presente (\"It IS the first time\").",
+    "difficulty": 3
+  },
+  {
+    "question": "Choose the sentence where the Past Perfect is used INCORRECTLY:",
+    "options": [
+      "After I had eaten breakfast, I went for a walk.",
+      "Yesterday I had woken up, had brushed my teeth and had left for work.",
+      "She knew she had made a mistake.",
+      "The game had already started when we turned on the TV."
+    ],
+    "answer": 1,
+    "explanation": "Uma **sequência simples** de ações no passado usa **Past Simple** (I woke up, brushed my teeth and left). O Past Perfect só entra quando você precisa marcar qual de duas ações veio primeiro.",
+    "difficulty": 3
+  },
+  {
+    "question": "If we ___ the house earlier, we wouldn't have missed the flight.",
+    "options": ["had left", "would leave", "have left", "left"],
+    "answer": 0,
+    "explanation": "**3ª condicional**: If + **Past Perfect** (had left), would have + particípio. \"Left\" (2ª condicional) não combina com \"wouldn't have missed\".",
+    "difficulty": 3
+  },
+  {
+    "question": "No sooner ___ the office than the phone rang.",
+    "options": ["I had left", "I left", "did I leave", "had I left"],
+    "answer": 3,
+    "explanation": "Com **No sooner... than**, usa-se Past Perfect com **inversão**: No sooner **had I left**... A ordem sujeito-verbo se inverte, como numa pergunta.",
+    "difficulty": 3
+  },
+  {
+    "question": "It was the third time that week that he ___ late for work.",
+    "options": ["arrives", "has arrived", "had arrived", "was arriving"],
+    "answer": 2,
+    "explanation": "\"It **was** the third time that...\" (âncora no passado) pede **Past Perfect**: had arrived. \"It IS the third time\" é que pediria **has arrived**.",
+    "difficulty": 3
+  }
+]

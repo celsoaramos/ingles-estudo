@@ -1,0 +1,176 @@
+[
+  {
+    "question": "At 7 a.m. today, she ___ for the bus.",
+    "options": ["waits", "was waiting", "is waiting", "waiting"],
+    "answer": 1,
+    "explanation": "Ação em andamento em um **momento específico do passado** (às 7h) → **was waiting**.",
+    "difficulty": 1
+  },
+  {
+    "question": "They ___ cards when we arrived.",
+    "options": ["played", "play", "were playing", "was playing"],
+    "answer": 2,
+    "explanation": "A ação já estava **em andamento** quando chegamos → Past Continuous. Com they → **were** playing.",
+    "difficulty": 1
+  },
+  {
+    "question": "The students ___ taking notes during the class.",
+    "options": ["was", "is", "are", "were"],
+    "answer": 3,
+    "explanation": "Sujeito plural (the students) no passado → **were** taking. \"Was\" é para I/he/she/it.",
+    "difficulty": 1
+  },
+  {
+    "question": "He ___ paying attention, so he missed the question.",
+    "options": ["wasn't", "weren't", "didn't", "isn't"],
+    "answer": 0,
+    "explanation": "Negativa do Past Continuous com **he**: **wasn't** + verbo-ing. \"Didn't paying\" não existe.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ it snowing when you left?",
+    "options": ["Did", "Were", "Was", "Is"],
+    "answer": 2,
+    "explanation": "Pergunta no Past Continuous com **it**: **Was** it snowing? \"Did\" pediria verbo na base, não -ing.",
+    "difficulty": 1
+  },
+  {
+    "question": "What ___ you doing at 9 p.m. last night?",
+    "options": ["was", "did", "are", "were"],
+    "answer": 3,
+    "explanation": "Com **you**, o passado do to be é **were**: What were you doing?",
+    "difficulty": 1
+  },
+  {
+    "question": "The dog ___ loudly all night.",
+    "options": ["barks", "was barking", "were barking", "is barking"],
+    "answer": 1,
+    "explanation": "Ação prolongada no passado (**all night**) → Past Continuous. \"The dog\" = it → **was** barking.",
+    "difficulty": 1
+  },
+  {
+    "question": "She was reading while her brothers ___ video games.",
+    "options": ["was playing", "were playing", "are playing", "play"],
+    "answer": 1,
+    "explanation": "Duas ações longas ao mesmo tempo com **while** → Continuous nas duas. \"Brothers\" é plural → **were**.",
+    "difficulty": 2
+  },
+  {
+    "question": "I broke a glass while I ___ the dishes.",
+    "options": ["was washing", "washes", "am washing", "wash"],
+    "answer": 0,
+    "explanation": "**While** + ação longa em andamento no passado → **was washing**. O evento curto (broke) fica no Past Simple.",
+    "difficulty": 2
+  },
+  {
+    "question": "Was he studying when you got home? — Yes, he ___.",
+    "options": ["did", "studied", "was", "were"],
+    "answer": 2,
+    "explanation": "Resposta curta repete o auxiliar da pergunta: Was he…? → Yes, he **was**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "We was waiting for an hour.",
+      "We were wait for an hour.",
+      "We waiting for an hour.",
+      "We were waiting for an hour."
+    ],
+    "answer": 3,
+    "explanation": "**We** usa **were**, e o Past Continuous exige to be + verbo com **-ing**: were waiting.",
+    "difficulty": 2
+  },
+  {
+    "question": "The sun ___ and the birds were singing when we left the house.",
+    "options": ["is shining", "shines", "shining", "was shining"],
+    "answer": 3,
+    "explanation": "Descrição de **cenário** no passado → Past Continuous: **was shining**, em paralelo com \"were singing\".",
+    "difficulty": 2
+  },
+  {
+    "question": "___ they living in Curitiba in 2021?",
+    "options": ["Was", "Did", "Were", "Are"],
+    "answer": 2,
+    "explanation": "Situação em andamento em um ponto do passado (in 2021) → **Were** they living? They usa were.",
+    "difficulty": 2
+  },
+  {
+    "question": "They ___ listening, so they didn't understand the instructions.",
+    "options": ["weren't", "didn't", "wasn't", "aren't"],
+    "answer": 0,
+    "explanation": "Negativa com **they** no Past Continuous: **weren't** listening. \"Wasn't\" seria para I/he/she/it.",
+    "difficulty": 2
+  },
+  {
+    "question": "When I saw them, they ___ about the project.",
+    "options": ["talk", "was talking", "were talking", "are talking"],
+    "answer": 2,
+    "explanation": "A conversa já estava **em andamento** quando eu os vi → **were talking** (they → were).",
+    "difficulty": 2
+  },
+  {
+    "question": "I ___ my leg while I was skiing.",
+    "options": ["was breaking", "broke", "breaked", "were breaking"],
+    "answer": 1,
+    "explanation": "O evento **curto e pontual** fica no Past Simple: **broke** (irregular). A ação longa (was skiing) fica no Continuous.",
+    "difficulty": 2
+  },
+  {
+    "question": "At the time of the robbery, the guard ___.",
+    "options": ["was sleeping", "sleeps", "is sleeping", "sleeping"],
+    "answer": 0,
+    "explanation": "O que estava acontecendo **naquele momento do passado** → **was sleeping**. Só \"sleeping\" sem o was é erro comum.",
+    "difficulty": 2
+  },
+  {
+    "question": "While my dad ___ the car, my mom ___ the garden.",
+    "options": [
+      "washed / watered",
+      "was washing / was watering",
+      "was washing / watered",
+      "washing / watering"
+    ],
+    "answer": 1,
+    "explanation": "Duas ações longas **simultâneas** com while → Past Continuous nas **duas**: was washing / was watering.",
+    "difficulty": 3
+  },
+  {
+    "question": "I ___ the answer, so I raised my hand.",
+    "options": ["was knowing", "was know", "knowed", "knew"],
+    "answer": 3,
+    "explanation": "**Know** é verbo de estado — não vai para -ing. Passado irregular: **knew** (\"knowed\" não existe).",
+    "difficulty": 3
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She was seeming tired after the trip.",
+      "She was wanting a new car.",
+      "She was feeling tired after the trip.",
+      "She was knowing the truth."
+    ],
+    "answer": 2,
+    "explanation": "**Feel** aceita a forma contínua (was feeling). Já **seem, want e know** são verbos de estado e não usam -ing.",
+    "difficulty": 3
+  },
+  {
+    "question": "When the fire alarm ___, everybody ___ lunch.",
+    "options": [
+      "rang / was eating",
+      "was ringing / ate",
+      "rang / were eating",
+      "was ringing / was eating"
+    ],
+    "answer": 0,
+    "explanation": "Interrupção curta no Simple (**rang**) + ação em andamento no Continuous. **Everybody** é singular → **was** eating.",
+    "difficulty": 3
+  },
+  {
+    "question": "When Ana arrived, we ___ dinner, so she joined us.",
+    "options": ["had", "were having", "have had", "was having"],
+    "answer": 1,
+    "explanation": "O jantar já estava **em andamento** quando ela chegou → **were having**. \"Had\" significaria que jantamos **depois** da chegada dela.",
+    "difficulty": 3
+  }
+]

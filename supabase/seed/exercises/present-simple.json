@@ -1,0 +1,171 @@
+[
+  {
+    "question": "He ___ up at 6 a.m. every day.",
+    "options": ["wake", "wakes", "is waking", "waking"],
+    "answer": 1,
+    "explanation": "Rotina com **he** (3ª pessoa) no Present Simple: verbo + **-s** → wakes.",
+    "difficulty": 1
+  },
+  {
+    "question": "We ___ English on Mondays.",
+    "options": ["study", "studies", "studying", "are study"],
+    "answer": 0,
+    "explanation": "Com **we**, o verbo fica na forma base: study. O **-s** é só para he/she/it.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ your brother work here?",
+    "options": ["Do", "Is", "Does", "Are"],
+    "answer": 2,
+    "explanation": "\"Your brother\" = **he** → pergunta com **Does**. \"Is/Are\" não se usa com verbo de ação no Present Simple.",
+    "difficulty": 1
+  },
+  {
+    "question": "They ___ live in Recife anymore.",
+    "options": ["doesn't", "aren't", "not", "don't"],
+    "answer": 3,
+    "explanation": "Negativa com **they** usa **don't** + verbo base. \"Doesn't\" é só para he/she/it.",
+    "difficulty": 1
+  },
+  {
+    "question": "My parents ___ TV in the evening.",
+    "options": ["watches", "watch", "is watching", "watching"],
+    "answer": 1,
+    "explanation": "\"My parents\" = **they** (plural) → verbo **sem -s**: watch. \"Watches\" seria para he/she/it.",
+    "difficulty": 1
+  },
+  {
+    "question": "It ___ a lot in the Amazon.",
+    "options": ["rain", "raining", "rains", "is rain"],
+    "answer": 2,
+    "explanation": "Fato geral com **it** → Present Simple com **-s**: rains.",
+    "difficulty": 1
+  },
+  {
+    "question": "I ___ coffee in the morning; I prefer tea.",
+    "options": ["don't drink", "doesn't drink", "am not drink", "not drink"],
+    "answer": 0,
+    "explanation": "Negativa com **I**: **don't** + verbo base. \"Am not drink\" mistura to be com verbo de ação — errado.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ she ___ the piano?",
+    "options": ["Do / play", "Does / plays", "Do / plays", "Does / play"],
+    "answer": 3,
+    "explanation": "Com **she**, a pergunta usa **Does** e o verbo volta à forma **base** (play, sem -s). O -s só aparece uma vez na frase.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He watches TV every night.",
+      "He watchs TV every night.",
+      "He watch TV every night.",
+      "He is watch TV every night."
+    ],
+    "answer": 0,
+    "explanation": "Verbos terminados em **-ch** ganham **-es** na 3ª pessoa: watch → **watches**.",
+    "difficulty": 2
+  },
+  {
+    "question": "She ___ hard before every exam.",
+    "options": ["studys", "study", "studies", "is study"],
+    "answer": 2,
+    "explanation": "Verbo terminado em consoante + **y**: o y vira **-ies** na 3ª pessoa → study → **studies**.",
+    "difficulty": 2
+  },
+  {
+    "question": "What time ___ the museum open?",
+    "options": ["does", "do", "is", "are"],
+    "answer": 0,
+    "explanation": "\"The museum\" = **it** → auxiliar **does**. Depois dele, o verbo fica na base: open.",
+    "difficulty": 2
+  },
+  {
+    "question": "Does Anna like jazz? — Yes, she ___.",
+    "options": ["likes", "does", "do", "is"],
+    "answer": 1,
+    "explanation": "Resposta curta repete o **auxiliar** da pergunta: Does…? → Yes, she **does**. Não se repete o verbo.",
+    "difficulty": 2
+  },
+  {
+    "question": "Do you speak Spanish? — No, I ___.",
+    "options": ["don't", "doesn't", "am not", "not"],
+    "answer": 0,
+    "explanation": "Resposta curta negativa com **I**: No, I **don't**. O auxiliar da pergunta (do) volta na resposta.",
+    "difficulty": 2
+  },
+  {
+    "question": "My brother never ___ his room.",
+    "options": ["clean", "cleaning", "is cleaning", "cleans"],
+    "answer": 3,
+    "explanation": "**Never** é advérbio de frequência (rotina) e a frase continua afirmativa: 3ª pessoa → clean**s**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She doesn't likes fish.",
+      "She doesn't like fish.",
+      "She don't like fish.",
+      "She not likes fish."
+    ],
+    "answer": 1,
+    "explanation": "Com **doesn't**, o verbo perde o -s: doesn't **like**. O -s já está no auxiliar.",
+    "difficulty": 2
+  },
+  {
+    "question": "The train ___ at 9:15 tomorrow.",
+    "options": ["leave", "is leave", "leaving", "leaves"],
+    "answer": 3,
+    "explanation": "**Horário fixo/programação** (trem, voo, cinema) usa Present Simple mesmo para o futuro: the train **leaves**.",
+    "difficulty": 3
+  },
+  {
+    "question": "Where ___ he usually have lunch?",
+    "options": ["do", "is", "does", "has"],
+    "answer": 2,
+    "explanation": "Pergunta com **he** → **does**. \"Usually\" confirma a rotina (Present Simple).",
+    "difficulty": 2
+  },
+  {
+    "question": "One of my friends ___ in Canada.",
+    "options": ["live", "lives", "are living", "don't live"],
+    "answer": 1,
+    "explanation": "O sujeito é **one** (singular), não \"friends\" → verbo com **-s**: lives.",
+    "difficulty": 3
+  },
+  {
+    "question": "He ___ two brothers and a sister.",
+    "options": ["haves", "have", "is having", "has"],
+    "answer": 3,
+    "explanation": "**Have** é irregular na 3ª pessoa: he **has** (nunca \"haves\"). Posse é estado, não usa -ing.",
+    "difficulty": 2
+  },
+  {
+    "question": "Everybody ___ pizza at this school.",
+    "options": ["like", "are liking", "likes", "is like"],
+    "answer": 2,
+    "explanation": "**Everybody** é gramaticalmente **singular** → verbo com -s: likes. E \"like\" é verbo de estado, não vai para -ing.",
+    "difficulty": 3
+  },
+  {
+    "question": "Which question is correct?",
+    "options": [
+      "Does she has a car?",
+      "Does she have a car?",
+      "Do she have a car?",
+      "Does she haves a car?"
+    ],
+    "answer": 1,
+    "explanation": "Depois de **does**, o verbo volta à base: **have** (não \"has\"). O does já marca a 3ª pessoa.",
+    "difficulty": 3
+  },
+  {
+    "question": "The news ___ at 8 p.m. every night.",
+    "options": ["start", "are starting", "starts", "am start"],
+    "answer": 2,
+    "explanation": "**News** parece plural, mas é **singular** em inglês → the news **starts**. \"Every night\" = rotina, Present Simple.",
+    "difficulty": 3
+  }
+]

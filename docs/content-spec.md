@@ -1,6 +1,15 @@
-# Especificação de conteúdo — assuntos (src/data/topics/*.json)
+# Especificação de conteúdo — assuntos (supabase/seed/topics/*.json)
 
-Cada assunto é um arquivo JSON em `src/data/topics/`. O arquivo `conditionals.json` é o exemplo de referência — siga exatamente o mesmo estilo.
+Cada assunto é um arquivo JSON em `supabase/seed/topics/`. O arquivo `conditionals.json` é o exemplo de referência — siga exatamente o mesmo estilo.
+
+**O banco (Supabase) é populado a partir destes arquivos** com `npm run seed`
+(idempotente). Nunca edite conteúdo direto no Studio — a identidade de cada
+questão é um hash de pergunta+opções; editar no banco quebra o vínculo com o
+seed e some no próximo `npm run seed`.
+
+Questões extras (além das do arquivo do tópico) vivem em
+`supabase/seed/exercises/<topic-id>.json` — um array de exercícios com o mesmo
+schema abaixo, mais o campo `difficulty` (1 fácil · 2 médio · 3 difícil).
 
 ## Filosofia do conteúdo
 

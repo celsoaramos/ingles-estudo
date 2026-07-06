@@ -1,0 +1,166 @@
+[
+  {
+    "question": "My dad ___ a lot of coffee, but he quit last year.",
+    "options": ["used to drinking", "used to drink", "is used to drink", "use to drank"],
+    "answer": 1,
+    "explanation": "Hábito passado que acabou (\"he quit\") → **used to + verbo base** (drink).",
+    "difficulty": 1
+  },
+  {
+    "question": "There ___ a cinema on this street, but they demolished it.",
+    "options": ["used to be", "used to being", "uses to be", "was used to be"],
+    "answer": 0,
+    "explanation": "Situação passada que não existe mais → **there used to be** (used to + verbo base).",
+    "difficulty": 1
+  },
+  {
+    "question": "She ___ long hair when she was a teenager.",
+    "options": ["used to has", "is used to have", "used to have", "used to having"],
+    "answer": 2,
+    "explanation": "Situação do passado que acabou → **used to + verbo base** (have, sem -s e sem -ing).",
+    "difficulty": 1
+  },
+  {
+    "question": "We ___ to the beach every summer when I was little.",
+    "options": ["use to going", "used to went", "are used to go", "used to go"],
+    "answer": 3,
+    "explanation": "Hábito da infância → **used to + verbo base** (go). \"Used to went\" repete o passado duas vezes — só o *used* marca o tempo.",
+    "difficulty": 1
+  },
+  {
+    "question": "He ___ vegetables, but now he eats them every day.",
+    "options": ["didn't used to eat", "didn't use to eat", "doesn't use to eat", "didn't use to ate"],
+    "answer": 1,
+    "explanation": "Negativa: **didn't use to** (sem o -d, pois o *didn't* já marca o passado). \"Didn't used to\" é o erro clássico.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ you ___ in this neighborhood before you moved downtown?",
+    "options": ["Did / use to live", "Did / used to live", "Do / use to live", "Were / used to live"],
+    "answer": 0,
+    "explanation": "Pergunta: **Did + sujeito + use to** (sem -d) + verbo base. O *did* já carrega o passado.",
+    "difficulty": 1
+  },
+  {
+    "question": "He's used to ___ in heavy traffic, so the commute doesn't stress him.",
+    "options": ["drive", "drove", "driving", "drives"],
+    "answer": 2,
+    "explanation": "**Be used to + -ing**: aqui o \"to\" é preposição, então o verbo vai para **driving** (= estar acostumado).",
+    "difficulty": 1
+  },
+  {
+    "question": "At first the night shift was hard, but I ___ it after a few months.",
+    "options": ["used to", "got used to", "use to", "was used for"],
+    "answer": 1,
+    "explanation": "Processo de se acostumar (mudança ao longo dos meses) → **got used to**. \"Used to\" sozinho seria hábito passado, outro sentido.",
+    "difficulty": 2
+  },
+  {
+    "question": "Don't worry — you'll ___ the new software soon.",
+    "options": ["get used to", "used to", "be use to", "getting used to"],
+    "answer": 0,
+    "explanation": "Depois de **will**, verbo base: you'll **get used to** = você vai se acostumar (processo futuro).",
+    "difficulty": 2
+  },
+  {
+    "question": "Find the mistake: \"I use to play soccer every weekend when I was a kid.\"",
+    "options": ["use → used", "play → playing", "every → all", "was → were"],
+    "answer": 0,
+    "explanation": "Na afirmativa, o passado se marca com **used to** (com -d). \"Use to\" sozinho não existe no presente nem na afirmativa do passado.",
+    "difficulty": 2
+  },
+  {
+    "question": "If you move to London, you'll have to get used to ___ on the left.",
+    "options": ["drive", "drove", "drives", "driving"],
+    "answer": 3,
+    "explanation": "**Get used to + -ing**: o \"to\" é preposição → **driving**. Não confunda com \"used to drive\" (hábito passado).",
+    "difficulty": 2
+  },
+  {
+    "question": "I ___ nervous before exams, but now I stay calm.",
+    "options": ["am used to be", "used to being", "used to be", "use to be"],
+    "answer": 2,
+    "explanation": "Situação passada que mudou (\"but now...\") → **used to + verbo base** (be).",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence means the habit STILL exists today?",
+    "options": [
+      "I used to run every morning.",
+      "I didn't use to run.",
+      "There used to be a gym here.",
+      "I'm used to running every morning."
+    ],
+    "answer": 3,
+    "explanation": "**I'm used to running** = estou acostumado (estado **atual**). Todas as frases com *used to* sozinho falam de um passado que acabou.",
+    "difficulty": 2
+  },
+  {
+    "question": "As a waiter, he ___ dealing with rude customers — nothing surprises him anymore.",
+    "options": ["used to", "is used to", "gets used", "was use to"],
+    "answer": 1,
+    "explanation": "Estado atual de estar acostumado (\"nothing surprises him\") → **is used to + -ing**.",
+    "difficulty": 2
+  },
+  {
+    "question": "They ___ in a huge house, but they had to downsize.",
+    "options": ["used to living", "use to live", "used to live", "are used to live"],
+    "answer": 2,
+    "explanation": "Situação passada que acabou → **used to + verbo base** (live). \"Used to living\" mistura as duas estruturas.",
+    "difficulty": 2
+  },
+  {
+    "question": "___ she ___ blonde hair when she was younger?",
+    "options": ["Didn't / used to have", "Didn't / use to have", "Doesn't / use to have", "Didn't / use to had"],
+    "answer": 1,
+    "explanation": "Com **didn't**, cai o -d: **use to** + verbo base (have). \"Didn't used to\" é o erro mais comum.",
+    "difficulty": 2
+  },
+  {
+    "question": "Slowly, the new recruits ___ the freezing early mornings.",
+    "options": ["get use to", "used to", "were used for", "got used to"],
+    "answer": 3,
+    "explanation": "Processo gradual no passado (\"slowly\") → **got used to** = foram se acostumando.",
+    "difficulty": 2
+  },
+  {
+    "question": "As a child, I ___ a dog named Rex.",
+    "options": ["would have", "was having", "used to have", "use to have"],
+    "answer": 2,
+    "explanation": "**Would** só substitui *used to* em **ações repetidas** (we would play...), nunca em **estados** como ter, morar, gostar → **used to have**.",
+    "difficulty": 3
+  },
+  {
+    "question": "After ten years in England, she ___ the rain — it doesn't bother her at all.",
+    "options": ["used to", "gets used to", "is used to", "was used to"],
+    "answer": 2,
+    "explanation": "Estado **atual** (\"doesn't bother her\") → **is used to**. \"Was used to\" jogaria para o passado, e \"gets used to\" indicaria processo ainda em curso.",
+    "difficulty": 3
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I can't get used to wake up early.",
+      "I can't get use to waking up early.",
+      "I can't used to waking up early.",
+      "I can't get used to waking up early."
+    ],
+    "answer": 3,
+    "explanation": "**Get used to + -ing** (waking). O \"to\" é preposição, então nada de verbo base depois dele; e a forma é *used*, com -d.",
+    "difficulty": 3
+  },
+  {
+    "question": "She never got used ___ alone after her children left.",
+    "options": ["to be", "to being", "being", "to been"],
+    "answer": 1,
+    "explanation": "**Get used to + -ing**: o \"to\" é preposição → **to being** alone. \"To be\" trataria o *to* como infinitivo, o que está errado aqui.",
+    "difficulty": 3
+  },
+  {
+    "question": "___ there ___ a castle on this hill centuries ago?",
+    "options": ["Did / use to be", "Did / used to be", "Was / use to be", "Did / use to being"],
+    "answer": 0,
+    "explanation": "Pergunta com *there*: **Did there use to be...?** — o *did* marca o passado, então **use to** fica sem -d, seguido de verbo base (be).",
+    "difficulty": 3
+  }
+]

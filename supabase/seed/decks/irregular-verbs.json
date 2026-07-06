@@ -1,0 +1,208 @@
+{
+  "slug": "irregular-verbs",
+  "title": "Verbos Irregulares",
+  "description": "Os 40 verbos irregulares mais usados do inglês, com passado e particípio.",
+  "accent": "blue",
+  "cards": [
+    {
+      "front": "be (was/were, been)",
+      "back": "ser, estar",
+      "example": "She was at home yesterday."
+    },
+    {
+      "front": "have (had, had)",
+      "back": "ter",
+      "example": "We had a great time at the party."
+    },
+    {
+      "front": "do (did, done)",
+      "back": "fazer",
+      "example": "I did my homework last night."
+    },
+    {
+      "front": "say (said, said)",
+      "back": "dizer",
+      "example": "He said he was tired."
+    },
+    {
+      "front": "go (went, gone)",
+      "back": "ir",
+      "example": "They went to the beach on Sunday."
+    },
+    {
+      "front": "get (got, gotten)",
+      "back": "conseguir, pegar, ficar (muito usado!)",
+      "example": "I got a new job last month."
+    },
+    {
+      "front": "make (made, made)",
+      "back": "fazer, criar",
+      "example": "She made a delicious cake."
+    },
+    {
+      "front": "know (knew, known)",
+      "back": "saber, conhecer",
+      "example": "I knew the answer right away."
+    },
+    {
+      "front": "think (thought, thought)",
+      "back": "pensar, achar",
+      "example": "I thought the movie was great."
+    },
+    {
+      "front": "take (took, taken)",
+      "back": "pegar, levar",
+      "example": "He took the bus to work."
+    },
+    {
+      "front": "see (saw, seen)",
+      "back": "ver",
+      "example": "I saw your sister at the mall."
+    },
+    {
+      "front": "come (came, come)",
+      "back": "vir",
+      "example": "She came to visit us last weekend."
+    },
+    {
+      "front": "give (gave, given)",
+      "back": "dar",
+      "example": "They gave me a present for my birthday."
+    },
+    {
+      "front": "find (found, found)",
+      "back": "encontrar, achar",
+      "example": "I found my keys under the sofa."
+    },
+    {
+      "front": "tell (told, told)",
+      "back": "contar, dizer (a alguém)",
+      "example": "She told me a secret."
+    },
+    {
+      "front": "become (became, become)",
+      "back": "tornar-se, virar",
+      "example": "He became a doctor in 2020."
+    },
+    {
+      "front": "leave (left, left)",
+      "back": "sair, partir, deixar",
+      "example": "We left the office at six."
+    },
+    {
+      "front": "feel (felt, felt)",
+      "back": "sentir, sentir-se",
+      "example": "I felt sick this morning."
+    },
+    {
+      "front": "put (put, put)",
+      "back": "colocar (não muda no passado)",
+      "example": "She put the book on the table."
+    },
+    {
+      "front": "bring (brought, brought)",
+      "back": "trazer",
+      "example": "He brought wine to the dinner."
+    },
+    {
+      "front": "begin (began, begun)",
+      "back": "começar",
+      "example": "The class began at eight."
+    },
+    {
+      "front": "keep (kept, kept)",
+      "back": "manter, guardar, continuar",
+      "example": "She kept all his letters."
+    },
+    {
+      "front": "hold (held, held)",
+      "back": "segurar, realizar (evento)",
+      "example": "He held the door for me."
+    },
+    {
+      "front": "write (wrote, written)",
+      "back": "escrever",
+      "example": "She wrote an email to her boss."
+    },
+    {
+      "front": "stand (stood, stood)",
+      "back": "ficar de pé, aguentar",
+      "example": "We stood in line for an hour."
+    },
+    {
+      "front": "hear (heard, heard)",
+      "back": "ouvir",
+      "example": "I heard a strange noise outside."
+    },
+    {
+      "front": "let (let, let)",
+      "back": "deixar, permitir (não muda no passado)",
+      "example": "My parents let me stay out late."
+    },
+    {
+      "front": "mean (meant, meant)",
+      "back": "significar, querer dizer",
+      "example": "Sorry, I meant no harm."
+    },
+    {
+      "front": "meet (met, met)",
+      "back": "conhecer, encontrar-se com",
+      "example": "I met her at a conference in 2019."
+    },
+    {
+      "front": "run (ran, run)",
+      "back": "correr, administrar",
+      "example": "He ran five kilometers this morning."
+    },
+    {
+      "front": "pay (paid, paid)",
+      "back": "pagar",
+      "example": "She paid the bill with her card."
+    },
+    {
+      "front": "sit (sat, sat)",
+      "back": "sentar",
+      "example": "We sat in the front row."
+    },
+    {
+      "front": "speak (spoke, spoken)",
+      "back": "falar",
+      "example": "I spoke to the manager about the problem."
+    },
+    {
+      "front": "read (read, read)",
+      "back": "ler (escrita igual, mas o passado soa como 'red')",
+      "example": "I read that book last year."
+    },
+    {
+      "front": "lose (lost, lost)",
+      "back": "perder",
+      "example": "He lost his wallet on the trip."
+    },
+    {
+      "front": "eat (ate, eaten)",
+      "back": "comer",
+      "example": "We ate pizza for dinner."
+    },
+    {
+      "front": "drink (drank, drunk)",
+      "back": "beber",
+      "example": "She drank two cups of coffee."
+    },
+    {
+      "front": "buy (bought, bought)",
+      "back": "comprar",
+      "example": "I bought new shoes yesterday."
+    },
+    {
+      "front": "sleep (slept, slept)",
+      "back": "dormir",
+      "example": "The baby slept all night."
+    },
+    {
+      "front": "forget (forgot, forgotten)",
+      "back": "esquecer",
+      "example": "I forgot my umbrella at home."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+[
+  {
+    "question": "This chair is ___ than the old one.",
+    "options": ["comfortabler", "more comfortable", "most comfortable", "comfortable"],
+    "answer": 1,
+    "explanation": "Adjetivo longo (comfortable) → **more + adjetivo + than**. \"Comfortabler\" não existe.",
+    "difficulty": 1
+  },
+  {
+    "question": "January is ___ month of the year in Canada.",
+    "options": ["the coldest", "coldest", "the colder", "more cold"],
+    "answer": 0,
+    "explanation": "Superlativo de adjetivo curto → **the + -est**: the coldest. Superlativo sempre pede **the**.",
+    "difficulty": 1
+  },
+  {
+    "question": "My sister is two years ___ than me.",
+    "options": ["more young", "youngest", "younger", "the younger"],
+    "answer": 2,
+    "explanation": "Adjetivo curto (young) → **younger than**. \"More young\" mistura as duas formas e está errado.",
+    "difficulty": 1
+  },
+  {
+    "question": "That was ___ meal I've had in years.",
+    "options": ["worse", "the worst", "the worse", "most bad"],
+    "answer": 1,
+    "explanation": "Irregular: bad → worse → **the worst**. Superlativo pede **the** + forma superlativa.",
+    "difficulty": 1
+  },
+  {
+    "question": "A plane is ___ than a train.",
+    "options": ["fastest", "more fast", "the faster", "faster"],
+    "answer": 3,
+    "explanation": "Adjetivo curto (fast) → **faster than**. \"More fast\" não existe em inglês.",
+    "difficulty": 1
+  },
+  {
+    "question": "Maria is ___ student in our English class.",
+    "options": ["the more intelligent", "most intelligent", "the most intelligent", "intelligentest"],
+    "answer": 2,
+    "explanation": "Adjetivo longo no superlativo → **the most + adjetivo**. Sem o \"the\" a frase fica incompleta.",
+    "difficulty": 1
+  },
+  {
+    "question": "My dog is ___ than my cat.",
+    "options": ["friendlier", "more friendlier", "friendliest", "the friendlier"],
+    "answer": 0,
+    "explanation": "Friendly termina em -y → y vira i: **friendlier**. \"More friendlier\" dobra o comparativo — erro clássico.",
+    "difficulty": 1
+  },
+  {
+    "question": "This street is much ___ at night.",
+    "options": ["more dangerous", "dangerouser", "most dangerous", "the dangerous"],
+    "answer": 0,
+    "explanation": "Adjetivo longo (dangerous) → **more dangerous**. \"Dangerouser\" não existe.",
+    "difficulty": 2
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "My new phone is more lighter than the old one.",
+      "My new phone is lighter than the old one.",
+      "My new phone is lighter that the old one.",
+      "My new phone is the lighter than the old one."
+    ],
+    "answer": 1,
+    "explanation": "Adjetivo curto → **lighter + than**. Nunca use \"more\" junto com -er, e comparativo pede **than**, não \"that\".",
+    "difficulty": 2
+  },
+  {
+    "question": "Traffic today is ___ than usual.",
+    "options": ["badder", "more bad", "the worst", "worse"],
+    "answer": 3,
+    "explanation": "Irregular: bad → **worse** than. \"Badder\" e \"more bad\" não existem; \"the worst\" é superlativo.",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence has a mistake?",
+    "options": [
+      "She is the tallest player on the team.",
+      "This test was easier than the last one.",
+      "He is most talented singer in the group.",
+      "My bag is heavier than yours."
+    ],
+    "answer": 2,
+    "explanation": "Faltou o **the**: o certo é \"He is **the** most talented singer\". Superlativo sempre anda com **the**.",
+    "difficulty": 2
+  },
+  {
+    "question": "The red dress is ___ than the blue one.",
+    "options": ["prettyer", "prettier", "more pretty", "the prettiest"],
+    "answer": 1,
+    "explanation": "Pretty termina em -y → y vira i: **prettier**. \"Prettyer\" erra a ortografia.",
+    "difficulty": 2
+  },
+  {
+    "question": "She is ___ person I know.",
+    "options": ["the funniest", "the funnyest", "funniest", "the most funny"],
+    "answer": 0,
+    "explanation": "Superlativo com **the** + ortografia: funny → y vira i → **the funniest**.",
+    "difficulty": 2
+  },
+  {
+    "question": "He looks ___ than before — is he eating well?",
+    "options": ["thiner", "more thin", "the thinnest", "thinner"],
+    "answer": 3,
+    "explanation": "Thin é CVC (consoante-vogal-consoante) → dobra o n: **thinner**. \"Thiner\" erra a ortografia.",
+    "difficulty": 2
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "Gold is expensiver than silver.",
+      "Gold is the most expensive than silver.",
+      "Gold is more expensive that silver.",
+      "Gold is more expensive than silver."
+    ],
+    "answer": 3,
+    "explanation": "Adjetivo longo → **more expensive + than**. Superlativo (the most) não combina com \"than\", e \"that\" não substitui \"than\".",
+    "difficulty": 2
+  },
+  {
+    "question": "The team played much ___ in the second half.",
+    "options": ["more good", "best", "better", "the better"],
+    "answer": 2,
+    "explanation": "Irregular: good → **better**. \"More good\" não existe e \"best\" é superlativo.",
+    "difficulty": 2
+  },
+  {
+    "question": "The situation is getting ___ every day.",
+    "options": ["worst", "more worse", "worse", "the worse"],
+    "answer": 2,
+    "explanation": "Irregular: bad → **worse**. \"More worse\" dobra o comparativo — nunca misture more + comparativo.",
+    "difficulty": 2
+  },
+  {
+    "question": "The blue whale is ___ animal on Earth.",
+    "options": ["the largest", "the most large", "largest", "the largerest"],
+    "answer": 0,
+    "explanation": "Large termina em -e → só acrescenta -st: **the largest**. Adjetivo curto não usa \"most\".",
+    "difficulty": 2
+  },
+  {
+    "question": "My brother is not as tall ___ my father.",
+    "options": ["than", "as", "that", "like"],
+    "answer": 1,
+    "explanation": "Estrutura de igualdade: **as + adjetivo + as**. \"Than\" só aparece com comparativo (-er/more).",
+    "difficulty": 3
+  },
+  {
+    "question": "We had to walk much ___ than we planned.",
+    "options": ["farrer", "more far", "further", "far"],
+    "answer": 2,
+    "explanation": "Irregular: far → **further** (ou farther) → the furthest. \"More far\" e \"farrer\" não existem.",
+    "difficulty": 3
+  },
+  {
+    "question": "The movie was just as good ___ the book.",
+    "options": ["than", "that", "so", "as"],
+    "answer": 3,
+    "explanation": "Igualdade usa o par **as ... as**: \"as good **as** the book\". Não misture com \"than\".",
+    "difficulty": 3
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I have less money than you.",
+      "I have lesser money than you.",
+      "I have littler money than you.",
+      "I have less money that you."
+    ],
+    "answer": 0,
+    "explanation": "Irregular: little → **less** → the least. E comparativo sempre pede **than**, não \"that\".",
+    "difficulty": 3
+  },
+  {
+    "question": "Rents here are twice ___ in my hometown.",
+    "options": ["higher than", "as high as", "more high than", "the highest"],
+    "answer": 1,
+    "explanation": "Com multiplicadores (twice, three times) usa-se **as + adjetivo + as**: twice **as high as**.",
+    "difficulty": 3
+  }
+]

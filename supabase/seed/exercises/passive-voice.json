@@ -1,0 +1,193 @@
+[
+  {
+    "question": "Rice ___ by farmers in many Asian countries.",
+    "options": ["grows", "is grown", "is growing", "grown"],
+    "answer": 1,
+    "explanation": "Present Simple passivo: **is/are + particípio** — \"Rice **is grown**\". O \"by farmers\" mostra que a frase é passiva.",
+    "difficulty": 1
+  },
+  {
+    "question": "The Mona Lisa ___ by Leonardo da Vinci.",
+    "options": ["painted", "was painting", "was painted", "is paint"],
+    "answer": 2,
+    "explanation": "Passado + agente com \"by\" → Past Simple passivo: **was + particípio** (\"was painted\"). Sem o \"to be\" a frase fica errada.",
+    "difficulty": 1
+  },
+  {
+    "question": "These cookies ___ by my grandmother every Sunday.",
+    "options": ["are made", "make", "are making", "made"],
+    "answer": 0,
+    "explanation": "Rotina no presente, sujeito recebe a ação → **are + made** (Present Simple passivo).",
+    "difficulty": 1
+  },
+  {
+    "question": "My phone ___ yesterday at the mall.",
+    "options": ["stole", "was stole", "stolen", "was stolen"],
+    "answer": 3,
+    "explanation": "Passiva no passado: **was + particípio**. O particípio de steal é **stolen** (\"stole\" é o passado simples).",
+    "difficulty": 1
+  },
+  {
+    "question": "The office ___ by a professional team every evening.",
+    "options": ["cleans", "is cleaned", "cleaned is", "is clean"],
+    "answer": 1,
+    "explanation": "Present Simple passivo: **is + cleaned**. \"Is clean\" (sem -ed) significa \"está limpo\" (adjetivo), não \"é limpo (por alguém)\".",
+    "difficulty": 1
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "The cake was ate by the kids.",
+      "The cake was eaten by the kids.",
+      "The cake eaten by the kids.",
+      "The cake was eat by the kids."
+    ],
+    "answer": 1,
+    "explanation": "Passiva = to be + **particípio**: was + **eaten**. \"Ate\" é passado simples e não pode ser usado na passiva.",
+    "difficulty": 1
+  },
+  {
+    "question": "Spanish and English ___ in this school.",
+    "options": ["are taught", "teaches", "are teaching", "taught"],
+    "answer": 0,
+    "explanation": "As línguas **recebem** a ação (alguém as ensina) → passiva: **are + taught**. O agente é irrelevante, por isso nem aparece.",
+    "difficulty": 1
+  },
+  {
+    "question": "The new hospital ___ by the mayor next month.",
+    "options": ["will open", "will be opened", "will be open", "is opened"],
+    "answer": 1,
+    "explanation": "Futuro passivo: **will be + particípio** (\"will be opened\"). \"Will be open\" (sem -ed) é adjetivo = \"estará aberto\".",
+    "difficulty": 2
+  },
+  {
+    "question": "Transform into the passive: \"They make these shoes in Italy.\"",
+    "options": [
+      "These shoes are made in Italy.",
+      "These shoes made in Italy.",
+      "These shoes are make in Italy.",
+      "These shoes is made in Italy."
+    ],
+    "answer": 0,
+    "explanation": "Objeto vira sujeito + to be no mesmo tempo (Present Simple, plural → **are**) + particípio (**made**).",
+    "difficulty": 2
+  },
+  {
+    "question": "Transform: \"Somebody has cleaned the room.\" → \"The room ___.\"",
+    "options": ["has cleaned", "was been cleaned", "has being cleaned", "has been cleaned"],
+    "answer": 3,
+    "explanation": "Present Perfect passivo: **has/have + been + particípio** — \"The room **has been cleaned**\".",
+    "difficulty": 2
+  },
+  {
+    "question": "Many changes ___ since the new manager arrived.",
+    "options": ["have made", "has been made", "have been made", "are made being"],
+    "answer": 2,
+    "explanation": "Present Perfect passivo com sujeito plural (\"changes\") → **have been made**. \"Has\" seria para singular.",
+    "difficulty": 2
+  },
+  {
+    "question": "The thief ___ by the police last night.",
+    "options": ["was catched", "caught", "was catch", "was caught"],
+    "answer": 3,
+    "explanation": "Past Simple passivo: was + particípio. Catch é irregular: o particípio é **caught** (\"catched\" não existe).",
+    "difficulty": 2
+  },
+  {
+    "question": "Which sentence contains a mistake?",
+    "options": [
+      "The letter was sent yesterday.",
+      "The house was built in 2005.",
+      "The book was wrote by a famous author.",
+      "The car was washed this morning."
+    ],
+    "answer": 2,
+    "explanation": "Na passiva usamos o **particípio** (3ª coluna): \"was **written**\". \"Wrote\" é o passado simples.",
+    "difficulty": 2
+  },
+  {
+    "question": "Transform: \"The company employs 200 people.\" → \"200 people ___ by the company.\"",
+    "options": ["are employed", "is employed", "employ", "are employing"],
+    "answer": 0,
+    "explanation": "O objeto (200 people) vira sujeito plural → **are + employed** (Present Simple passivo).",
+    "difficulty": 2
+  },
+  {
+    "question": "Breakfast ___ from 7 to 10 every morning at this hotel.",
+    "options": ["serves", "is serving", "is served", "served"],
+    "answer": 2,
+    "explanation": "O café da manhã não serve — ele **é servido** → **is served**. \"Serves\"/\"is serving\" fariam do breakfast o agente da ação.",
+    "difficulty": 2
+  },
+  {
+    "question": "Why is the passive voice used in \"My wallet was stolen\"?",
+    "options": [
+      "We don't know who did the action",
+      "The action happens regularly",
+      "The speaker did the action",
+      "It refers to the future"
+    ],
+    "answer": 0,
+    "explanation": "Usamos a passiva quando o **agente é desconhecido ou irrelevante** — não sabemos quem roubou, então o foco vai para a ação/objeto.",
+    "difficulty": 2
+  },
+  {
+    "question": "The invitations ___ to the guests yet.",
+    "options": ["haven't sent", "weren't send", "haven't being sent", "haven't been sent"],
+    "answer": 3,
+    "explanation": "Present Perfect passivo negativo: **haven't + been + particípio** — os convites não enviam, eles **são enviados**.",
+    "difficulty": 2
+  },
+  {
+    "question": "When ___ this castle built?",
+    "options": ["did", "was", "is", "has"],
+    "answer": 1,
+    "explanation": "Pergunta na passiva do Past Simple: **was/were + sujeito + particípio** — \"When **was** this castle built?\". Com \"did\" seria voz ativa (\"When did they build…?\").",
+    "difficulty": 2
+  },
+  {
+    "question": "This medicine ___ before meals.",
+    "options": ["must take", "must be taken", "must be take", "must been taken"],
+    "answer": 1,
+    "explanation": "Passiva com modal: **modal + be + particípio** — \"must **be taken**\". O remédio não toma, ele **é tomado**.",
+    "difficulty": 3
+  },
+  {
+    "question": "Transform: \"Scientists have discovered a new species.\" → \"A new species ___ by scientists.\"",
+    "options": ["has discovered", "have been discovered", "has been discovered", "was being discovered"],
+    "answer": 2,
+    "explanation": "Present Perfect passivo com sujeito singular (\"a new species\") → **has been discovered**. \"Have\" seria para plural.",
+    "difficulty": 3
+  },
+  {
+    "question": "The report can't ___ until the data is checked.",
+    "options": ["be published", "published", "to be published", "be publish"],
+    "answer": 0,
+    "explanation": "Depois de modal (can't), a passiva usa **be + particípio**: \"can't **be published**\" — sem \"to\" e com o verbo no particípio.",
+    "difficulty": 3
+  },
+  {
+    "question": "By December, the new stadium ___ .",
+    "options": [
+      "will have completed",
+      "will been completed",
+      "will has been completed",
+      "will have been completed"
+    ],
+    "answer": 3,
+    "explanation": "Future Perfect passivo: **will have been + particípio**. O estádio não completa nada — ele **será concluído**.",
+    "difficulty": 3
+  },
+  {
+    "question": "Choose the passive equivalent of: \"They should have finished the work by Friday.\"",
+    "options": [
+      "The work should have finished by Friday.",
+      "The work should be finished have by Friday.",
+      "The work should have been finished by Friday.",
+      "The work should have been finish by Friday."
+    ],
+    "answer": 2,
+    "explanation": "Modal perfeito na passiva: **should have been + particípio** — \"The work **should have been finished**\".",
+    "difficulty": 3
+  }
+]

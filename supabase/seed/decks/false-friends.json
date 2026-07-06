@@ -1,0 +1,133 @@
+{
+  "slug": "false-friends",
+  "title": "Falsos Cognatos",
+  "description": "25 falsos cognatos clássicos que enganam brasileiros — a palavra parece uma coisa, mas significa outra.",
+  "accent": "pink",
+  "cards": [
+    {
+      "front": "actually",
+      "back": "na verdade (NÃO é 'atualmente' — atualmente = currently)",
+      "example": "I thought he was French, but actually he's Belgian."
+    },
+    {
+      "front": "pretend",
+      "back": "fingir (NÃO é 'pretender' — pretender = intend)",
+      "example": "The kids pretended to be pirates."
+    },
+    {
+      "front": "push",
+      "back": "empurrar (NÃO é 'puxar' — puxar = pull)",
+      "example": "Push the door to open it."
+    },
+    {
+      "front": "parents",
+      "back": "pais (NÃO é 'parentes' — parentes = relatives)",
+      "example": "My parents live in São Paulo."
+    },
+    {
+      "front": "library",
+      "back": "biblioteca (NÃO é 'livraria' — livraria = bookstore)",
+      "example": "I borrowed three books from the library."
+    },
+    {
+      "front": "fabric",
+      "back": "tecido (NÃO é 'fábrica' — fábrica = factory)",
+      "example": "This dress is made of a soft fabric."
+    },
+    {
+      "front": "exquisite",
+      "back": "requintado, belíssimo (NÃO é 'esquisito' — esquisito = weird)",
+      "example": "The hotel served an exquisite dinner."
+    },
+    {
+      "front": "lecture",
+      "back": "palestra, aula (NÃO é 'leitura' — leitura = reading)",
+      "example": "The professor gave a lecture on climate change."
+    },
+    {
+      "front": "college",
+      "back": "faculdade (NÃO é 'colégio' — colégio = school)",
+      "example": "She's studying biology in college."
+    },
+    {
+      "front": "costume",
+      "back": "fantasia (NÃO é 'costume' — costume/hábito = habit, custom)",
+      "example": "He wore a superhero costume to the party."
+    },
+    {
+      "front": "eventually",
+      "back": "finalmente, no fim (NÃO é 'eventualmente' — eventualmente = occasionally)",
+      "example": "Keep trying and you'll eventually succeed."
+    },
+    {
+      "front": "attend",
+      "back": "comparecer, frequentar (NÃO é 'atender' — atender telefone = answer)",
+      "example": "I couldn't attend the meeting yesterday."
+    },
+    {
+      "front": "assist",
+      "back": "ajudar, auxiliar (NÃO é 'assistir' — assistir TV = watch)",
+      "example": "A nurse assisted the doctor during the surgery."
+    },
+    {
+      "front": "resume",
+      "back": "retomar, continuar (NÃO é 'resumir' — resumir = summarize)",
+      "example": "The meeting will resume after lunch."
+    },
+    {
+      "front": "notice",
+      "back": "perceber, notar; aviso (NÃO é 'notícia' — notícia = news)",
+      "example": "I didn't notice you had changed your hair."
+    },
+    {
+      "front": "pasta",
+      "back": "massa, macarrão (NÃO é 'pasta' — pasta de arquivos = folder)",
+      "example": "We had pasta with tomato sauce for dinner."
+    },
+    {
+      "front": "novel",
+      "back": "romance (livro) (NÃO é 'novela' — novela de TV = soap opera)",
+      "example": "She's writing her first novel."
+    },
+    {
+      "front": "sensible",
+      "back": "sensato (NÃO é 'sensível' — sensível = sensitive)",
+      "example": "Staying home in the storm was a sensible decision."
+    },
+    {
+      "front": "support",
+      "back": "apoiar, sustentar (NÃO é 'suportar/aguentar' — suportar = stand, bear)",
+      "example": "My family supports my decision to study abroad."
+    },
+    {
+      "front": "realize",
+      "back": "perceber, dar-se conta (NÃO é 'realizar' — realizar sonho = fulfill, achieve)",
+      "example": "I realized I had forgotten my keys."
+    },
+    {
+      "front": "prejudice",
+      "back": "preconceito (NÃO é 'prejuízo' — prejuízo = loss, damage)",
+      "example": "We must fight prejudice in all its forms."
+    },
+    {
+      "front": "injury",
+      "back": "ferimento, lesão (NÃO é 'injúria' — injúria = insult)",
+      "example": "He suffered a knee injury during the game."
+    },
+    {
+      "front": "grip",
+      "back": "aperto, pegada; segurar firme (NÃO é 'gripe' — gripe = flu)",
+      "example": "She kept a firm grip on the handrail."
+    },
+    {
+      "front": "cafeteria",
+      "back": "refeitório, cantina (NÃO é 'cafeteria' — café/cafeteria = coffee shop)",
+      "example": "The students had lunch in the school cafeteria."
+    },
+    {
+      "front": "anticipate",
+      "back": "prever, esperar (NÃO é 'antecipar/adiantar' — antecipar = bring forward)",
+      "example": "We anticipate heavy traffic this weekend."
+    }
+  ]
+}

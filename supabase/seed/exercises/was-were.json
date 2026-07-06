@@ -1,0 +1,161 @@
+[
+  {
+    "question": "I ___ very tired after work yesterday.",
+    "options": ["were", "was", "am", "did be"],
+    "answer": 1,
+    "explanation": "**I** usa **was** no passado. \"Am\" é presente, e o verbo to be nunca usa *did*.",
+    "difficulty": 1
+  },
+  {
+    "question": "You ___ so kind to me last week — thank you!",
+    "options": ["was", "are", "were", "been"],
+    "answer": 2,
+    "explanation": "**You** sempre usa **were**, mesmo no singular. \"You was\" é um erro clássico.",
+    "difficulty": 1
+  },
+  {
+    "question": "The weather ___ terrible during our trip.",
+    "options": ["were", "are", "is", "was"],
+    "answer": 3,
+    "explanation": "**The weather** = it (singular) → **was**. \"Is\" seria presente, mas a viagem já aconteceu.",
+    "difficulty": 1
+  },
+  {
+    "question": "My parents ___ born in Portugal.",
+    "options": ["was", "were", "is", "be"],
+    "answer": 1,
+    "explanation": "**My parents** = they (plural) → **were**.",
+    "difficulty": 1
+  },
+  {
+    "question": "He ___ at the gym an hour ago.",
+    "options": ["was", "were", "is", "be"],
+    "answer": 0,
+    "explanation": "**He** (3ª pessoa do singular) + \"an hour ago\" (passado) → **was**.",
+    "difficulty": 1
+  },
+  {
+    "question": "We ___ hungry, so we skipped lunch.",
+    "options": ["wasn't", "didn't be", "aren't", "weren't"],
+    "answer": 3,
+    "explanation": "**We** no passado, negativa → **weren't**. To be não usa *did* na negativa.",
+    "difficulty": 1
+  },
+  {
+    "question": "___ she your teacher in primary school?",
+    "options": ["Were", "Did", "Was", "Is"],
+    "answer": 2,
+    "explanation": "Pergunta no passado com to be: inverte-se **Was + she**. Nada de *did* com o verbo to be.",
+    "difficulty": 1
+  },
+  {
+    "question": "There ___ only one ticket left when we arrived.",
+    "options": ["was", "were", "are", "have been"],
+    "answer": 0,
+    "explanation": "**One ticket** é singular → **there was**. \"There were\" só com plural.",
+    "difficulty": 2
+  },
+  {
+    "question": "There ___ some children playing in the park this morning.",
+    "options": ["was", "is", "were", "been"],
+    "answer": 2,
+    "explanation": "**Children** é plural → **there were**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Why ___ you late this morning?",
+    "options": ["was", "were", "did", "are"],
+    "answer": 1,
+    "explanation": "**You** sempre usa **were** — inclusive em perguntas: Why **were** you late?",
+    "difficulty": 2
+  },
+  {
+    "question": "Find the mistake: \"The students was excited about the school trip.\"",
+    "options": ["students → student", "was → were", "about → for", "trip → travel"],
+    "answer": 1,
+    "explanation": "**The students** é plural (= they) → **were** excited.",
+    "difficulty": 2
+  },
+  {
+    "question": "Choose the correct question:",
+    "options": [
+      "Did you was sick yesterday?",
+      "Was you sick yesterday?",
+      "Did you were sick yesterday?",
+      "Were you sick yesterday?"
+    ],
+    "answer": 3,
+    "explanation": "To be não usa **did**: a pergunta se faz invertendo **Were + you**. E *you* nunca vai com *was*.",
+    "difficulty": 2
+  },
+  {
+    "question": "My phone ___ in my bag, but my keys ___ on the table.",
+    "options": ["was / were", "were / was", "was / was", "were / were"],
+    "answer": 0,
+    "explanation": "**Phone** (singular) → was; **keys** (plural) → were.",
+    "difficulty": 2
+  },
+  {
+    "question": "Everybody ___ at the ceremony — even the mayor.",
+    "options": ["were", "was", "are", "be"],
+    "answer": 1,
+    "explanation": "**Everybody** é gramaticalmente **singular** em inglês → **was**, mesmo que se refira a muitas pessoas.",
+    "difficulty": 2
+  },
+  {
+    "question": "The news ___ shocking, and everyone ___ silent for a moment.",
+    "options": ["were / was", "was / were", "were / were", "was / was"],
+    "answer": 3,
+    "explanation": "**News** é singular em inglês (apesar do -s) e **everyone** também → **was / was**.",
+    "difficulty": 2
+  },
+  {
+    "question": "Were the tickets expensive? — No, they ___ .",
+    "options": ["wasn't", "didn't", "aren't", "weren't"],
+    "answer": 3,
+    "explanation": "Resposta curta no passado com **they** → **weren't**. A resposta repete o mesmo verbo da pergunta (were).",
+    "difficulty": 2
+  },
+  {
+    "question": "There ___ a lot of people at the concert last night.",
+    "options": ["was", "is", "were", "has"],
+    "answer": 2,
+    "explanation": "**People** é plural → **there were**. Cuidado: \"a lot of\" não torna a frase singular — quem manda é o substantivo.",
+    "difficulty": 2
+  },
+  {
+    "question": "If she ___ here, she would know exactly what to do.",
+    "options": ["was", "is", "were", "will be"],
+    "answer": 2,
+    "explanation": "Hipótese irreal (2ª condicional) → **were** para **todas** as pessoas, até com *she*: If she **were** here...",
+    "difficulty": 3
+  },
+  {
+    "question": "I wish I ___ at the beach right now.",
+    "options": ["was", "am", "will be", "were"],
+    "answer": 3,
+    "explanation": "**I wish** + situação irreal usa o subjuntivo **were** para todas as pessoas. \"Was\" aparece na fala informal, mas o padrão é **were**.",
+    "difficulty": 3
+  },
+  {
+    "question": "He talks to me as if he ___ my boss.",
+    "options": ["were", "is", "will be", "would be"],
+    "answer": 0,
+    "explanation": "**As if** + situação irreal (ele NÃO é meu chefe) → subjuntivo **were**, mesmo com *he*.",
+    "difficulty": 3
+  },
+  {
+    "question": "Neither of the answers ___ correct, so I left the question blank.",
+    "options": ["were", "was", "are", "be"],
+    "answer": 1,
+    "explanation": "**Neither** é gramaticalmente **singular** → **was**. O plural \"answers\" logo ao lado é a pegadinha.",
+    "difficulty": 3
+  },
+  {
+    "question": "The police ___ already at the scene when we arrived.",
+    "options": ["were", "was", "is", "has been"],
+    "answer": 0,
+    "explanation": "**Police** é um substantivo **plural** em inglês (= the officers) → **were**, nunca \"the police was\".",
+    "difficulty": 3
+  }
+]

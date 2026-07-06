@@ -1,0 +1,156 @@
+[
+  {
+    "question": "She ate ___ orange for breakfast.",
+    "options": ["an", "a", "the an", "— (nada)"],
+    "answer": 0,
+    "explanation": "Orange começa com **som de vogal** → **an orange**.",
+    "difficulty": 1
+  },
+  {
+    "question": "He bought ___ new laptop yesterday.",
+    "options": ["an", "a", "one an", "— (nada)"],
+    "answer": 1,
+    "explanation": "New começa com **som de consoante** (N) → **a new laptop**. O artigo olha para a palavra seguinte, não para \"laptop\".",
+    "difficulty": 1
+  },
+  {
+    "question": "There is ___ elephant at the zoo.",
+    "options": ["a", "the a", "an", "— (nada)"],
+    "answer": 2,
+    "explanation": "Elephant começa com **som de vogal** (é) → **an elephant**.",
+    "difficulty": 1
+  },
+  {
+    "question": "I saw ___ big dog in the park.",
+    "options": ["an", "— (nada)", "the an", "a"],
+    "answer": 3,
+    "explanation": "Big começa com **som de consoante** (B) → **a big dog**. Singular contável sempre pede artigo.",
+    "difficulty": 1
+  },
+  {
+    "question": "My mother is ___ nurse.",
+    "options": ["a", "an", "one an", "— (nada)"],
+    "answer": 0,
+    "explanation": "Nurse começa com **som de consoante** (N) → **a nurse**. Profissões no singular pedem a/an em inglês.",
+    "difficulty": 1
+  },
+  {
+    "question": "Do you want ___ egg with your toast?",
+    "options": ["a", "the an", "an", "— (nada)"],
+    "answer": 2,
+    "explanation": "Egg começa com **som de vogal** (é) → **an egg**.",
+    "difficulty": 1
+  },
+  {
+    "question": "We rented ___ apartment near the beach.",
+    "options": ["a", "an", "— (nada)", "the a"],
+    "answer": 1,
+    "explanation": "Apartment começa com **som de vogal** (a) → **an apartment**.",
+    "difficulty": 1
+  },
+  {
+    "question": "He works as ___ engineer.",
+    "options": ["the a", "a", "— (nada)", "an"],
+    "answer": 3,
+    "explanation": "Engineer começa com **som de vogal** (e) → **an engineer**.",
+    "difficulty": 1
+  },
+  {
+    "question": "That was ___ easy question.",
+    "options": ["an", "a", "— (nada)", "the a"],
+    "answer": 0,
+    "explanation": "Easy começa com **som de vogal** (\"í\") → **an easy question**. O artigo combina com o adjetivo que vem logo depois.",
+    "difficulty": 2
+  },
+  {
+    "question": "She wore ___ uniform to school.",
+    "options": ["an", "a", "— (nada)", "one an"],
+    "answer": 1,
+    "explanation": "Uniform soa \"**iu**niform\" — começa com som de consoante (Y) → **a uniform**. A letra é U, mas o SOM decide.",
+    "difficulty": 2
+  },
+  {
+    "question": "Qual frase está correta?",
+    "options": ["He is a actor.", "He is an actor.", "He is actor.", "He is one an actor."],
+    "answer": 1,
+    "explanation": "Actor começa com **som de vogal** → **an actor**. Profissão no singular sempre leva a/an — \"He is actor\" está errado.",
+    "difficulty": 2
+  },
+  {
+    "question": "I bought ___ apples at the market.",
+    "options": ["an", "a", "— (nada)", "the an"],
+    "answer": 2,
+    "explanation": "**A/an só existe no singular**. \"Apples\" está no plural → sem artigo indefinido (ou use \"some\").",
+    "difficulty": 2
+  },
+  {
+    "question": "She drank ___ water after the run.",
+    "options": ["a", "an", "the an", "— (nada)"],
+    "answer": 3,
+    "explanation": "Water é **incontável** → não aceita a/an. Diga \"some water\" ou apenas \"water\".",
+    "difficulty": 2
+  },
+  {
+    "question": "It was ___ useful lesson.",
+    "options": ["an", "a", "— (nada)", "the an"],
+    "answer": 1,
+    "explanation": "Useful soa \"**iu**seful\" — som de consoante (Y) → **a useful lesson**, mesmo começando com a letra U.",
+    "difficulty": 2
+  },
+  {
+    "question": "He told me ___ interesting story.",
+    "options": ["an", "a", "— (nada)", "one a"],
+    "answer": 0,
+    "explanation": "Interesting começa com **som de vogal** (i) → **an interesting story**.",
+    "difficulty": 2
+  },
+  {
+    "question": "They live in ___ old house.",
+    "options": ["a", "the a", "an", "— (nada)"],
+    "answer": 2,
+    "explanation": "Old começa com **som de vogal** (ô) → **an old house**. O artigo segue o som do adjetivo, não do substantivo.",
+    "difficulty": 2
+  },
+  {
+    "question": "She had ___ idea for ___ new project.",
+    "options": ["an / a", "a / an", "an / an", "a / a"],
+    "answer": 0,
+    "explanation": "Idea começa com **som de vogal** → **an idea**; new começa com **som de consoante** → **a new project**.",
+    "difficulty": 2
+  },
+  {
+    "question": "She has ___ MBA in finance.",
+    "options": ["a", "the a", "an", "— (nada)"],
+    "answer": 2,
+    "explanation": "A sigla MBA se lê \"**em**-bi-êi\" — começa com som de vogal (é) → **an MBA**. Com siglas, vale o som da primeira LETRA falada.",
+    "difficulty": 3
+  },
+  {
+    "question": "They hired ___ European designer.",
+    "options": ["an", "a", "— (nada)", "the an"],
+    "answer": 1,
+    "explanation": "European soa \"**iu**ropean\" — som de consoante (Y) → **a European designer**, apesar de começar com a letra E.",
+    "difficulty": 3
+  },
+  {
+    "question": "It's ___ honor to work with you.",
+    "options": ["an", "a", "one", "— (nada)"],
+    "answer": 0,
+    "explanation": "O \"h\" de honor é **mudo**: soa \"ónor\" (som de vogal) → **an honor**. Mesma família de hour e honest.",
+    "difficulty": 3
+  },
+  {
+    "question": "It was ___ one-time offer.",
+    "options": ["an", "the an", "— (nada)", "a"],
+    "answer": 3,
+    "explanation": "\"One\" soa \"**uan**\" — começa com som de W (consoante) → **a one-time offer**, mesmo começando com a letra O.",
+    "difficulty": 3
+  },
+  {
+    "question": "He is ___ FBI agent.",
+    "options": ["a", "an", "— (nada)", "the a"],
+    "answer": 1,
+    "explanation": "A sigla FBI se lê \"**éf**-bi-ai\" — começa com som de vogal → **an FBI agent**. A letra F engana; o som manda.",
+    "difficulty": 3
+  }
+]

@@ -1,45 +1,84 @@
-import { FilterBar } from '../components/FilterBar';
-import { TopicListItem } from '../components/TopicListItem';
-import { useTopicFilter } from '../hooks/useTopicFilter';
-import { useTopics } from '../hooks/useTopics';
+import { Link } from 'react-router-dom';
+import { LoginCta } from '../components/LoginCta';
+import { useAuth } from '../contexts/AuthContext';
+
+const SECTIONS = [
+  {
+    to: '/topicos',
+    accent: 'blue',
+    icon: '📚',
+    title: 'Tópicos',
+    text: 'Resumos de gramática direto ao ponto, com exemplos e dicas',
+  },
+  {
+    to: '/exercicios',
+    accent: 'orange',
+    icon: '✏️',
+    title: 'Exercícios',
+    text: 'Monte seu treino: escolha os tópicos, o modo e pratique',
+  },
+  {
+    to: '/flashcards',
+    accent: 'purple',
+    icon: '🃏',
+    title: 'Flashcards',
+    text: 'Memorize verbos, expressões e vocabulário — ou crie os seus',
+  },
+  {
+    to: '/dicionario',
+    accent: 'teal',
+    icon: '📖',
+    title: 'Dicionário',
+    text: 'Inglês ↔ Português com contexto, exemplos e colocações',
+  },
+  {
+    to: '/videos',
+    accent: 'pink',
+    icon: '▶️',
+    title: 'Vídeos',
+    text: 'Canais selecionados do YouTube para treinar o ouvido',
+  },
+  {
+    to: '/estatisticas',
+    accent: 'green',
+    icon: '📊',
+    title: 'Estatísticas',
+    text: 'Seus acertos e erros, no geral e por tópico',
+  },
+] as const;
 
 export function HomePage() {
-  const { topics, loading } = useTopics();
-  const { search, setSearch, category, setCategory, filtered } =
-    useTopicFilter(topics);
+  const { user } = useAuth();
 
   return (
     <div className="container">
       <header className="home-header">
         <div className="label">Inglês · Estudo</div>
         <h1>
-          Resumos de <span className="accent">Inglês</span>
+          O que vamos <span className="accent">estudar</span> hoje?
         </h1>
         <p className="subtitle">
-          Leitura rápida, direto ao ponto — escolha o que quer estudar
+          Material de apoio para quem faz curso de inglês — rápido e sem
+          enrolação
         </p>
       </header>
 
-      <FilterBar
-        search={search}
-        onSearchChange={setSearch}
-        category={category}
-        onCategoryChange={setCategory}
-      />
-
-      {loading ? (
-        <p className="empty-state">Carregando…</p>
-      ) : filtered.length === 0 ? (
-        <p className="empty-state">
-          Nenhum assunto encontrado. Tente outra busca ou categoria.
+      <LoginCta />
+      {user && (
+        <p className="hub-welcome">
+          👋 Olá! Seu progresso está sendo salvo na sua conta.
         </p>
-      ) : (
-        <div className="topic-list">
-          {filtered.map((t) => (
-            <TopicListItem key={t.id} topic={t} />
-          ))}
-        </div>
       )}
+
+      <div className="hub-grid">
+        {SECTIONS.map((s) => (
+          <Link key={s.to} to={s.to} className={`hub-card accent-${s.accent}`}>
+            <span className="hub-icon">{s.icon}</span>
+            <h2>{s.title}</h2>
+            <p>{s.text}</p>
+          </Link>
+        ))}
+      </div>
 
       <footer>Resumos de Inglês · Material de apoio aos estudos</footer>
     </div>

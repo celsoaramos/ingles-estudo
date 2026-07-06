@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { Exercise } from '../domain/types';
+import { useProgressRepository } from '../hooks/useProgressRepository';
 import { RichText } from './RichText';
 
 interface QuizState {
@@ -9,6 +10,7 @@ interface QuizState {
 
 export function ExerciseQuiz({ exercises }: { exercises: Exercise[] }) {
   const [answers, setAnswers] = useState<QuizState>({});
+  const progress = useProgressRepository();
 
   if (exercises.length === 0) return null;
 
@@ -18,11 +20,21 @@ export function ExerciseQuiz({ exercises }: { exercises: Exercise[] }) {
   ).length;
 
   function choose(questionIndex: number, optionIndex: number) {
-    setAnswers((prev) =>
-      questionIndex in prev
-        ? prev
-        : { ...prev, [questionIndex]: optionIndex },
-    );
+    if (questionIndex in answers) return;
+    const ex = exercises[questionIndex];
+    // grava a tentativa avulsa (localStorage ou conta), sem bloquear a UI
+    void progress
+      .recordAttempts([
+        {
+          exerciseId: ex.id,
+          topicId: ex.topicId,
+          chosen: optionIndex,
+          isCorrect: optionIndex === ex.answer,
+          answeredAt: new Date().toISOString(),
+        },
+      ])
+      .catch(console.error);
+    setAnswers((prev) => ({ ...prev, [questionIndex]: optionIndex }));
   }
 
   return (
