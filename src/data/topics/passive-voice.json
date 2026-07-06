@@ -1,0 +1,124 @@
+{
+  "id": "passive-voice",
+  "title": "Passive Voice",
+  "titleHighlight": "Passive",
+  "subtitle": "Foco na ação, não em quem faz — to be + particípio",
+  "category": "structures",
+  "tags": ["passive voice", "voz passiva", "to be", "particípio", "by", "agente"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "1",
+      "title": "Quando usar",
+      "subtitle": "Quando a ação importa mais do que quem a fez",
+      "examples": [
+        { "en": "My car **was stolen** last night.", "pt": "Meu carro foi roubado ontem à noite. (não sei quem roubou)" },
+        { "en": "English **is spoken** all over the world.", "pt": "Inglês é falado no mundo todo. (o agente é irrelevante)" },
+        { "en": "The results **will be announced** tomorrow.", "pt": "Os resultados serão anunciados amanhã." }
+      ],
+      "keyPoints": ["Foco na ação / no objeto", "Agente desconhecido ou irrelevante", "Comum em notícias e textos formais"]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "2",
+      "title": "Forma",
+      "subtitle": "to be no tempo certo + particípio do verbo principal",
+      "formula": [
+        { "label": "Regra →", "value": "Sujeito + **to be** (no tempo da frase) + **particípio**" },
+        { "label": "Ativa → Passiva →", "value": "objeto vira sujeito · verbo vira `be + particípio`" }
+      ],
+      "examples": [
+        { "en": "Someone cleans the room. → The room **is cleaned**.", "pt": "Alguém limpa o quarto. → O quarto é limpo." },
+        { "en": "They built this house in 1990. → This house **was built** in 1990.", "pt": "Construíram esta casa em 1990. → Esta casa foi construída em 1990." }
+      ],
+      "keyPoints": ["Quem muda de tempo é o **to be**", "O particípio nunca muda", "Só verbos com objeto viram passiva"]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "by",
+      "title": "\"By\" para o agente",
+      "subtitle": "Use by + agente só quando essa informação importa",
+      "formula": [
+        { "label": "Estrutura →", "value": "…to be + particípio + **by** + agente" }
+      ],
+      "examples": [
+        { "en": "This book **was written by** Machado de Assis.", "pt": "Este livro foi escrito por Machado de Assis." },
+        { "en": "The window was broken. (**by someone** — desnecessário)", "pt": "A janela foi quebrada. (não precisa dizer por quem)" }
+      ],
+      "keyPoints": ["by = \"por\"", "Omita quando o agente é óbvio ou desconhecido"]
+    },
+    {
+      "type": "table",
+      "title": "Passiva nos principais tempos",
+      "headers": ["Tempo", "Ativa", "Passiva"],
+      "rows": [
+        ["Present Simple", "`They make cars here.`", "`Cars **are made** here.`"],
+        ["Past Simple", "`They made this car.`", "`This car **was made**.`"],
+        ["Present Perfect", "`They have made changes.`", "`Changes **have been made**.`"],
+        ["Future (will)", "`They will make a decision.`", "`A decision **will be made**.`"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "The report **written** by John.", "right": "The report **was written** by John.", "note": "não esqueça o to be — ele carrega o tempo" },
+        { "wrong": "The letter was **sended** yesterday.", "right": "The letter was **sent** yesterday.", "note": "use o particípio correto (3ª coluna)" },
+        { "wrong": "The song **was sang** by her.", "right": "The song **was sung** by her.", "note": "sang é passado; o particípio é sung" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Receita em 3 passos: 1) o **objeto** vira sujeito; 2) coloque **to be** no mesmo tempo do verbo original; 3) verbo principal vai para o **particípio**. `They will announce it` → `It will be announced`."
+    },
+    {
+      "type": "tip",
+      "text": "Bateu dúvida se a frase é passiva? Teste mental: dá para acrescentar **by someone** no final e a frase continua fazendo sentido? Então é passiva."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "This bridge ___ in 1932.",
+      "options": ["built", "is built", "was built", "has built"],
+      "answer": 2,
+      "explanation": "Passado (1932) → to be no Past Simple + particípio: **was built**."
+    },
+    {
+      "question": "Portuguese ___ in Brazil and Portugal.",
+      "options": ["is spoken", "speaks", "is speaking", "spoken"],
+      "answer": 0,
+      "explanation": "Fato no presente, foco na língua → Present Simple passivo: **is + spoken**. Sem o \"is\" a frase fica errada."
+    },
+    {
+      "question": "The email has already ___ to all employees.",
+      "options": ["send", "been sent", "sent", "being send"],
+      "answer": 1,
+      "explanation": "Present Perfect passivo: has + **been + particípio** (sent)."
+    },
+    {
+      "question": "The winners ___ next Friday.",
+      "options": ["announce", "will announce", "are announced by", "will be announced"],
+      "answer": 3,
+      "explanation": "Futuro passivo: **will be + particípio**. Os vencedores não anunciam — são anunciados."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "The song was sang by Elis Regina.",
+        "The song was sung by Elis Regina.",
+        "The song sung by Elis Regina.",
+        "The song was sing by Elis Regina."
+      ],
+      "answer": 1,
+      "explanation": "Passiva = **to be + particípio**: was + **sung** (sang é o passado simples, não o particípio)."
+    },
+    {
+      "question": "\"Romeo and Juliet\" was written ___ Shakespeare.",
+      "options": ["for", "from", "by", "of"],
+      "answer": 2,
+      "explanation": "O agente da passiva é introduzido por **by**: written **by** Shakespeare."
+    }
+  ]
+}

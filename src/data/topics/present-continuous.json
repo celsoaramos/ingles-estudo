@@ -1,0 +1,110 @@
+{
+  "id": "present-continuous",
+  "title": "Present Continuous",
+  "titleHighlight": "Continuous",
+  "subtitle": "Ações acontecendo agora, temporárias ou já combinadas para o futuro",
+  "category": "tenses",
+  "tags": ["present continuous", "presente contínuo", "ing", "am is are", "agora", "now", "progressivo"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "green",
+      "badge": "▶",
+      "title": "Quando usar",
+      "subtitle": "Agora, período temporário ao redor de agora, ou futuro já combinado",
+      "formula": [
+        { "label": "Agora →", "value": "ação em progresso **neste momento**" },
+        { "label": "Ao redor de agora →", "value": "situação **temporária** (esta semana, este mês)" },
+        { "label": "Futuro →", "value": "compromisso **já combinado**" }
+      ],
+      "examples": [
+        { "en": "She **is studying** right now.", "pt": "Ela está estudando agora." },
+        { "en": "I **am reading** a great book this month.", "pt": "Estou lendo um livro ótimo este mês." },
+        { "en": "We **are meeting** Ana tomorrow.", "pt": "Vamos nos encontrar com a Ana amanhã (já combinado)." }
+      ],
+      "keyPoints": ["Agora / temporário", "Futuro já agendado", "Palavras-sinal: now, at the moment, today"]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "ing",
+      "title": "Forma",
+      "subtitle": "Verbo to be (am/is/are) + verbo com -ing",
+      "formula": [
+        { "label": "Afirmativa →", "value": "Sujeito + **am/is/are** + verbo**-ing**" },
+        { "label": "Negativa →", "value": "Sujeito + am/is/are + **not** + verbo-ing" },
+        { "label": "Pergunta →", "value": "**Am/Is/Are** + sujeito + verbo-ing?" }
+      ],
+      "examples": [
+        { "en": "They **are watching** TV.", "pt": "Eles estão assistindo TV." },
+        { "en": "He **isn't working** today.", "pt": "Ele não está trabalhando hoje." },
+        { "en": "**Are** you **listening** to me?", "pt": "Você está me ouvindo?" }
+      ],
+      "keyPoints": ["am → I", "is → he/she/it", "are → you/we/they"]
+    },
+    {
+      "type": "table",
+      "title": "Present Continuous vs Present Simple",
+      "headers": ["", "Present Continuous", "Present Simple"],
+      "rows": [
+        ["**Quando**", "agora / temporário", "rotina / fato / hábito"],
+        ["**Forma**", "`am/is/are + verbo-ing`", "`verbo (+s na 3ª pessoa)`"],
+        ["**Sinal**", "now, at the moment, today", "always, usually, every day"],
+        ["**Exemplo**", "`She is working now.`", "`She works every day.`"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "She **working** now.", "right": "She **is working** now.", "note": "não esqueça o verbo to be" },
+        { "wrong": "I **am wanting** a coffee.", "right": "I **want** a coffee.", "note": "verbos de estado não vão para -ing" },
+        { "wrong": "He **is know** the answer.", "right": "He **knows** the answer.", "note": "know = estado, use Present Simple" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Verbos de **estado** (like, want, know, love, hate, need, believe) normalmente **não usam -ing**. Diga `I want`, não \"I am wanting\"."
+    },
+    {
+      "type": "tip",
+      "text": "Regra de ortografia: verbos terminados em **-e** perdem o e (`make → making`); consoante-vogal-consoante dobra a última letra (`run → running`, `swim → swimming`)."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "Quiet, please! The baby ___.",
+      "options": ["sleeps", "is sleeping", "sleep", "sleeping"],
+      "answer": 1,
+      "explanation": "Ação acontecendo **agora** → Present Continuous: is + sleeping."
+    },
+    {
+      "question": "I ___ a new series this week.",
+      "options": ["watch", "watches", "am watching", "watching"],
+      "answer": 2,
+      "explanation": "Situação **temporária** (esta semana) → am + watching. Sem o \"am\" a frase fica errada."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "I am knowing the answer.",
+        "I am wanting a pizza.",
+        "I am liking this song.",
+        "I am looking for my keys."
+      ],
+      "answer": 3,
+      "explanation": "**Know, want, like** são verbos de estado — não usam -ing. \"Look for\" é ação, pode ficar no Continuous."
+    },
+    {
+      "question": "___ they coming to the party tonight?",
+      "options": ["Are", "Do", "Is", "Does"],
+      "answer": 0,
+      "explanation": "Futuro já combinado com Present Continuous: **Are** + they + coming?"
+    },
+    {
+      "question": "She usually drives to work, but today she ___ the bus.",
+      "options": ["takes", "take", "is taking", "taking"],
+      "answer": 2,
+      "explanation": "\"Usually\" = rotina (Simple), mas \"**today**\" indica exceção temporária → **is taking**."
+    }
+  ]
+}

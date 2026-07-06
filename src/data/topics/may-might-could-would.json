@@ -1,0 +1,142 @@
+{
+  "id": "may-might-could-would",
+  "title": "May vs Might vs Could vs Would",
+  "titleHighlight": "May vs Might vs Could vs Would",
+  "subtitle": "Quatro modais de possibilidade, permissão, hipótese e educação",
+  "category": "versus",
+  "tags": ["may", "might", "could", "would", "modais", "modal verbs", "possibilidade", "permissão"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "1",
+      "title": "May",
+      "subtitle": "Possibilidade real + permissão formal",
+      "formula": [
+        { "label": "Estrutura →", "value": "may + **verbo base**" }
+      ],
+      "examples": [
+        { "en": "It **may rain** later.", "pt": "Pode chover mais tarde (possibilidade real)." },
+        { "en": "**May I** come in?", "pt": "Posso entrar? (permissão formal)" }
+      ],
+      "keyPoints": ["Possibilidade real (~50%)", "Permissão formal/educada"]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "2",
+      "title": "Might",
+      "subtitle": "Possibilidade mais remota, incerta — \"talvez, quem sabe\"",
+      "formula": [
+        { "label": "Estrutura →", "value": "might + **verbo base**" }
+      ],
+      "examples": [
+        { "en": "I **might go** to the party, but I'm not sure.", "pt": "Talvez eu vá à festa, mas não tenho certeza." },
+        { "en": "She **might be** at home.", "pt": "Ela pode estar em casa (quem sabe)." }
+      ],
+      "keyPoints": ["Menos provável que may", "Muita incerteza", "Comum com \"not sure\""]
+    },
+    {
+      "type": "card",
+      "accent": "teal",
+      "badge": "3",
+      "title": "Could",
+      "subtitle": "Possibilidade, habilidade no passado e pedido educado",
+      "formula": [
+        { "label": "Estrutura →", "value": "could + **verbo base**" }
+      ],
+      "examples": [
+        { "en": "It **could be** true.", "pt": "Pode ser verdade (possibilidade)." },
+        { "en": "I **could swim** when I was five.", "pt": "Eu sabia nadar quando tinha cinco anos (habilidade no passado)." },
+        { "en": "**Could you** help me, please?", "pt": "Você poderia me ajudar, por favor? (pedido educado)" }
+      ],
+      "keyPoints": ["Possibilidade", "Passado de can (habilidade)", "Pedido educado"]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "4",
+      "title": "Would",
+      "subtitle": "Hipótese, hábito no passado e pedido educado",
+      "formula": [
+        { "label": "Estrutura →", "value": "would + **verbo base**" }
+      ],
+      "examples": [
+        { "en": "I **would travel** more if I had time.", "pt": "Eu viajaria mais se tivesse tempo (hipótese)." },
+        { "en": "We **would play** outside every summer.", "pt": "A gente brincava lá fora todo verão (hábito passado)." },
+        { "en": "**Would you** open the window?", "pt": "Você abriria a janela? (pedido educado)" }
+      ],
+      "keyPoints": ["Hipótese (\"-ria\" em PT)", "Hábito repetido no passado", "Pedido educado"]
+    },
+    {
+      "type": "table",
+      "title": "Comparativo Rápido",
+      "headers": ["Modal", "Ideia principal", "Outros usos", "Exemplo"],
+      "rows": [
+        ["**may**", "Possibilidade real", "Permissão formal", "It **may** rain. / **May** I sit?"],
+        ["**might**", "Possibilidade remota", "\"Talvez, quem sabe\"", "I **might** go."],
+        ["**could**", "Possibilidade", "Habilidade no passado, pedido", "**Could** you help me?"],
+        ["**would**", "Hipótese (\"-ria\")", "Hábito passado, pedido", "I **would** buy it."]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "She may **to arrive** late.", "right": "She may **arrive** late.", "note": "Modal + verbo base, sem \"to\"" },
+        { "wrong": "He might **goes** tomorrow.", "right": "He might **go** tomorrow.", "note": "Depois de modal, verbo sem -s" },
+        { "wrong": "**Can** I speak to the manager? (muito formal)", "right": "**May/Could** I speak to the manager?", "note": "Em contexto formal, may/could soam melhor" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Todos os quatro seguem a mesma regra de ouro: **modal + verbo base**, sem \"to\" e sem -s/-ed/-ing. `She may go`, `It might rain`, `I could help`, `He would buy`."
+    },
+    {
+      "type": "tip",
+      "text": "Escala de certeza na possibilidade: **may** (mais provável) > **might / could** (menos provável). Na dúvida em prova, might é o mais \"incerto\" de todos."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "Take an umbrella — it ___ rain later.",
+      "options": ["would", "may", "may to", "might raining"],
+      "answer": 1,
+      "explanation": "Possibilidade real no futuro: **may + verbo base** (may rain)."
+    },
+    {
+      "question": "I'm not sure about my plans. I ___ visit my parents this weekend.",
+      "options": ["might", "would", "may not", "must"],
+      "answer": 0,
+      "explanation": "Incerteza (\"not sure\") → **might** = possibilidade remota, \"talvez\"."
+    },
+    {
+      "question": "___ you pass me the salt, please?",
+      "options": ["May", "Might", "Could", "Should"],
+      "answer": 2,
+      "explanation": "Pedido educado a outra pessoa: **Could you…?** (\"May I\" é para pedir permissão para si mesmo.)"
+    },
+    {
+      "question": "If I won the lottery, I ___ buy a house on the beach.",
+      "options": ["will", "may", "might can", "would"],
+      "answer": 3,
+      "explanation": "Hipótese com \"if + passado\" (2ª condicional) → **would** = \"compraria\"."
+    },
+    {
+      "question": "When she was a child, she ___ speak three languages.",
+      "options": ["may", "could", "might", "would to"],
+      "answer": 1,
+      "explanation": "Habilidade no **passado** → **could** (passado de can)."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "She might to be at work.",
+        "She might is at work.",
+        "She might be at work.",
+        "She might been at work."
+      ],
+      "answer": 2,
+      "explanation": "Modal + **verbo base**: might **be**. Sem \"to\" e sem conjugar o verbo."
+    }
+  ]
+}

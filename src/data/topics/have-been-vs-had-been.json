@@ -1,0 +1,107 @@
+{
+  "id": "have-been-vs-had-been",
+  "title": "Have been vs Had been",
+  "titleHighlight": "vs",
+  "subtitle": "O mesmo \"been\", dois pontos de referência: o AGORA ou um momento do passado",
+  "category": "versus",
+  "tags": ["have been", "has been", "had been", "present perfect", "past perfect", "since", "for"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "green",
+      "badge": "A",
+      "title": "Have / Has been",
+      "subtitle": "Present Perfect — a situação chega até o AGORA",
+      "formula": [
+        { "label": "Estrutura →", "value": "Sujeito + **have/has been** + lugar / adjetivo / -ing" }
+      ],
+      "examples": [
+        { "en": "I **have been** here since 8 a.m.", "pt": "Estou aqui desde as 8h. (e ainda estou)" },
+        { "en": "She **has been** sick this week.", "pt": "Ela tem estado doente esta semana. (semana ainda não acabou)" },
+        { "en": "We **have been working** hard lately.", "pt": "Temos trabalhado muito ultimamente." }
+      ],
+      "keyPoints": ["Referência: o momento presente", "has = he/she/it", "\"Tenho estado / estou desde…\""]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "B",
+      "title": "Had been",
+      "subtitle": "Past Perfect — a situação chega até um momento do PASSADO",
+      "formula": [
+        { "label": "Estrutura →", "value": "Sujeito + **had been** + lugar / adjetivo / -ing" }
+      ],
+      "examples": [
+        { "en": "I **had been** there for an hour when she arrived.", "pt": "Eu estava lá havia uma hora quando ela chegou." },
+        { "en": "He **had been** sick before the trip.", "pt": "Ele tinha estado doente antes da viagem." },
+        { "en": "They **had been waiting** since noon when the gate opened.", "pt": "Eles esperavam desde o meio-dia quando o portão abriu." }
+      ],
+      "keyPoints": ["Referência: outro evento passado", "had para todas as pessoas", "\"Tinha estado / estava até que…\""]
+    },
+    {
+      "type": "table",
+      "title": "Comparativo Rápido",
+      "headers": ["", "have/has been", "had been"],
+      "rows": [
+        ["Tempo", "**Present Perfect**", "**Past Perfect**"],
+        ["Conecta a…", "**AGORA**", "um momento do **PASSADO**"],
+        ["Linha do tempo", "`começo ══════▶ AGORA`", "`começo ══▶ evento passado … agora`"],
+        ["Exemplo", "`I have been here for an hour.` (ainda estou)", "`I had been there for an hour when he came.` (até ele chegar)"],
+        ["Pista", "frase ancorada no presente", "há outro verbo no passado por perto"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "I **have been** waiting for an hour when the bus arrived.", "right": "I **had been** waiting for an hour when the bus arrived.", "note": "\"arrived\" ancora tudo no passado → had" },
+        { "wrong": "She **had been** sick since Monday. (e ainda está)", "right": "She **has been** sick since Monday.", "note": "se continua até agora → has been" },
+        { "wrong": "He **have been** my friend for years.", "right": "He **has been** my friend for years.", "note": "he/she/it usa has" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Procure a **âncora** da frase: se existe outro verbo no passado (arrived, called, when I got there…), use **had been**. Se a situação desemboca no agora, use **have/has been**."
+    },
+    {
+      "type": "tip",
+      "text": "Tradução rápida: **have been** ≈ \"estou/tenho estado (desde/há)\"; **had been** ≈ \"estava/tinha estado (quando algo aconteceu)\"."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "I ___ in this company for five years — and I still love it.",
+      "options": ["had been", "was", "have been", "am"],
+      "answer": 2,
+      "explanation": "A situação continua até **agora** (\"still love it\") → Present Perfect: **have been**."
+    },
+    {
+      "question": "She ___ at the party for two hours when he finally arrived.",
+      "options": ["had been", "has been", "is", "have been"],
+      "answer": 0,
+      "explanation": "\"Arrived\" ancora a frase no **passado** → **had been** (até aquele momento)."
+    },
+    {
+      "question": "He ___ sick since Tuesday, so he's still at home today.",
+      "options": ["had been", "was", "have been", "has been"],
+      "answer": 3,
+      "explanation": "Continua até hoje (\"still at home\") e o sujeito é **he** → **has been**."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "They have been waiting for hours when the show started.",
+        "They had been waiting for hours when the show started.",
+        "They has been waiting for hours when the show started.",
+        "They had been wait for hours when the show started."
+      ],
+      "answer": 1,
+      "explanation": "\"Started\" é o evento passado de referência → **had been waiting**."
+    },
+    {
+      "question": "We ___ friends since childhood — nothing has changed.",
+      "options": ["had been", "were", "have been", "have being"],
+      "answer": 2,
+      "explanation": "A amizade começou no passado e **continua agora** → **have been**."
+    }
+  ]
+}

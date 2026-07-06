@@ -1,0 +1,114 @@
+{
+  "id": "will-vs-going-to",
+  "title": "Will vs Going to",
+  "titleHighlight": "vs",
+  "subtitle": "Dois futuros: decisão na hora (will) vs plano prévio (going to)",
+  "category": "versus",
+  "tags": ["will", "going to", "futuro", "future", "previsão", "plano", "decisão"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "W",
+      "title": "Will",
+      "subtitle": "Decisão na hora, previsão sem evidência, promessas e ofertas",
+      "formula": [
+        { "label": "Forma →", "value": "Sujeito + **will** + verbo base" },
+        { "label": "Negativa →", "value": "Sujeito + **won't** + verbo base" }
+      ],
+      "examples": [
+        { "en": "It's hot here. I **will open** the window.", "pt": "Está quente aqui. Vou abrir a janela. (decidi agora)" },
+        { "en": "I think she **will win** the election.", "pt": "Acho que ela vai vencer a eleição. (opinião, sem evidência)" },
+        { "en": "I **will always love** you, I promise.", "pt": "Eu sempre vou te amar, eu prometo." }
+      ],
+      "keyPoints": ["Decisão na hora de falar", "Previsão = opinião (I think…)", "Promessas e ofertas"]
+    },
+    {
+      "type": "card",
+      "accent": "green",
+      "badge": "G",
+      "title": "Going to",
+      "subtitle": "Plano já decidido antes e previsão com evidência visível",
+      "formula": [
+        { "label": "Forma →", "value": "Sujeito + **am/is/are going to** + verbo base" },
+        { "label": "Negativa →", "value": "Sujeito + am/is/are **not going to** + verbo base" }
+      ],
+      "examples": [
+        { "en": "We **are going to travel** in July. We already bought the tickets.", "pt": "Vamos viajar em julho. Já compramos as passagens. (plano prévio)" },
+        { "en": "Look at those clouds! It **is going to rain**.", "pt": "Olha aquelas nuvens! Vai chover. (evidência visível)" },
+        { "en": "She **is going to study** medicine next year.", "pt": "Ela vai estudar medicina ano que vem." }
+      ],
+      "keyPoints": ["Plano decidido antes", "Previsão com evidência agora", "Não esqueça o am/is/are"]
+    },
+    {
+      "type": "table",
+      "title": "Comparativo Rápido",
+      "headers": ["Situação", "Will", "Going to"],
+      "rows": [
+        ["**Decisão**", "na hora de falar", "decidida antes (plano)"],
+        ["**Previsão**", "opinião, sem evidência (`I think…`)", "com evidência visível (`Look!`)"],
+        ["**Extras**", "promessas, ofertas de ajuda", "intenções e planos"],
+        ["**Exemplo**", "`I'll help you with that!`", "`I'm going to visit Rio in May.`"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "I **will to help** you.", "right": "I **will help** you.", "note": "will + verbo base, sem \"to\"" },
+        { "wrong": "She **going to** travel tomorrow.", "right": "She **is going to** travel tomorrow.", "note": "não esqueça o am/is/are" },
+        { "wrong": "Look at the sky! It **will rain**.", "right": "Look at the sky! It **is going to rain**.", "note": "evidência visível → going to" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Teste rápido: a decisão já existia **antes** da conversa? Use **going to**. Nasceu **na hora** de falar? Use **will**. — \"What are your plans?\" `I'm going to…` / \"The phone is ringing!\" `I'll get it!`"
+    },
+    {
+      "type": "tip",
+      "text": "Na fala, **going to** vira **gonna** (`I'm gonna stay home`) e **will** vira **'ll** (`I'll call you`). Gonna é informal — evite na escrita formal."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "A: \"We don't have milk.\" B: \"Oh, really? I ___ some at the store.\"",
+      "options": ["am going to buy", "will buy", "buying", "buy"],
+      "answer": 1,
+      "explanation": "Decisão tomada **na hora** da conversa → **will buy**."
+    },
+    {
+      "question": "I ___ my grandparents this weekend. I bought the bus ticket yesterday.",
+      "options": ["will visit", "visit", "am going to visit", "will to visit"],
+      "answer": 2,
+      "explanation": "Plano **decidido antes** (já comprou o ticket) → **am going to visit**."
+    },
+    {
+      "question": "Look at that car! It ___ crash!",
+      "options": ["is going to", "will", "won't", "is"],
+      "answer": 0,
+      "explanation": "Previsão com **evidência visível** (você está vendo) → **is going to** crash."
+    },
+    {
+      "question": "Don't worry, I ___ tell anyone your secret. I promise.",
+      "options": ["am not going to", "will", "won't", "not will"],
+      "answer": 2,
+      "explanation": "**Promessa** → will; na negativa, **won't** (= will not)."
+    },
+    {
+      "question": "I think our team ___ the championship this year.",
+      "options": ["will win", "is going to winning", "winning", "win"],
+      "answer": 0,
+      "explanation": "Previsão baseada em **opinião** (\"I think\"), sem evidência concreta → **will win**."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "She going to move to Canada.",
+        "She will to move to Canada.",
+        "She is going to move to Canada.",
+        "She is going to moves to Canada."
+      ],
+      "answer": 2,
+      "explanation": "Going to precisa do **is** (verbo to be) e do verbo na forma **base**: \"She is going to move…\"."
+    }
+  ]
+}

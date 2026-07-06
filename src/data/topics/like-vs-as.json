@@ -1,0 +1,112 @@
+{
+  "id": "like-vs-as",
+  "title": "Like vs As",
+  "titleHighlight": "vs",
+  "subtitle": "Like para comparações e semelhanças · As para funções e papéis reais",
+  "category": "versus",
+  "tags": ["like", "as", "como", "comparação", "semelhança", "função", "papel"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "L",
+      "title": "Like",
+      "subtitle": "Comparação / semelhança — \"parecido com\", mas não é",
+      "formula": [
+        { "label": "Estrutura →", "value": "like + **substantivo / pronome**" }
+      ],
+      "examples": [
+        { "en": "She sings **like an angel**.", "pt": "Ela canta como um anjo (parecido com um anjo)." },
+        { "en": "He works **like a machine**.", "pt": "Ele trabalha como uma máquina (mas não é uma máquina)." },
+        { "en": "You look **like your mother**.", "pt": "Você se parece com a sua mãe." }
+      ],
+      "keyPoints": ["Semelhança, não realidade", "Sempre + substantivo/pronome", "\"parecido com\""]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "A",
+      "title": "As",
+      "subtitle": "Função ou papel real — a pessoa/coisa É aquilo de verdade",
+      "formula": [
+        { "label": "Função →", "value": "as + **substantivo** (cargo, papel, uso real)" },
+        { "label": "Modo →", "value": "as + **sujeito + verbo** (\"como / da forma que\")" }
+      ],
+      "examples": [
+        { "en": "She works **as a teacher**.", "pt": "Ela trabalha como professora (é a profissão dela de verdade)." },
+        { "en": "I used the box **as a table**.", "pt": "Usei a caixa como mesa (função real naquele momento)." },
+        { "en": "Do it **as I showed you**.", "pt": "Faça como (da forma que) eu te mostrei." }
+      ],
+      "keyPoints": ["Função / papel real", "as + sujeito + verbo = \"da forma que\"", "Profissões usam **as**"]
+    },
+    {
+      "type": "table",
+      "title": "Comparativo Rápido",
+      "headers": ["", "Ideia", "Estrutura", "Exemplo"],
+      "rows": [
+        ["**like**", "Semelhança (não é de verdade)", "`like + substantivo/pronome`", "He fights **like** a lion."],
+        ["**as**", "Função / papel real", "`as + substantivo`", "He works **as** a lawyer."],
+        ["**as**", "Modo (\"da forma que\")", "`as + sujeito + verbo`", "Do it **as** I do."]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "He works **like a teacher**. (ele É professor)", "right": "He works **as a teacher**.", "note": "Profissão real = as" },
+        { "wrong": "She works **as her mother**. (parecida com a mãe)", "right": "She works **like her mother**.", "note": "Semelhança = like" },
+        { "wrong": "Do it **like I said**. (formal)", "right": "Do it **as I said**.", "note": "Antes de sujeito + verbo, o padrão é as" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Teste rápido: a pessoa/coisa **é aquilo de verdade**? Use `as`. É só **parecido**? Use `like`. \"He works as a doctor\" (é médico) ≠ \"He works like a doctor\" (trabalha muito, parece médico)."
+    },
+    {
+      "type": "tip",
+      "text": "Na fala informal, nativos usam muito `like` antes de sujeito + verbo (\"like I said\"). Funciona no dia a dia, mas em textos formais e provas prefira **as**: `as I said`."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "My brother works ___ an engineer at a big company.",
+      "options": ["like", "as", "such as", "so"],
+      "answer": 1,
+      "explanation": "Ele **é** engenheiro de verdade — função/papel real usa **as**."
+    },
+    {
+      "question": "This perfume smells ___ flowers.",
+      "options": ["like", "as", "so", "than"],
+      "answer": 0,
+      "explanation": "Semelhança (cheira **parecido com** flores, não é flor) — use **like + substantivo**."
+    },
+    {
+      "question": "Please fill out the form ___ the instructions explain.",
+      "options": ["like to", "similar", "as", "alike"],
+      "answer": 2,
+      "explanation": "Antes de **sujeito + verbo** (\"the instructions explain\"), use **as** = \"da forma que\"."
+    },
+    {
+      "question": "Qual frase está correta para dizer que ela É atriz de verdade?",
+      "options": [
+        "She works like an actress.",
+        "She works as like an actress.",
+        "She is like an actress.",
+        "She works as an actress."
+      ],
+      "answer": 3,
+      "explanation": "Profissão/papel real = **as**. \"Like an actress\" significaria apenas \"parecida com uma atriz\"."
+    },
+    {
+      "question": "He treats me ___ a child, but I'm 30!",
+      "options": ["as", "like", "such", "how"],
+      "answer": 1,
+      "explanation": "Eu **não sou** criança — é comparação/semelhança, então **like**."
+    },
+    {
+      "question": "I used my jacket ___ a pillow on the flight.",
+      "options": ["like", "so", "as", "than"],
+      "answer": 2,
+      "explanation": "A jaqueta **funcionou de verdade** como travesseiro — função real usa **as**."
+    }
+  ]
+}

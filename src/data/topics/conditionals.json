@@ -1,0 +1,145 @@
+{
+  "id": "conditionals",
+  "title": "Condicionais",
+  "titleHighlight": "Condicionais",
+  "subtitle": "Zero · 1ª · 2ª · 3ª Condicional — estruturas, exemplos e dicas",
+  "category": "conditionals",
+  "tags": ["if", "first conditional", "second conditional", "third conditional", "zero conditional", "would", "will"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "teal",
+      "badge": "0",
+      "title": "Zero Conditional",
+      "subtitle": "Fatos, verdades gerais e rotinas — sempre acontece",
+      "formula": [
+        { "label": "IF-clause →", "value": "If + **Simple Present**" },
+        { "label": "Main clause →", "value": "**Simple Present**" }
+      ],
+      "examples": [
+        { "en": "**If** you **heat** water to 100°C, it **boils**.", "pt": "Se você aquecer a água a 100°C, ela ferve." },
+        { "en": "**If** I **drink** coffee at night, I **don't sleep**.", "pt": "Se eu tomo café à noite, eu não durmo." }
+      ],
+      "keyPoints": ["Fato / verdade geral", "Presente nos dois lados", "\"If\" ≈ \"when\" aqui"]
+    },
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "1",
+      "title": "First Conditional",
+      "subtitle": "Situações reais e possíveis no futuro",
+      "formula": [
+        { "label": "IF-clause →", "value": "If + **Simple Present**" },
+        { "label": "Main clause →", "value": "will + **verbo base**" }
+      ],
+      "examples": [
+        { "en": "**If** it **rains** tomorrow, I **will stay** home.", "pt": "Se chover amanhã, eu vou ficar em casa." },
+        { "en": "**If** you **study** hard, you **will pass** the exam.", "pt": "Se você estudar bastante, vai passar na prova." },
+        { "en": "**If** she **calls**, I **will answer**.", "pt": "Se ela ligar, eu vou atender." }
+      ],
+      "keyPoints": ["Situação provável", "Resultado real no futuro", "Equivale ao \"se…, vai…\" em PT"]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "2",
+      "title": "Second Conditional",
+      "subtitle": "Situações hipotéticas, improváveis ou imaginárias no presente/futuro",
+      "formula": [
+        { "label": "IF-clause →", "value": "If + **Simple Past**" },
+        { "label": "Main clause →", "value": "would + **verbo base**" }
+      ],
+      "examples": [
+        { "en": "**If** I **had** more money, I **would travel** the world.", "pt": "Se eu tivesse mais dinheiro, viajaria o mundo." },
+        { "en": "**If** she **were** here, she **would know** what to do.", "pt": "Se ela estivesse aqui, saberia o que fazer." },
+        { "en": "**If** I **spoke** Japanese, I **would move** to Tokyo.", "pt": "Se eu falasse japonês, me mudaria para Tóquio." }
+      ],
+      "keyPoints": ["Hipotético / improvável", "\"were\" para todos com \"to be\"", "Equivale ao \"-ria\" em PT"]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "3",
+      "title": "Third Conditional",
+      "subtitle": "Situações irreais no passado — algo que não aconteceu",
+      "formula": [
+        { "label": "IF-clause →", "value": "If + **Past Perfect** (had + particípio)" },
+        { "label": "Main clause →", "value": "would have + **particípio**" }
+      ],
+      "examples": [
+        { "en": "**If** I **had studied** more, I **would have passed**.", "pt": "Se eu tivesse estudado mais, teria passado." },
+        { "en": "**If** she **had left** earlier, she **wouldn't have missed** the flight.", "pt": "Se ela tivesse saído mais cedo, não teria perdido o voo." },
+        { "en": "**If** they **had told** me, I **would have helped**.", "pt": "Se eles tivessem me dito, eu teria ajudado." }
+      ],
+      "keyPoints": ["Passado irreal", "Arrependimento / especulação", "Equivale ao \"teria…\" em PT"]
+    },
+    {
+      "type": "table",
+      "title": "Comparativo Rápido",
+      "headers": ["Tipo", "Quando usar", "If-clause", "Main clause"],
+      "rows": [
+        ["**0**", "Fato / verdade geral", "`Simple Present`", "`Simple Present`"],
+        ["**1ª**", "Futuro possível / provável", "`Simple Present`", "`will + verb`"],
+        ["**2ª**", "Hipotético / improvável agora", "`Simple Past`", "`would + verb`"],
+        ["**3ª**", "Irreal / impossível (passado)", "`Past Perfect`", "`would have + pp`"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "If I **will go** to the party, I will call you.", "right": "If I **go** to the party, I will call you.", "note": "1ª: não usa will no if" },
+        { "wrong": "If I **would have** more time, I would help.", "right": "If I **had** more time, I would help.", "note": "2ª: não usa would no if" },
+        { "wrong": "If she had studied, she would **passed**.", "right": "If she had studied, she would **have passed**.", "note": "3ª: precisa de \"have\"" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Na 2ª condicional, use **were** para todas as pessoas com o verbo \"to be\" — inclusive he/she/it. Ex.: `If I were you…` (forma correta, não \"If I was you\")."
+    },
+    {
+      "type": "tip",
+      "text": "A cláusula com \"if\" pode vir antes **ou depois** da cláusula principal. Se vier antes, use vírgula: `If I go, I will call you.` Depois, sem vírgula: `I will call you if I go.`"
+    },
+    {
+      "type": "tip",
+      "text": "A forma reduzida **would've** = would have é muito comum na fala. Cuidado para não escrever \"would of\" (incorreto)."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "If it ___ tomorrow, we will cancel the picnic.",
+      "options": ["will rain", "rains", "rained", "would rain"],
+      "answer": 1,
+      "explanation": "1ª condicional: **If + Simple Present**, will na cláusula principal. Nunca use will dentro do if."
+    },
+    {
+      "question": "If I ___ rich, I would buy a big house.",
+      "options": ["am", "will be", "were", "had been"],
+      "answer": 2,
+      "explanation": "2ª condicional (hipótese): **If + Simple Past** + would. Com \"to be\", use **were** para todas as pessoas."
+    },
+    {
+      "question": "If they had arrived earlier, they ___ the beginning of the movie.",
+      "options": ["would see", "will see", "would have seen", "saw"],
+      "answer": 2,
+      "explanation": "3ª condicional (passado irreal): If + Past Perfect + **would have + particípio**."
+    },
+    {
+      "question": "If you ___ ice, it melts.",
+      "options": ["will heat", "heated", "would heat", "heat"],
+      "answer": 3,
+      "explanation": "Zero conditional (fato): **Simple Present nos dois lados** — \"If you heat ice, it melts\"."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "If I would know, I would tell you.",
+        "If I knew, I would tell you.",
+        "If I know, I would tell you.",
+        "If I will know, I will tell you."
+      ],
+      "answer": 1,
+      "explanation": "2ª condicional: **If + Simple Past** (knew) + would. \"Would\" nunca entra na cláusula do if."
+    }
+  ]
+}

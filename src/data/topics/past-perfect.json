@@ -1,0 +1,118 @@
+{
+  "id": "past-perfect",
+  "title": "Past Perfect",
+  "titleHighlight": "Perfect",
+  "subtitle": "O \"passado do passado\" — had + particípio",
+  "category": "tenses",
+  "tags": ["past perfect", "had", "particípio", "passado do passado", "when", "after", "before", "by the time"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "1",
+      "title": "Quando usar",
+      "subtitle": "Ação que aconteceu ANTES de outra ação no passado",
+      "examples": [
+        { "en": "When I arrived, the movie **had started**.", "pt": "Quando cheguei, o filme já tinha começado. (começou antes de eu chegar)" },
+        { "en": "She was tired because she **had worked** all day.", "pt": "Ela estava cansada porque tinha trabalhado o dia todo." },
+        { "en": "I realized I **had forgotten** my wallet.", "pt": "Percebi que tinha esquecido minha carteira." }
+      ],
+      "keyPoints": ["Passado do passado", "Duas ações: had = a mais antiga", "Equivale ao \"tinha feito\" em PT"]
+    },
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "2",
+      "title": "Forma",
+      "subtitle": "had + particípio — igual para TODAS as pessoas",
+      "formula": [
+        { "label": "Afirmativa →", "value": "Sujeito + **had** + particípio" },
+        { "label": "Negativa →", "value": "Sujeito + **hadn't** + particípio" },
+        { "label": "Pergunta →", "value": "**Had** + sujeito + particípio?" }
+      ],
+      "examples": [
+        { "en": "She **had left** before I called.", "pt": "Ela tinha saído antes de eu ligar." },
+        { "en": "They **hadn't seen** the news.", "pt": "Eles não tinham visto a notícia." },
+        { "en": "**Had** you **met** him before the party?", "pt": "Você já o conhecia antes da festa?" }
+      ],
+      "keyPoints": ["had para I, you, he, she, it, we, they", "Sem has/have — só **had**", "O had marca a ação mais antiga"]
+    },
+    {
+      "type": "card",
+      "accent": "teal",
+      "badge": "3",
+      "title": "Com when · after · before · by the time",
+      "subtitle": "Conectores que deixam clara a ordem das ações",
+      "formula": [
+        { "label": "when / by the time →", "value": "When X aconteceu, Y **had** já acontecido" },
+        { "label": "after →", "value": "After + **Past Perfect**, Past Simple" },
+        { "label": "before →", "value": "Past Perfect + before + Past Simple" }
+      ],
+      "examples": [
+        { "en": "**By the time** we got there, the store **had closed**.", "pt": "Quando chegamos lá, a loja já tinha fechado." },
+        { "en": "**After** she **had finished** dinner, she went to bed.", "pt": "Depois que ela terminou o jantar, foi dormir." },
+        { "en": "He **had studied** English **before** he moved to Canada.", "pt": "Ele tinha estudado inglês antes de se mudar para o Canadá." }
+      ],
+      "keyPoints": ["by the time = \"quando… já\"", "A ação com had vem primeiro na linha do tempo"]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "When I arrived, the movie **started**.", "right": "When I arrived, the movie **had started**.", "note": "se o filme começou antes, use had + particípio" },
+        { "wrong": "She **had went** home early.", "right": "She **had gone** home early.", "note": "had + particípio (gone), não passado simples (went)" },
+        { "wrong": "He **has finished** before I called yesterday.", "right": "He **had finished** before I called yesterday.", "note": "contexto todo no passado → had, não has" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Só use Past Perfect quando existem **duas ações no passado** e você quer marcar qual veio primeiro. Uma ação só, em sequência simples? **Past Simple** resolve."
+    },
+    {
+      "type": "tip",
+      "text": "A **3ª condicional** usa Past Perfect na cláusula do if: `If I **had known**, I would have helped.` — mesmo `had + particípio` deste assunto."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "When we arrived at the station, the train ___ .",
+      "options": ["has left", "left", "had left", "was leaving"],
+      "answer": 2,
+      "explanation": "O trem saiu **antes** de chegarmos — passado do passado → **had left**."
+    },
+    {
+      "question": "She ___ in London before she moved to Paris.",
+      "options": ["had lived", "has lived", "lives", "had living"],
+      "answer": 0,
+      "explanation": "Morar em Londres veio **antes** da mudança (ambas no passado) → **had + particípio**."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "He had went to bed when I called.",
+        "He had gone to bed when I called.",
+        "He has gone to bed when I called.",
+        "He had go to bed when I called."
+      ],
+      "answer": 1,
+      "explanation": "Depois de **had** vem o **particípio**: gone (não went, nem go)."
+    },
+    {
+      "question": "By the time the police arrived, the thief ___ .",
+      "options": ["escapes", "has escaped", "escaped", "had escaped"],
+      "answer": 3,
+      "explanation": "**By the time** + passado indica que a outra ação já tinha ocorrido → **had escaped**."
+    },
+    {
+      "question": "I didn't laugh at the joke because I ___ it before.",
+      "options": ["have heard", "had heard", "hear", "was hearing"],
+      "answer": 1,
+      "explanation": "Ouvir a piada aconteceu **antes** do momento passado em que não ri → **had heard**."
+    },
+    {
+      "question": "If she ___ the truth, she would have told us. (3ª condicional)",
+      "options": ["knew", "has known", "had known", "would know"],
+      "answer": 2,
+      "explanation": "3ª condicional usa **Past Perfect** no if: If + **had + particípio** (had known)."
+    }
+  ]
+}

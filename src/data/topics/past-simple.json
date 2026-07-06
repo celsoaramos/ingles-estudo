@@ -1,0 +1,119 @@
+{
+  "id": "past-simple",
+  "title": "Past Simple",
+  "titleHighlight": "Simple",
+  "subtitle": "Ações concluídas em um tempo definido do passado — yesterday, last week, in 2010",
+  "category": "tenses",
+  "tags": ["past simple", "passado simples", "did", "ed", "verbos irregulares", "yesterday", "ago"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "✓",
+      "title": "Quando usar",
+      "subtitle": "Ação que começou e terminou em um momento definido do passado",
+      "formula": [
+        { "label": "Afirmativa →", "value": "Sujeito + **verbo no passado**" }
+      ],
+      "examples": [
+        { "en": "I **visited** my grandmother **yesterday**.", "pt": "Eu visitei minha avó ontem." },
+        { "en": "She **moved** to London **in 2019**.", "pt": "Ela se mudou para Londres em 2019." },
+        { "en": "They **left** two hours **ago**.", "pt": "Eles saíram há duas horas." }
+      ],
+      "keyPoints": ["Ação concluída", "Tempo definido", "Sinais: yesterday, last…, ago, in 2010"]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "ed",
+      "title": "Regulares vs Irregulares",
+      "subtitle": "Regulares ganham -ed; irregulares têm forma própria (decoreba)",
+      "formula": [
+        { "label": "Regular →", "value": "verbo + **-ed** (`work → worked`)" },
+        { "label": "Irregular →", "value": "**forma própria** (`go → went`, `have → had`)" }
+      ],
+      "examples": [
+        { "en": "We **played** soccer on Saturday.", "pt": "Jogamos futebol no sábado." },
+        { "en": "He **went** to the beach last weekend.", "pt": "Ele foi à praia no fim de semana passado." },
+        { "en": "I **bought** a new phone last month.", "pt": "Comprei um celular novo mês passado." }
+      ],
+      "keyPoints": ["Regular: +ed", "Irregular: sem regra, memorize", "Mesma forma para todas as pessoas"]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "?",
+      "title": "Negativa e Interrogativa",
+      "subtitle": "Did é o auxiliar do passado — e o verbo volta à forma base",
+      "formula": [
+        { "label": "Negativa →", "value": "Sujeito + **didn't** + verbo base" },
+        { "label": "Pergunta →", "value": "**Did** + sujeito + verbo base?" }
+      ],
+      "examples": [
+        { "en": "I **didn't see** the movie.", "pt": "Eu não vi o filme." },
+        { "en": "**Did** you **like** the show?", "pt": "Você gostou do show?" },
+        { "en": "She **didn't go** to class yesterday.", "pt": "Ela não foi à aula ontem." }
+      ],
+      "keyPoints": ["did = passado da frase inteira", "Verbo fica na forma **base**", "Vale para todas as pessoas"]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "Did you **went** to the party?", "right": "Did you **go** to the party?", "note": "did + verbo base, não passado" },
+        { "wrong": "She **didn't saw** the message.", "right": "She **didn't see** the message.", "note": "duplo passado — o did já marca o passado" },
+        { "wrong": "I **buyed** a car.", "right": "I **bought** a car.", "note": "buy é irregular: bought" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Regra de ouro: o passado aparece **uma vez só** na frase — ou no verbo (`I went`) ou no **did** (`Did you go?` / `I didn't go`). Nunca nos dois."
+    },
+    {
+      "type": "tip",
+      "text": "Pronúncia do **-ed**: soa como /t/ depois de sons surdos (`worked`), /d/ depois de sonoros (`played`) e /id/ só depois de t/d (`wanted`, `needed`)."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "I ___ TV last night.",
+      "options": ["watch", "watches", "watched", "was watch"],
+      "answer": 2,
+      "explanation": "Tempo definido no passado (**last night**) + verbo regular → watch**ed**."
+    },
+    {
+      "question": "___ she call you yesterday?",
+      "options": ["Did", "Does", "Was", "Do"],
+      "answer": 0,
+      "explanation": "Pergunta no passado usa o auxiliar **did** (para todas as pessoas)."
+    },
+    {
+      "question": "They ___ to the meeting on Monday.",
+      "options": ["goed", "did go", "go", "went"],
+      "answer": 3,
+      "explanation": "**Go** é irregular: o passado é **went**. \"Goed\" não existe."
+    },
+    {
+      "question": "He didn't ___ the email.",
+      "options": ["sent", "send", "sends", "sending"],
+      "answer": 1,
+      "explanation": "Depois de **didn't**, o verbo volta à forma base: send. \"Didn't sent\" é duplo passado."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "Did you saw the game?",
+        "Did you see the game?",
+        "Do you saw the game?",
+        "Did you seen the game?"
+      ],
+      "answer": 1,
+      "explanation": "**Did + sujeito + verbo base**: \"Did you see…?\". O did já indica o passado."
+    },
+    {
+      "question": "We ___ in Rio in 2015.",
+      "options": ["living", "live", "lived", "didn't lived"],
+      "answer": 2,
+      "explanation": "Ação concluída em tempo definido (**in 2015**) → Past Simple: liv**ed**."
+    }
+  ]
+}

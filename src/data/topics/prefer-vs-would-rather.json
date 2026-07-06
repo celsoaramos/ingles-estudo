@@ -1,0 +1,112 @@
+{
+  "id": "prefer-vs-would-rather",
+  "title": "Prefer vs Would rather",
+  "titleHighlight": "vs",
+  "subtitle": "Prefer para preferência geral · Would rather para escolha no momento",
+  "category": "versus",
+  "tags": ["prefer", "would rather", "'d rather", "preferência", "than", "to"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "green",
+      "badge": "P",
+      "title": "Prefer",
+      "subtitle": "Preferência geral, de sempre — gostos e hábitos",
+      "formula": [
+        { "label": "Estrutura →", "value": "prefer + **-ing / substantivo**" },
+        { "label": "Comparando →", "value": "prefer X **to** Y" }
+      ],
+      "examples": [
+        { "en": "I **prefer tea to** coffee.", "pt": "Eu prefiro chá a café (em geral, sempre)." },
+        { "en": "She **prefers walking** to driving.", "pt": "Ela prefere caminhar a dirigir." },
+        { "en": "We **prefer quiet places**.", "pt": "Nós preferimos lugares tranquilos." }
+      ],
+      "keyPoints": ["Preferência geral", "prefer + -ing / substantivo", "Compara com **to**, não than"]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "R",
+      "title": "Would rather ('d rather)",
+      "subtitle": "Preferência agora, nesta situação específica",
+      "formula": [
+        { "label": "Estrutura →", "value": "would rather + **verbo base** (sem to)" },
+        { "label": "Comparando →", "value": "would rather X **than** Y" }
+      ],
+      "examples": [
+        { "en": "I**'d rather stay** home tonight.", "pt": "Eu prefiro ficar em casa hoje à noite (agora, nesta situação)." },
+        { "en": "She**'d rather walk than** take the bus.", "pt": "Ela prefere ir a pé do que pegar o ônibus." },
+        { "en": "I**'d rather not talk** about it.", "pt": "Eu prefiro não falar sobre isso." }
+      ],
+      "keyPoints": ["Escolha no momento", "Verbo base, sem \"to\"", "Compara com **than**", "Negativa: 'd rather **not**"]
+    },
+    {
+      "type": "table",
+      "title": "Comparativo Rápido",
+      "headers": ["", "Quando usar", "Verbo", "Comparação"],
+      "rows": [
+        ["**prefer**", "Preferência geral (sempre)", "`prefer + -ing / substantivo`", "prefer X **to** Y"],
+        ["**would rather**", "Preferência agora (situação)", "`'d rather + verbo base`", "'d rather X **than** Y"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "I'd rather **to go** home.", "right": "I'd rather **go** home.", "note": "Would rather + verbo base, sem \"to\"" },
+        { "wrong": "I prefer coffee **than** tea.", "right": "I prefer coffee **to** tea.", "note": "Prefer compara com \"to\"" },
+        { "wrong": "I'd rather **don't go**.", "right": "I'd rather **not go**.", "note": "Negativa: 'd rather not + verbo" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Macete dos pares: **prefer … to** e **would rather … than**. Nunca misture: \"prefer than\" e \"rather to\" estão sempre errados."
+    },
+    {
+      "type": "tip",
+      "text": "Na fala, quase ninguém diz \"would rather\" por extenso — use a contração **'d rather**: `I'd rather…`, `She'd rather…`."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "I'd rather ___ at home than go to the party.",
+      "options": ["to stay", "staying", "stay", "stayed"],
+      "answer": 2,
+      "explanation": "Would rather + **verbo base**, sem \"to\" e sem -ing: **'d rather stay**."
+    },
+    {
+      "question": "She prefers reading ___ watching TV.",
+      "options": ["than", "to", "that", "as"],
+      "answer": 1,
+      "explanation": "Prefer compara com **to**: prefer X **to** Y. \"Than\" é do would rather."
+    },
+    {
+      "question": "It's cold — I'd rather ___ out tonight.",
+      "options": ["not go", "don't go", "not to go", "no go"],
+      "answer": 0,
+      "explanation": "Negativa do would rather: **'d rather not + verbo base**."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "I prefer coffee than tea.",
+        "I'd rather to drink coffee.",
+        "I'd rather drinking coffee.",
+        "I'd rather drink coffee than tea."
+      ],
+      "answer": 3,
+      "explanation": "**'d rather + verbo base + than**. As outras misturam os pares (prefer…to / rather…than)."
+    },
+    {
+      "question": "In general, we ___ traveling by train.",
+      "options": ["would rather", "prefer", "rather", "would prefer to"],
+      "answer": 1,
+      "explanation": "\"In general\" indica preferência **geral** → **prefer + -ing** (prefer traveling)."
+    },
+    {
+      "question": "They'd rather walk ___ take a taxi.",
+      "options": ["to", "that", "than", "instead"],
+      "answer": 2,
+      "explanation": "Would rather compara com **than**: 'd rather X **than** Y."
+    }
+  ]
+}

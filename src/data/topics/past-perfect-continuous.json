@@ -1,0 +1,100 @@
+{
+  "id": "past-perfect-continuous",
+  "title": "Past Perfect Continuous",
+  "titleHighlight": "Continuous",
+  "subtitle": "Ação em andamento até um momento do passado — had been + -ing",
+  "category": "tenses",
+  "tags": ["past perfect continuous", "had been", "ing", "duração", "for", "since", "passado"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "pink",
+      "badge": "1",
+      "title": "Quando usar",
+      "subtitle": "Ação que vinha acontecendo até um momento do passado, com foco na duração",
+      "examples": [
+        { "en": "She **had been studying** for three hours when I called.", "pt": "Ela estava estudando havia três horas quando liguei." },
+        { "en": "They **had been living** there since 2010 when the building was sold.", "pt": "Eles moravam lá desde 2010 quando o prédio foi vendido." },
+        { "en": "He was tired because he **had been running**.", "pt": "Ele estava cansado porque tinha estado correndo." }
+      ],
+      "keyPoints": ["Duração até um ponto no passado", "Quase sempre com **for/since**", "Explica um estado passado (cansado, molhado…)"]
+    },
+    {
+      "type": "card",
+      "accent": "teal",
+      "badge": "2",
+      "title": "Forma",
+      "subtitle": "had been + verbo com -ing — igual para todas as pessoas",
+      "formula": [
+        { "label": "Afirmativa →", "value": "Sujeito + **had been** + verbo-**ing**" },
+        { "label": "Negativa →", "value": "Sujeito + **hadn't been** + verbo-**ing**" },
+        { "label": "Pergunta →", "value": "**Had** + sujeito + **been** + verbo-**ing**?" }
+      ],
+      "examples": [
+        { "en": "I **had been waiting** for an hour when the bus came.", "pt": "Eu esperava havia uma hora quando o ônibus chegou." },
+        { "en": "**Had** you **been working** there long before the promotion?", "pt": "Você trabalhava lá havia muito tempo antes da promoção?" }
+      ],
+      "keyPoints": ["had been nunca muda", "Só o verbo principal ganha -ing"]
+    },
+    {
+      "type": "table",
+      "title": "Past Perfect vs Past Perfect Continuous",
+      "headers": ["", "Past Perfect", "Past Perfect Continuous"],
+      "rows": [
+        ["Foco", "**Resultado** / ação concluída", "**Duração** / processo"],
+        ["Forma", "`had + particípio`", "`had been + -ing`"],
+        ["Exemplo", "`I had written three emails.` (quantos)", "`I had been writing emails for two hours.` (por quanto tempo)"],
+        ["Sinais", "already, just, before, by the time", "for, since, all day/night"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "She **had been study** for hours.", "right": "She **had been studying** for hours.", "note": "depois de had been, o verbo leva -ing" },
+        { "wrong": "They **have been waiting** when the bus finally came.", "right": "They **had been waiting** when the bus finally came.", "note": "contexto no passado → had, não have" },
+        { "wrong": "I **had been knowing** him for years.", "right": "I **had known** him for years.", "note": "verbos de estado (know, love, believe) não vão para o contínuo" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Pergunte: a frase responde **\"por quanto tempo?\"** antes de um momento passado? Então é Past Perfect Continuous. Se responde **\"o quê / quantos?\"** (resultado), é Past Perfect simples."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "When the doctor arrived, the patient ___ for 40 minutes.",
+      "options": ["waits", "had been waiting", "has been waiting", "is waiting"],
+      "answer": 1,
+      "explanation": "Duração (**for 40 minutes**) até um momento do passado → **had been waiting**."
+    },
+    {
+      "question": "The ground was wet because it ___ all night.",
+      "options": ["had been raining", "has rained", "rains", "is raining"],
+      "answer": 0,
+      "explanation": "A chuva em andamento explica o estado passado (chão molhado) → **had been + -ing**."
+    },
+    {
+      "question": "Qual frase foca na DURAÇÃO, e não no resultado?",
+      "options": [
+        "She had painted two walls.",
+        "She had finished the painting.",
+        "She had been painting for hours.",
+        "She painted the wall yesterday."
+      ],
+      "answer": 2,
+      "explanation": "**had been painting for hours** mostra o processo/duração; \"had painted two walls\" mostra o resultado."
+    },
+    {
+      "question": "How long ___ they ___ before the company closed?",
+      "options": ["did / been working", "have / been working", "had / working", "had / been working"],
+      "answer": 3,
+      "explanation": "Pergunta: **Had** + sujeito + **been + -ing**. As três partes precisam aparecer."
+    },
+    {
+      "question": "I ___ him for years before we finally met in person.",
+      "options": ["had been knowing", "had known", "have known", "was knowing"],
+      "answer": 1,
+      "explanation": "**Know** é verbo de estado — não usa forma contínua. Use Past Perfect simples: **had known**."
+    }
+  ]
+}

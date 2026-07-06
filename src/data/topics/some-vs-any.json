@@ -1,0 +1,129 @@
+{
+  "id": "some-vs-any",
+  "title": "Some vs Any",
+  "titleHighlight": "vs",
+  "subtitle": "Some em afirmativas e ofertas · Any em negativas e perguntas",
+  "category": "basics",
+  "tags": ["some", "any", "something", "anything", "someone", "anyone", "algum", "nenhum"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "green",
+      "badge": "S",
+      "title": "Some",
+      "subtitle": "Frases afirmativas + ofertas e pedidos (esperando \"sim\")",
+      "formula": [
+        { "label": "Estrutura →", "value": "some + **substantivo** (contável plural ou incontável)" }
+      ],
+      "examples": [
+        { "en": "I bought **some apples**.", "pt": "Comprei algumas maçãs." },
+        { "en": "There's **some milk** in the fridge.", "pt": "Tem um pouco de leite na geladeira." },
+        { "en": "Would you like **some coffee**?", "pt": "Você aceita um café? (oferta — espero que sim)" }
+      ],
+      "keyPoints": ["Afirmativas", "Ofertas e pedidos (Would you like…? / Can I have…?)", "= algum(as), um pouco de"]
+    },
+    {
+      "type": "card",
+      "accent": "pink",
+      "badge": "A",
+      "title": "Any",
+      "subtitle": "Frases negativas e perguntas em geral",
+      "formula": [
+        { "label": "Estrutura →", "value": "any + **substantivo** (contável plural ou incontável)" }
+      ],
+      "examples": [
+        { "en": "I don't have **any money**.", "pt": "Não tenho dinheiro nenhum." },
+        { "en": "Are there **any questions**?", "pt": "Há alguma pergunta?" },
+        { "en": "She didn't buy **any books**.", "pt": "Ela não comprou nenhum livro." }
+      ],
+      "keyPoints": ["Negativas (don't/didn't…)", "Perguntas em geral", "= algum? / nenhum"]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "+",
+      "title": "Something · Anything · Someone · Anyone",
+      "subtitle": "Os derivados seguem a mesma regra de some e any",
+      "formula": [
+        { "label": "Coisas →", "value": "**something** (afirmativa) · **anything** (negativa/pergunta)" },
+        { "label": "Pessoas →", "value": "**someone** (afirmativa) · **anyone** (negativa/pergunta)" }
+      ],
+      "examples": [
+        { "en": "I need **something** to eat.", "pt": "Preciso de algo para comer." },
+        { "en": "I didn't see **anyone** at the office.", "pt": "Não vi ninguém no escritório." },
+        { "en": "Is there **anything** I can do?", "pt": "Tem alguma coisa que eu possa fazer?" }
+      ],
+      "keyPoints": ["some- → afirmativas", "any- → negativas e perguntas", "Mesma lógica do some/any"]
+    },
+    {
+      "type": "table",
+      "title": "Comparativo Rápido",
+      "headers": ["Tipo de frase", "Usa", "Exemplo"],
+      "rows": [
+        ["Afirmativa", "**some** / something / someone", "I have **some** friends here."],
+        ["Negativa", "**any** / anything / anyone", "I don't have **any** friends here."],
+        ["Pergunta comum", "**any** / anything / anyone", "Do you have **any** friends here?"],
+        ["Oferta / pedido", "**some** / something", "Would you like **some** tea?"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "I don't have **some** money.", "right": "I don't have **any** money.", "note": "Negativa usa any" },
+        { "wrong": "Do you have **some** questions? (pergunta comum)", "right": "Do you have **any** questions?", "note": "Pergunta em geral usa any" },
+        { "wrong": "I didn't see **nothing**.", "right": "I didn't see **anything**.", "note": "Inglês não aceita dupla negativa" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Exceção que cai em prova: em **ofertas e pedidos**, use **some** mesmo sendo pergunta — `Would you like some water?`, `Can I have some sugar?` — porque você espera resposta \"sim\"."
+    },
+    {
+      "type": "tip",
+      "text": "Cuidado com a dupla negativa: o verbo já negativo pede **any**, nunca \"no/nothing\". `I don't know anything` (✓) — não \"I don't know nothing\"."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "I'm hungry, but there isn't ___ food in the house.",
+      "options": ["some", "any", "a", "many"],
+      "answer": 1,
+      "explanation": "Frase **negativa** (isn't) → **any**: there isn't any food."
+    },
+    {
+      "question": "Would you like ___ juice?",
+      "options": ["some", "any", "a", "anything"],
+      "answer": 0,
+      "explanation": "É uma **oferta** (espero que aceite) → usa **some**, mesmo sendo pergunta."
+    },
+    {
+      "question": "Did you buy ___ at the mall?",
+      "options": ["something", "someone", "nothing", "anything"],
+      "answer": 3,
+      "explanation": "Pergunta comum sobre coisas → **anything**. \"Something\" ficaria para afirmativas e ofertas."
+    },
+    {
+      "question": "There's ___ at the door — can you check?",
+      "options": ["anyone", "any", "someone", "anybody"],
+      "answer": 2,
+      "explanation": "Frase **afirmativa** sobre pessoa → **someone**: there's someone at the door."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "I don't know nothing about it.",
+        "I don't know anything about it.",
+        "I don't know something about it.",
+        "I know any thing about it."
+      ],
+      "answer": 1,
+      "explanation": "Verbo negativo (don't) + **anything**. \"Don't … nothing\" é dupla negativa, erro em inglês."
+    },
+    {
+      "question": "We visited ___ interesting places on our trip.",
+      "options": ["any", "anything", "no", "some"],
+      "answer": 3,
+      "explanation": "Frase **afirmativa** → **some**: visited some interesting places."
+    }
+  ]
+}

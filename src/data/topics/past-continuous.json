@@ -1,0 +1,124 @@
+{
+  "id": "past-continuous",
+  "title": "Past Continuous",
+  "titleHighlight": "Continuous",
+  "subtitle": "Ação em andamento no passado — o \"estava fazendo\" do inglês",
+  "category": "tenses",
+  "tags": ["past continuous", "passado contínuo", "was", "were", "ing", "when", "while", "interrupção"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "teal",
+      "badge": "▶",
+      "title": "Quando usar",
+      "subtitle": "Ação em progresso em um momento do passado — cenário, não conclusão",
+      "formula": [
+        { "label": "Uso →", "value": "ação **em andamento** em um ponto do passado" }
+      ],
+      "examples": [
+        { "en": "At 8 p.m. I **was having** dinner.", "pt": "Às 20h eu estava jantando." },
+        { "en": "They **were living** in Spain in 2020.", "pt": "Eles estavam morando na Espanha em 2020." }
+      ],
+      "keyPoints": ["\"Estava fazendo\"", "Foco no processo, não no fim", "Descreve o cenário de uma história"]
+    },
+    {
+      "type": "card",
+      "accent": "pink",
+      "badge": "ing",
+      "title": "Forma",
+      "subtitle": "was/were + verbo com -ing",
+      "formula": [
+        { "label": "Afirmativa →", "value": "Sujeito + **was/were** + verbo**-ing**" },
+        { "label": "Negativa →", "value": "Sujeito + **wasn't/weren't** + verbo-ing" },
+        { "label": "Pergunta →", "value": "**Was/Were** + sujeito + verbo-ing?" }
+      ],
+      "examples": [
+        { "en": "She **was studying** all afternoon.", "pt": "Ela estava estudando a tarde toda." },
+        { "en": "**Were** you **sleeping** when I called?", "pt": "Você estava dormindo quando eu liguei?" },
+        { "en": "We **weren't watching** the game.", "pt": "Nós não estávamos assistindo ao jogo." }
+      ],
+      "keyPoints": ["was → I/he/she/it", "were → you/we/they", "Verbos de estado não vão para -ing"]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "⚡",
+      "title": "Com Past Simple (when / while)",
+      "subtitle": "Ação longa em andamento interrompida por uma ação curta",
+      "formula": [
+        { "label": "Padrão →", "value": "**Past Continuous** (ação longa) + when + **Past Simple** (interrupção)" },
+        { "label": "Ou →", "value": "**While** + Past Continuous, Past Simple" }
+      ],
+      "examples": [
+        { "en": "I **was taking** a shower **when** the phone **rang**.", "pt": "Eu estava tomando banho quando o telefone tocou." },
+        { "en": "**While** she **was cooking**, the lights **went** out.", "pt": "Enquanto ela cozinhava, as luzes apagaram." },
+        { "en": "They **were playing** outside **when** it **started** to rain.", "pt": "Eles estavam brincando lá fora quando começou a chover." }
+      ],
+      "keyPoints": ["Longa = Continuous", "Curta / interrupção = Simple", "while + continuous · when + simple"]
+    },
+    {
+      "type": "table",
+      "title": "Past Continuous vs Past Simple",
+      "headers": ["", "Past Continuous", "Past Simple"],
+      "rows": [
+        ["**Quando**", "ação em andamento (processo)", "ação concluída (fato)"],
+        ["**Forma**", "`was/were + verbo-ing`", "`verbo no passado`"],
+        ["**Ideia**", "\"estava fazendo\"", "\"fez\""],
+        ["**Exemplo**", "`I was reading at 10 p.m.`", "`I read the book yesterday.`"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "I **was watch** TV when you called.", "right": "I **was watching** TV when you called.", "note": "was/were pede verbo com -ing" },
+        { "wrong": "They **was playing** soccer.", "right": "They **were playing** soccer.", "note": "they usa were, não was" },
+        { "wrong": "While I **cooked**, he was setting the table.", "right": "While I **was cooking**, he was setting the table.", "note": "while combina com continuous" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Duas ações longas ao mesmo tempo? Use Past Continuous nas duas com **while**: `While I was studying, she was working.`"
+    },
+    {
+      "type": "tip",
+      "text": "Pense em uma foto do passado: o Past Continuous descreve **o que estava acontecendo** na cena (`The sun was shining…`) e o Past Simple conta **o que aconteceu** (`…and then we left.`)."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "At 10 p.m. yesterday, I ___ a movie.",
+      "options": ["watched", "was watching", "am watching", "watch"],
+      "answer": 1,
+      "explanation": "Ação em andamento em um momento específico do passado → **was watching**."
+    },
+    {
+      "question": "She ___ dinner when the doorbell rang.",
+      "options": ["cooked", "cooks", "was cooking", "is cooking"],
+      "answer": 2,
+      "explanation": "Ação longa (**was cooking**) interrompida pela curta (rang, Past Simple)."
+    },
+    {
+      "question": "___ you sleeping when I texted you?",
+      "options": ["Were", "Was", "Did", "Are"],
+      "answer": 0,
+      "explanation": "Pergunta no Past Continuous com **you**: **Were** you sleeping?"
+    },
+    {
+      "question": "While they ___ soccer, it started to rain.",
+      "options": ["played", "play", "was playing", "were playing"],
+      "answer": 3,
+      "explanation": "**While** + Past Continuous; \"they\" usa **were**, não was."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "I was walking home when I was seeing an accident.",
+        "I walked home when I was seeing an accident.",
+        "I was walking home when I saw an accident.",
+        "I was walk home when I saw an accident."
+      ],
+      "answer": 2,
+      "explanation": "Ação longa no Continuous (**was walking**) + interrupção no Simple (**saw**). \"See\" aqui é evento pontual, não fica no -ing."
+    }
+  ]
+}

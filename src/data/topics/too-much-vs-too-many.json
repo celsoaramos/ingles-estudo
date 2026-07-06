@@ -1,0 +1,129 @@
+{
+  "id": "too-much-vs-too-many",
+  "title": "Too much vs Too many",
+  "titleHighlight": "vs",
+  "subtitle": "Excesso com incontáveis e contáveis · too + adjetivo · enough",
+  "category": "versus",
+  "tags": ["too much", "too many", "too", "enough", "contável", "incontável", "excesso"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "1",
+      "title": "Too much",
+      "subtitle": "Excesso com substantivos incontáveis (não dá para contar 1, 2, 3…)",
+      "formula": [
+        { "label": "Estrutura →", "value": "too much + **substantivo incontável**" }
+      ],
+      "examples": [
+        { "en": "I drank **too much coffee** today.", "pt": "Tomei café demais hoje." },
+        { "en": "There's **too much noise** here.", "pt": "Tem barulho demais aqui." },
+        { "en": "She spends **too much time** online.", "pt": "Ela passa tempo demais na internet." }
+      ],
+      "keyPoints": ["Incontáveis: water, money, time…", "Sempre no singular", "Ideia negativa: \"demais\""]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "2",
+      "title": "Too many",
+      "subtitle": "Excesso com substantivos contáveis no plural",
+      "formula": [
+        { "label": "Estrutura →", "value": "too many + **substantivo contável plural**" }
+      ],
+      "examples": [
+        { "en": "There are **too many cars** on this street.", "pt": "Tem carros demais nesta rua." },
+        { "en": "I made **too many mistakes** in the test.", "pt": "Cometi erros demais na prova." }
+      ],
+      "keyPoints": ["Contáveis: cars, people, emails…", "Substantivo no plural", "Ideia negativa: \"demais\""]
+    },
+    {
+      "type": "card",
+      "accent": "teal",
+      "badge": "+",
+      "title": "Too + adjetivo · Enough",
+      "subtitle": "Excesso antes de adjetivo e a ideia de \"suficiente\"",
+      "formula": [
+        { "label": "Excesso →", "value": "too + **adjetivo**" },
+        { "label": "Suficiente →", "value": "adjetivo + **enough** · **enough** + substantivo" }
+      ],
+      "examples": [
+        { "en": "This coffee is **too hot**.", "pt": "Este café está quente demais." },
+        { "en": "He isn't **old enough** to drive.", "pt": "Ele não tem idade suficiente para dirigir." },
+        { "en": "We don't have **enough time**.", "pt": "Não temos tempo suficiente." }
+      ],
+      "keyPoints": ["too + adjetivo (sem much/many)", "enough vem **depois** do adjetivo", "enough vem **antes** do substantivo"]
+    },
+    {
+      "type": "table",
+      "title": "Comparativo Rápido",
+      "headers": ["Expressão", "Combina com", "Exemplo"],
+      "rows": [
+        ["**too much**", "Incontável (singular)", "too much **sugar**, too much **money**"],
+        ["**too many**", "Contável (plural)", "too many **people**, too many **emails**"],
+        ["**too + adjetivo**", "Adjetivo", "too **expensive**, too **tired**"],
+        ["**enough**", "Depois do adjetivo / antes do substantivo", "good **enough** · **enough** money"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "There are **too much people** here.", "right": "There are **too many people** here.", "note": "people é contável plural → many" },
+        { "wrong": "I have **too many money**.", "right": "I have **too much money**.", "note": "money é incontável → much" },
+        { "wrong": "This bag is **too much heavy**.", "right": "This bag is **too heavy**.", "note": "Antes de adjetivo, só \"too\"" },
+        { "wrong": "He is **enough old** to vote.", "right": "He is **old enough** to vote.", "note": "enough vem depois do adjetivo" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Teste rápido: dá para contar 1, 2, 3…? Sim → **too many** (cars, friends). Não → **too much** (water, stress). Na dúvida, se o substantivo termina em -s de plural, é many."
+    },
+    {
+      "type": "tip",
+      "text": "**Too** sempre carrega ideia **negativa** (excesso que atrapalha). \"Very expensive\" = muito caro (fato); \"**too** expensive\" = caro demais (não vou comprar)."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "I can't sleep — I drank ___ coffee.",
+      "options": ["too many", "too much", "enough", "too"],
+      "answer": 1,
+      "explanation": "Coffee é **incontável** → **too much** coffee."
+    },
+    {
+      "question": "There were ___ people at the concert.",
+      "options": ["too much", "much too", "too many", "too"],
+      "answer": 2,
+      "explanation": "People é **contável plural** → **too many** people."
+    },
+    {
+      "question": "This exercise is ___ difficult for beginners.",
+      "options": ["too", "too much", "too many", "enough"],
+      "answer": 0,
+      "explanation": "Antes de **adjetivo** usa-se só **too**: too difficult. \"Too much difficult\" é erro clássico."
+    },
+    {
+      "question": "We can't buy the tickets — we don't have ___ money.",
+      "options": ["too", "money enough", "too many", "enough"],
+      "answer": 3,
+      "explanation": "\"Suficiente\" antes de substantivo: **enough money** (enough vem antes do substantivo)."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "She is enough old to travel alone.",
+        "She is old enough to travel alone.",
+        "She is too much old to travel alone.",
+        "She is old too to travel alone."
+      ],
+      "answer": 1,
+      "explanation": "Com adjetivo, **enough vem depois**: old **enough**. \"Enough old\" inverte a ordem."
+    },
+    {
+      "question": "I got ___ emails today, I can't answer all of them.",
+      "options": ["too much", "much", "too many", "very much"],
+      "answer": 2,
+      "explanation": "Emails é contável plural → **too many** emails."
+    }
+  ]
+}

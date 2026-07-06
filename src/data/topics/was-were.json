@@ -1,0 +1,145 @@
+{
+  "id": "was-were",
+  "title": "Was vs Were",
+  "titleHighlight": "vs",
+  "subtitle": "O passado do verbo \"to be\" — quem usa was, quem usa were",
+  "category": "basics",
+  "tags": ["was", "were", "to be", "simple past", "passado", "era", "estava"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "1",
+      "title": "Was",
+      "subtitle": "Passado de \"to be\" para I, he, she, it",
+      "formula": [
+        { "label": "Afirmativa →", "value": "I / he / she / it + **was**" }
+      ],
+      "examples": [
+        { "en": "I **was** tired yesterday.", "pt": "Eu estava cansado ontem." },
+        { "en": "She **was** at home last night.", "pt": "Ela estava em casa ontem à noite." },
+        { "en": "It **was** a great movie.", "pt": "Foi um ótimo filme." }
+      ],
+      "keyPoints": ["Singular: I, he, she, it", "Significa era/estava/foi", "Negativa: wasn't"]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "2",
+      "title": "Were",
+      "subtitle": "Passado de \"to be\" para you, we, they",
+      "formula": [
+        { "label": "Afirmativa →", "value": "you / we / they + **were**" }
+      ],
+      "examples": [
+        { "en": "You **were** right.", "pt": "Você estava certo." },
+        { "en": "We **were** at the beach on Sunday.", "pt": "Nós estávamos na praia no domingo." },
+        { "en": "They **were** very happy.", "pt": "Eles estavam muito felizes." }
+      ],
+      "keyPoints": ["you, we, they", "\"you\" sempre usa were, mesmo no singular", "Negativa: weren't"]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "?",
+      "title": "Negativa e Pergunta",
+      "subtitle": "Sem auxiliar — o próprio was/were faz tudo",
+      "formula": [
+        { "label": "Negativa →", "value": "sujeito + **wasn't / weren't**" },
+        { "label": "Pergunta →", "value": "**Was / Were** + sujeito + ... ?" }
+      ],
+      "examples": [
+        { "en": "He **wasn't** at work yesterday.", "pt": "Ele não estava no trabalho ontem." },
+        { "en": "**Were** you at the party?", "pt": "Você estava na festa?" },
+        { "en": "**Was** it expensive? — No, it **wasn't**.", "pt": "Foi caro? — Não, não foi." }
+      ],
+      "keyPoints": ["Não usa did com to be", "Pergunta: inverte was/were e sujeito"]
+    },
+    {
+      "type": "card",
+      "accent": "green",
+      "badge": "∃",
+      "title": "There was / There were",
+      "subtitle": "\"Tinha/havia\" no passado",
+      "formula": [
+        { "label": "Singular →", "value": "**There was** + substantivo" },
+        { "label": "Plural →", "value": "**There were** + substantivos" }
+      ],
+      "examples": [
+        { "en": "**There was** a problem with my order.", "pt": "Tinha um problema com o meu pedido." },
+        { "en": "**There were** many people at the show.", "pt": "Tinha muita gente no show." }
+      ],
+      "keyPoints": ["Existência no passado", "Singular → was, plural → were"]
+    },
+    {
+      "type": "table",
+      "title": "Comparativo Rápido",
+      "headers": ["Sujeito", "Afirmativa", "Negativa", "Pergunta"],
+      "rows": [
+        ["I / he / she / it", "`was`", "`wasn't`", "`Was I...?`"],
+        ["you / we / they", "`were`", "`weren't`", "`Were you...?`"],
+        ["there (singular)", "`there was`", "`there wasn't`", "`Was there...?`"],
+        ["there (plural)", "`there were`", "`there weren't`", "`Were there...?`"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "You **was** late.", "right": "You **were** late.", "note": "you sempre usa were" },
+        { "wrong": "**Did** she was at home?", "right": "**Was** she at home?", "note": "to be não usa did" },
+        { "wrong": "There **was** three cats.", "right": "There **were** three cats.", "note": "plural → there were" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Na **2ª condicional**, use **were** para todas as pessoas: `If I were you, I would accept.` (Se eu fosse você...). \"If I was you\" soa informal e é evitado em textos."
+    },
+    {
+      "type": "tip",
+      "text": "Macete: **was** anda com o singular (I, he, she, it); **were** anda com o resto (you, we, they) — igual à divisão de is/are no presente."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "They ___ at school this morning.",
+      "options": ["was", "is", "were", "did be"],
+      "answer": 2,
+      "explanation": "They → **were**. \"Was\" só com I/he/she/it."
+    },
+    {
+      "question": "___ you at the meeting yesterday?",
+      "options": ["Were", "Was", "Did", "Are"],
+      "answer": 0,
+      "explanation": "Pergunta no passado com to be: **Were** + you. Não use did com to be."
+    },
+    {
+      "question": "There ___ a lot of traffic on the highway last night.",
+      "options": ["were", "are", "have", "was"],
+      "answer": 3,
+      "explanation": "\"A lot of traffic\" é singular (incontável) → **there was**."
+    },
+    {
+      "question": "If I ___ you, I wouldn't buy that car.",
+      "options": ["was", "were", "am", "be"],
+      "answer": 1,
+      "explanation": "2ª condicional: **were** para todas as pessoas — `If I were you...`."
+    },
+    {
+      "question": "She ___ happy with the result, so she complained.",
+      "options": ["weren't", "didn't be", "wasn't", "isn't"],
+      "answer": 2,
+      "explanation": "She (3ª pessoa singular) no passado, negativa → **wasn't**."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "We was tired after the trip.",
+        "There were a big party yesterday.",
+        "Did they were at home?",
+        "There were two messages for you."
+      ],
+      "answer": 3,
+      "explanation": "Plural (two messages) → **there were**. As outras erram was/were ou usam did com to be."
+    }
+  ]
+}

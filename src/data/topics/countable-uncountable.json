@@ -1,0 +1,130 @@
+{
+  "id": "countable-uncountable",
+  "title": "Countable vs Uncountable",
+  "titleHighlight": "vs",
+  "subtitle": "Substantivos contáveis e incontáveis — many/much, few/little, a/an e os que enganam",
+  "category": "basics",
+  "tags": ["countable", "uncountable", "contável", "incontável", "much", "many", "few", "little", "information", "advice"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "1",
+      "title": "Countable",
+      "subtitle": "Dá para contar: 1, 2, 3... — tem singular e plural",
+      "formula": [
+        { "label": "Singular →", "value": "**a/an** + substantivo" },
+        { "label": "Plural →", "value": "substantivo + **-s** · many · few · a lot of" }
+      ],
+      "examples": [
+        { "en": "I have **a car** and two **bikes**.", "pt": "Eu tenho um carro e duas bicicletas." },
+        { "en": "How **many books** do you have?", "pt": "Quantos livros você tem?" },
+        { "en": "There are **few chairs** in the room.", "pt": "Há poucas cadeiras na sala." }
+      ],
+      "keyPoints": ["Aceita a/an e plural", "many = muitos", "few = poucos"]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "2",
+      "title": "Uncountable",
+      "subtitle": "Não dá para contar em unidades — sem plural, sem a/an",
+      "formula": [
+        { "label": "Forma →", "value": "sempre **singular** · much · little · a lot of" }
+      ],
+      "examples": [
+        { "en": "There isn't **much water** in the bottle.", "pt": "Não tem muita água na garrafa." },
+        { "en": "**Money** doesn't buy happiness.", "pt": "Dinheiro não compra felicidade." },
+        { "en": "She gave me some good **advice**.", "pt": "Ela me deu bons conselhos." }
+      ],
+      "keyPoints": ["Sem plural, sem a/an", "much = muito", "little = pouco", "Verbo sempre no singular"]
+    },
+    {
+      "type": "card",
+      "accent": "green",
+      "badge": "☕",
+      "title": "Como \"contar\" incontáveis",
+      "subtitle": "Use uma unidade de medida na frente",
+      "formula": [
+        { "label": "Estrutura →", "value": "**a/an + unidade + of** + incontável" }
+      ],
+      "examples": [
+        { "en": "**a cup of** coffee · **a glass of** water", "pt": "uma xícara de café · um copo d'água" },
+        { "en": "**a piece of** advice · **a piece of** information", "pt": "um conselho · uma informação" },
+        { "en": "**two slices of** bread", "pt": "duas fatias de pão" }
+      ],
+      "keyPoints": ["a piece of = a saída universal", "A unidade é que vai para o plural: two cups of..."]
+    },
+    {
+      "type": "table",
+      "title": "Incontáveis que enganam brasileiros",
+      "headers": ["Palavra", "Em PT parece contável...", "Em inglês"],
+      "rows": [
+        ["**information**", "\"informações\"", "`some information` · `a piece of information`"],
+        ["**advice**", "\"conselhos\"", "`some advice` · `a piece of advice`"],
+        ["**furniture**", "\"móveis\"", "`some furniture` · `a piece of furniture`"],
+        ["**news**", "\"notícias\"", "`some news` · verbo no singular: `the news is...`"],
+        ["**money**", "\"dinheiros\" não, mas contamos moedas", "`much money` · `how much money?`"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "She gave me many **informations**.", "right": "She gave me a lot of **information**.", "note": "information não tem plural" },
+        { "wrong": "an **advice**", "right": "**a piece of advice** / some advice", "note": "incontável não aceita a/an" },
+        { "wrong": "How **much** books do you have?", "right": "How **many** books do you have?", "note": "books é contável → many" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Na dúvida entre much/many: **many** + plural contável (`many friends`), **much** + incontável (`much time`). Em frases afirmativas, **a lot of** funciona com os dois."
+    },
+    {
+      "type": "tip",
+      "text": "**Few/little** = pouco (negativo, quase nada). **A few/a little** = alguns/um pouco (positivo, suficiente). `I have a few friends` (tenho alguns) ≠ `I have few friends` (tenho quase nenhum)."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "How ___ money do you need?",
+      "options": ["many", "few", "much", "a"],
+      "answer": 2,
+      "explanation": "Money é incontável → **much**. \"Many\" só com contáveis no plural."
+    },
+    {
+      "question": "She gave me some useful ___ about the exam.",
+      "options": ["advices", "an advice", "advice", "advises"],
+      "answer": 2,
+      "explanation": "**Advice** é incontável: sem plural (\"advices\" não existe) e sem a/an."
+    },
+    {
+      "question": "There are ___ apples in the basket.",
+      "options": ["much", "many", "a little", "a slice of"],
+      "answer": 1,
+      "explanation": "Apples é contável no plural → **many**."
+    },
+    {
+      "question": "Can I have ___ water, please?",
+      "options": ["a glass of", "a", "many", "two"],
+      "answer": 0,
+      "explanation": "Water é incontável: para \"contar\", use uma unidade — **a glass of** water."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "I need some informations about the course.",
+        "I need an information about the course.",
+        "I need many information about the course.",
+        "I need some information about the course."
+      ],
+      "answer": 3,
+      "explanation": "**Information** é incontável: sem plural, sem a/an, e combina com **some**."
+    },
+    {
+      "question": "We have very ___ time — hurry up!",
+      "options": ["few", "little", "many", "a lot"],
+      "answer": 1,
+      "explanation": "Time é incontável → **little** (pouco). \"Few\" seria para contáveis (few minutes)."
+    }
+  ]
+}

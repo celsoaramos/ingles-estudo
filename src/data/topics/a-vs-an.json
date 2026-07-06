@@ -1,0 +1,125 @@
+{
+  "id": "a-vs-an",
+  "title": "A vs An",
+  "titleHighlight": "vs",
+  "subtitle": "A regra é o SOM, não a letra — a antes de som de consoante, an antes de som de vogal",
+  "category": "basics",
+  "tags": ["a", "an", "artigo indefinido", "article", "um", "uma", "vogal", "consoante"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "a",
+      "title": "A",
+      "subtitle": "Antes de SOM de consoante",
+      "formula": [
+        { "label": "Regra →", "value": "**a** + palavra que começa com **som** de consoante" }
+      ],
+      "examples": [
+        { "en": "**a** book, **a** car, **a** house", "pt": "um livro, um carro, uma casa" },
+        { "en": "She is **a** doctor.", "pt": "Ela é médica." },
+        { "en": "I need **a** new phone.", "pt": "Eu preciso de um celular novo." }
+      ],
+      "keyPoints": ["Som de consoante", "Vale para singular contável", "Significa um/uma"]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "an",
+      "title": "An",
+      "subtitle": "Antes de SOM de vogal",
+      "formula": [
+        { "label": "Regra →", "value": "**an** + palavra que começa com **som** de vogal (a, e, i, o, u)" }
+      ],
+      "examples": [
+        { "en": "**an** apple, **an** egg, **an** idea", "pt": "uma maçã, um ovo, uma ideia" },
+        { "en": "He is **an** engineer.", "pt": "Ele é engenheiro." },
+        { "en": "I'll be there in **an** hour.", "pt": "Estarei lá em uma hora." }
+      ],
+      "keyPoints": ["Som de vogal", "hour → \"áuer\" (h mudo) → an", "Facilita a pronúncia"]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "!",
+      "title": "Casos que enganam",
+      "subtitle": "A letra escrita não decide — ouça a palavra",
+      "formula": [
+        { "label": "H mudo →", "value": "**an** hour, **an** honest man" },
+        { "label": "Som de \"iu\"/\"u̯\" →", "value": "**a** university, **a** one-way street" }
+      ],
+      "examples": [
+        { "en": "**a** university (soa \"iuniversity\" = som de consoante)", "pt": "uma universidade" },
+        { "en": "**an** hour (o \"h\" é mudo, soa \"áuer\")", "pt": "uma hora" },
+        { "en": "**a** one-way street (soa \"uan\" = som de W)", "pt": "uma rua de mão única" }
+      ],
+      "keyPoints": ["h mudo → an (hour, honest)", "u com som de \"iu\" → a (university, European)", "one soa \"uan\" → a"]
+    },
+    {
+      "type": "table",
+      "title": "Exemplos — pelo SOM",
+      "headers": ["Palavra", "Começa com som de...", "Artigo"],
+      "rows": [
+        ["apple", "vogal (**a**)", "`an apple`"],
+        ["hour", "vogal (h mudo → **áuer**)", "`an hour`"],
+        ["honest", "vogal (h mudo → **ónest**)", "`an honest man`"],
+        ["university", "consoante (**iu**niversity)", "`a university`"],
+        ["one-way street", "consoante (**uan**)", "`a one-way street`"],
+        ["umbrella", "vogal (**âm**brella)", "`an umbrella`"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "**a** hour", "right": "**an** hour", "note": "h mudo → som de vogal" },
+        { "wrong": "**an** university", "right": "**a** university", "note": "soa \"iu\" → som de consoante" },
+        { "wrong": "**an** one-day trip", "right": "**a** one-day trip", "note": "\"one\" soa \"uan\" (som de W)" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Fale a palavra em voz alta e ignore a escrita: se a boca começa com som de vogal, use **an**; se começa com som de consoante, use **a**. `hour` → \"áuer\" → an. `university` → \"iuniversity\" → a."
+    },
+    {
+      "type": "tip",
+      "text": "**A/an** só existe no singular contável. No plural ou com incontáveis, não use: `apples` (não \"an apples\"), `water` (não \"a water\")."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "I waited for ___ hour at the airport.",
+      "options": ["a", "an", "the", "— (nada)"],
+      "answer": 1,
+      "explanation": "O \"h\" de hour é mudo: soa \"áuer\" (som de vogal) → **an hour**."
+    },
+    {
+      "question": "She studies at ___ university in London.",
+      "options": ["an", "the an", "a", "— (nada)"],
+      "answer": 2,
+      "explanation": "University soa \"**iu**niversity\" — som de consoante (Y) → **a university**."
+    },
+    {
+      "question": "He is ___ honest person.",
+      "options": ["a", "one", "the a", "an"],
+      "answer": 3,
+      "explanation": "O \"h\" de honest é mudo: soa \"ónest\" (som de vogal) → **an honest person**."
+    },
+    {
+      "question": "This is ___ one-way street.",
+      "options": ["a", "an", "— (nada)", "the an"],
+      "answer": 0,
+      "explanation": "\"One\" soa \"**uan**\" — começa com som de W (consoante) → **a one-way street**."
+    },
+    {
+      "question": "Qual sequência está correta?",
+      "options": [
+        "a apple, an book, a hour",
+        "an apple, a book, an hour",
+        "an apple, an book, a hour",
+        "a apple, a book, an hour"
+      ],
+      "answer": 1,
+      "explanation": "apple = som de vogal → **an**; book = consoante → **a**; hour = h mudo (vogal) → **an**."
+    }
+  ]
+}

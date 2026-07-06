@@ -1,0 +1,113 @@
+{
+  "id": "present-simple",
+  "title": "Present Simple",
+  "titleHighlight": "Simple",
+  "subtitle": "Rotinas, fatos e verdades gerais — o tempo verbal do dia a dia",
+  "category": "tenses",
+  "tags": ["present simple", "presente simples", "do", "does", "rotina", "hábito", "terceira pessoa"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "✓",
+      "title": "Uso e Afirmativa",
+      "subtitle": "Rotinas, hábitos, fatos e verdades gerais",
+      "formula": [
+        { "label": "I / You / We / They →", "value": "Sujeito + **verbo base**" },
+        { "label": "He / She / It →", "value": "Sujeito + **verbo + s**" }
+      ],
+      "examples": [
+        { "en": "I **work** from home every day.", "pt": "Eu trabalho de casa todos os dias." },
+        { "en": "She **works** at a hospital.", "pt": "Ela trabalha em um hospital." },
+        { "en": "Water **boils** at 100°C.", "pt": "A água ferve a 100°C." }
+      ],
+      "keyPoints": ["Rotina / hábito / fato", "3ª pessoa (he/she/it) ganha **-s**", "Não é \"agora\", é \"em geral\""]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "?",
+      "title": "Negativa e Interrogativa",
+      "subtitle": "Use do/does como auxiliar — e o verbo volta à forma base",
+      "formula": [
+        { "label": "Negativa →", "value": "Sujeito + **don't / doesn't** + verbo base" },
+        { "label": "Pergunta →", "value": "**Do / Does** + sujeito + verbo base?" }
+      ],
+      "examples": [
+        { "en": "I **don't like** coffee.", "pt": "Eu não gosto de café." },
+        { "en": "She **doesn't work** on Sundays.", "pt": "Ela não trabalha aos domingos." },
+        { "en": "**Does** he **speak** English?", "pt": "Ele fala inglês?" }
+      ],
+      "keyPoints": ["do → I/you/we/they", "does → he/she/it", "Com does, o verbo **perde o -s**"]
+    },
+    {
+      "type": "table",
+      "title": "Resumo Rápido",
+      "headers": ["Forma", "I / You / We / They", "He / She / It"],
+      "rows": [
+        ["**Afirmativa**", "`I work`", "`She works`"],
+        ["**Negativa**", "`I don't work`", "`She doesn't work`"],
+        ["**Pergunta**", "`Do you work?`", "`Does she work?`"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "She **work** here.", "right": "She **works** here.", "note": "3ª pessoa precisa do -s" },
+        { "wrong": "Does he **speaks** English?", "right": "Does he **speak** English?", "note": "com does, verbo sem -s" },
+        { "wrong": "He **don't** like tea.", "right": "He **doesn't** like tea.", "note": "he/she/it usa doesn't" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Advérbios de frequência são o sinal do Present Simple: **always, usually, often, sometimes, never**. Eles ficam antes do verbo principal: `She always arrives early.`"
+    },
+    {
+      "type": "tip",
+      "text": "O **-s** só aparece uma vez por frase: ou no verbo (afirmativa) ou no **does** (negativa/pergunta). Nunca nos dois ao mesmo tempo."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "My sister ___ in São Paulo.",
+      "options": ["live", "lives", "is live", "living"],
+      "answer": 1,
+      "explanation": "3ª pessoa do singular (she) no Present Simple: verbo + **s** → lives."
+    },
+    {
+      "question": "___ they play soccer on weekends?",
+      "options": ["Do", "Does", "Are", "Is"],
+      "answer": 0,
+      "explanation": "Pergunta com **they** usa o auxiliar **do**. \"Does\" é só para he/she/it."
+    },
+    {
+      "question": "He ___ meat. He's vegetarian.",
+      "options": ["don't eat", "doesn't eats", "doesn't eat", "not eat"],
+      "answer": 2,
+      "explanation": "Negativa com he: **doesn't + verbo base**. O -s fica no doesn't, não no verbo."
+    },
+    {
+      "question": "Does she ___ English at work?",
+      "options": ["speaks", "speaking", "spoke", "speak"],
+      "answer": 3,
+      "explanation": "Depois de **does**, o verbo volta à forma base: speak, sem -s."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "She never drink coffee.",
+        "She never drinks coffee.",
+        "She drinks never coffee.",
+        "She doesn't drinks coffee."
+      ],
+      "answer": 1,
+      "explanation": "Advérbio de frequência (**never**) antes do verbo + **-s** da 3ª pessoa: \"She never drinks coffee.\""
+    },
+    {
+      "question": "The sun ___ in the east.",
+      "options": ["rise", "is rising", "rises", "rose"],
+      "answer": 2,
+      "explanation": "Fato / verdade geral = Present Simple. \"The sun\" = it → **rises**."
+    }
+  ]
+}

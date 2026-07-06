@@ -1,0 +1,120 @@
+{
+  "id": "used-to",
+  "title": "Used to vs Be used to vs Get used to",
+  "titleHighlight": "Used to",
+  "subtitle": "Hábito que acabou · Estar acostumado · Acostumar-se (processo)",
+  "category": "versus",
+  "tags": ["used to", "be used to", "get used to", "hábito", "acostumado", "costumava"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "1",
+      "title": "Used to",
+      "subtitle": "Hábito ou situação do passado que não existe mais — \"costumava\"",
+      "formula": [
+        { "label": "Estrutura →", "value": "used to + **verbo base**" },
+        { "label": "Negativa →", "value": "didn't **use to** + verbo base" }
+      ],
+      "examples": [
+        { "en": "I **used to smoke**, but I quit.", "pt": "Eu costumava fumar, mas parei." },
+        { "en": "She **used to live** in London.", "pt": "Ela morava em Londres (não mora mais)." },
+        { "en": "I **didn't use to** like coffee.", "pt": "Eu não costumava gostar de café." }
+      ],
+      "keyPoints": ["Só passado", "Hábito que acabou", "= \"costumava\""]
+    },
+    {
+      "type": "card",
+      "accent": "green",
+      "badge": "2",
+      "title": "Be used to",
+      "subtitle": "Estar acostumado — já é normal para você",
+      "formula": [
+        { "label": "Estrutura →", "value": "be used to + **-ing / substantivo**" }
+      ],
+      "examples": [
+        { "en": "I**'m used to waking up** early.", "pt": "Estou acostumado a acordar cedo." },
+        { "en": "She**'s used to the noise** of the city.", "pt": "Ela está acostumada com o barulho da cidade." }
+      ],
+      "keyPoints": ["Estado: já está acostumado", "+ -ing ou substantivo", "Qualquer tempo (am/was/will be)"]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "3",
+      "title": "Get used to",
+      "subtitle": "Acostumar-se — o processo de ir se acostumando",
+      "formula": [
+        { "label": "Estrutura →", "value": "get used to + **-ing / substantivo**" }
+      ],
+      "examples": [
+        { "en": "I'm **getting used to driving** on the left.", "pt": "Estou me acostumando a dirigir na esquerda." },
+        { "en": "You'll **get used to the weather** soon.", "pt": "Você vai se acostumar com o clima logo." }
+      ],
+      "keyPoints": ["Processo de mudança", "+ -ing ou substantivo", "\"ir se acostumando\""]
+    },
+    {
+      "type": "table",
+      "title": "Comparativo Rápido",
+      "headers": ["", "Significado", "Estrutura", "Exemplo"],
+      "rows": [
+        ["**used to**", "Hábito passado que acabou", "`used to + verbo base`", "I **used to** play tennis."],
+        ["**be used to**", "Estar acostumado (estado)", "`be used to + -ing/subst.`", "I'**m used to** working late."],
+        ["**get used to**", "Acostumar-se (processo)", "`get used to + -ing/subst.`", "I'm **getting used to** it."]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "I used to **living** in Brazil.", "right": "I used to **live** in Brazil.", "note": "used to (hábito passado) + verbo base" },
+        { "wrong": "I'm used to **live** alone.", "right": "I'm used to **living** alone.", "note": "be used to + -ing" },
+        { "wrong": "She didn't **used to** like fish.", "right": "She didn't **use to** like fish.", "note": "Com didn't, cai o -d: use to" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Macete: se tem **be/get** antes, o \"to\" é preposição → verbo em **-ing**. Se é só `used to` sozinho, é passado → **verbo base**."
+    },
+    {
+      "type": "tip",
+      "text": "**Used to** só existe no passado. Para hábito no presente, use o Present Simple com \"usually\": `I usually walk to work` (nunca \"I use to walk\")."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "When I was a kid, I ___ cartoons every morning.",
+      "options": ["used to watch", "used to watching", "am used to watch", "get used to watch"],
+      "answer": 0,
+      "explanation": "Hábito passado que acabou: **used to + verbo base** (watch)."
+    },
+    {
+      "question": "Don't worry about the schedule — I'm used to ___ late.",
+      "options": ["work", "worked", "working", "works"],
+      "answer": 2,
+      "explanation": "**Be used to + -ing**: aqui \"to\" é preposição, então o verbo vai para -ing."
+    },
+    {
+      "question": "Moving to Canada was hard, but I'm slowly ___ the cold.",
+      "options": ["used to", "using to", "get used to", "getting used to"],
+      "answer": 3,
+      "explanation": "Processo em andamento (\"slowly\") → **getting used to** = indo me acostumando."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "I used to living in a small town.",
+        "I used to live in a small town.",
+        "I use to lived in a small town.",
+        "I'm used to live in a small town."
+      ],
+      "answer": 1,
+      "explanation": "Hábito/situação passada: **used to + verbo base** (live). \"Used to living\" mistura as duas estruturas."
+    },
+    {
+      "question": "She ___ like sushi, but now she loves it.",
+      "options": ["didn't used to", "isn't used to", "didn't use to", "doesn't use to"],
+      "answer": 2,
+      "explanation": "Negativa do used to: **didn't use to** (sem o -d, porque o didn't já marca o passado)."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "relative-clauses",
+  "title": "Relative Clauses",
+  "titleHighlight": "Relative",
+  "subtitle": "who · which · that · where · whose — como conectar frases sem repetir",
+  "category": "structures",
+  "tags": ["relative clauses", "who", "which", "that", "where", "whose", "pronome relativo", "que", "cujo", "onde"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "1",
+      "title": "Who / Which / That",
+      "subtitle": "O \"que\" do português — cada um com seu alvo",
+      "formula": [
+        { "label": "Pessoas →", "value": "**who** (ou that)" },
+        { "label": "Coisas / animais →", "value": "**which** (ou that)" },
+        { "label": "Informal, os dois →", "value": "**that**" }
+      ],
+      "examples": [
+        { "en": "The woman **who** lives next door is a doctor.", "pt": "A mulher que mora ao lado é médica." },
+        { "en": "The movie **which** won the award is on Netflix.", "pt": "O filme que ganhou o prêmio está na Netflix." },
+        { "en": "The book **that** I bought is great.", "pt": "O livro que eu comprei é ótimo." }
+      ],
+      "keyPoints": ["who = pessoas", "which = coisas/animais", "that = os dois (mais informal)"]
+    },
+    {
+      "type": "card",
+      "accent": "green",
+      "badge": "2",
+      "title": "Where / Whose",
+      "subtitle": "Lugares e posse",
+      "formula": [
+        { "label": "Lugares →", "value": "**where** (= onde / em que)" },
+        { "label": "Posse →", "value": "**whose** + substantivo (= cujo/cuja)" }
+      ],
+      "examples": [
+        { "en": "That's the restaurant **where** we met.", "pt": "Esse é o restaurante onde nos conhecemos." },
+        { "en": "The man **whose** car was stolen called the police.", "pt": "O homem cujo carro foi roubado chamou a polícia." }
+      ],
+      "keyPoints": ["where = lugar", "whose = posse (de pessoas e coisas)", "Depois de whose vem sempre um substantivo"]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "Ø",
+      "title": "Quando omitir o pronome",
+      "subtitle": "Se o pronome é OBJETO da relative clause, pode sumir",
+      "formula": [
+        { "label": "Objeto →", "value": "pode omitir: The book **(that)** I read" },
+        { "label": "Sujeito →", "value": "NÃO pode omitir: The man **who** called" }
+      ],
+      "examples": [
+        { "en": "The book **(that)** I read was amazing.", "pt": "O livro que eu li era incrível. (tem outro sujeito: I)" },
+        { "en": "The man **who** called you is my boss.", "pt": "O homem que te ligou é meu chefe. (who é o sujeito — obrigatório)" }
+      ],
+      "keyPoints": ["Vem sujeito logo depois? → pode omitir", "Vem verbo logo depois? → não pode omitir"]
+    },
+    {
+      "type": "table",
+      "title": "Resumo Rápido",
+      "headers": ["Pronome", "Usa para", "Exemplo"],
+      "rows": [
+        ["**who**", "pessoas", "the girl **who** sings"],
+        ["**which**", "coisas / animais", "the car **which** broke down"],
+        ["**that**", "pessoas e coisas (informal)", "the pizza **that** I ordered"],
+        ["**where**", "lugares", "the city **where** I was born"],
+        ["**whose**", "posse (cujo/cuja)", "the boy **whose** dog ran away"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "The book **what** I read is great.", "right": "The book **that** I read is great.", "note": "\"what\" não é pronome relativo aqui" },
+        { "wrong": "The book that I read **it** yesterday.", "right": "The book that I read yesterday.", "note": "não repita o objeto — that já é o objeto" },
+        { "wrong": "The man **which** helped me.", "right": "The man **who** helped me.", "note": "pessoas → who (ou that)" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "O erro de repetir o objeto vem do português (\"o livro que eu li **ele**...\"). Em inglês, o pronome relativo **já ocupa** o lugar do objeto: `the book that I read` — nunca `read it`."
+    },
+    {
+      "type": "tip",
+      "text": "Macete para omitir: olhe o que vem **depois** do pronome. `The movie (that) **we** watched` → sujeito depois = pode cortar. `The movie that **won**...` → verbo depois = tem que manter."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "The doctor ___ treated my father is very famous.",
+      "options": ["which", "who", "whose", "where"],
+      "answer": 1,
+      "explanation": "Pessoa (the doctor) como sujeito → **who** (ou that)."
+    },
+    {
+      "question": "This is the house ___ I grew up.",
+      "options": ["where", "who", "which", "whose"],
+      "answer": 0,
+      "explanation": "Lugar (the house) + \"eu cresci NELE\" → **where**."
+    },
+    {
+      "question": "That's the student ___ project won the competition.",
+      "options": ["who", "that", "which", "whose"],
+      "answer": 3,
+      "explanation": "Posse: o projeto DELE/DELA → **whose** + substantivo (whose project)."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "The movie what I watched was boring.",
+        "The movie that I watched it was boring.",
+        "The movie I watched was boring.",
+        "The movie who I watched was boring."
+      ],
+      "answer": 2,
+      "explanation": "O pronome é objeto (I watched), então pode ser omitido. \"What\" não serve, e não se repete o objeto (\"it\")."
+    },
+    {
+      "question": "Em qual frase o pronome relativo NÃO pode ser omitido?",
+      "options": [
+        "The cake that she made was delicious.",
+        "The song that I love is playing.",
+        "The shoes that he bought were expensive.",
+        "The woman that called you is here."
+      ],
+      "answer": 3,
+      "explanation": "Em \"the woman that **called**...\", that é o SUJEITO (vem verbo logo depois) → obrigatório. Nas outras, that é objeto."
+    },
+    {
+      "question": "The phone ___ I bought last week already broke.",
+      "options": ["who", "which", "whose", "what"],
+      "answer": 1,
+      "explanation": "Coisa (the phone) → **which** (ou that). \"What\" nunca funciona como pronome relativo."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "have-has-there-is",
+  "title": "Have, Has, There is, There are",
+  "titleHighlight": "There is, There are",
+  "subtitle": "Posse (have/has) vs existência (there is/there are) — o \"tem\" do português",
+  "category": "basics",
+  "tags": ["have", "has", "there is", "there are", "posse", "existência", "há", "tem"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "1",
+      "title": "Have / Has",
+      "subtitle": "Posse — alguém TEM alguma coisa",
+      "formula": [
+        { "label": "I / you / we / they →", "value": "**have** + objeto" },
+        { "label": "he / she / it →", "value": "**has** + objeto" }
+      ],
+      "examples": [
+        { "en": "I **have** two brothers.", "pt": "Eu tenho dois irmãos." },
+        { "en": "She **has** a new car.", "pt": "Ela tem um carro novo." },
+        { "en": "They **have** a big house.", "pt": "Eles têm uma casa grande." }
+      ],
+      "keyPoints": ["Posse: dono + coisa", "has só na 3ª pessoa singular", "Negativa: don't/doesn't have"]
+    },
+    {
+      "type": "card",
+      "accent": "green",
+      "badge": "2",
+      "title": "There is / There are",
+      "subtitle": "Existência — algo EXISTE em algum lugar (\"há/tem\")",
+      "formula": [
+        { "label": "Singular →", "value": "**There is** + a/an + substantivo" },
+        { "label": "Plural →", "value": "**There are** + substantivo no plural" }
+      ],
+      "examples": [
+        { "en": "**There is** a party tomorrow.", "pt": "Tem uma festa amanhã." },
+        { "en": "**There are** two banks on this street.", "pt": "Tem dois bancos nesta rua." },
+        { "en": "**There isn't** any milk in the fridge.", "pt": "Não tem leite na geladeira." }
+      ],
+      "keyPoints": ["Existência, sem dono", "There is = singular", "There are = plural"]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "vs",
+      "title": "A pegadinha do \"tem\"",
+      "subtitle": "Em PT, \"tem\" serve para posse E existência — em inglês, não!",
+      "formula": [
+        { "label": "Alguém tem →", "value": "sujeito + **have/has**" },
+        { "label": "\"Tem\" = existe →", "value": "**There is / There are**" }
+      ],
+      "examples": [
+        { "en": "**There is** a problem. (não \"Have a problem\")", "pt": "Tem um problema." },
+        { "en": "**There are** many people here. (não \"Have many people\")", "pt": "Tem muita gente aqui." }
+      ],
+      "keyPoints": ["\"Tem\" sem dono = there is/are", "Nunca comece com \"Have a...\" para existência"]
+    },
+    {
+      "type": "table",
+      "title": "Comparativo Rápido",
+      "headers": ["Situação", "Estrutura", "Exemplo"],
+      "rows": [
+        ["Posse (eu/você/nós/eles)", "`have`", "I **have** a dog."],
+        ["Posse (ele/ela)", "`has`", "She **has** a dog."],
+        ["Existe (singular)", "`There is`", "**There is** a dog here."],
+        ["Existe (plural)", "`There are`", "**There are** dogs here."]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "**Have** a party tomorrow.", "right": "**There is** a party tomorrow.", "note": "\"tem\" = existência → there is" },
+        { "wrong": "She **have** a cat.", "right": "She **has** a cat.", "note": "3ª pessoa singular → has" },
+        { "wrong": "**There is** many cars.", "right": "**There are** many cars.", "note": "plural → there are" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Teste rápido: se o \"tem\" da frase em português puder virar **\"há\"**, use **there is/there are**. \"Tem uma festa\" = \"Há uma festa\" → `There is a party`."
+    },
+    {
+      "type": "tip",
+      "text": "Na negativa e na pergunta, **have/has** precisa de auxiliar: `She doesn't have a car.` / `Do you have a pen?` — não diga \"She hasn't a car\" no inglês do dia a dia."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "___ a supermarket near my house.",
+      "options": ["Have", "There is", "There are", "Has"],
+      "answer": 1,
+      "explanation": "Existência (\"tem/há um supermercado\") → **There is** + singular. \"Have\" seria posse."
+    },
+    {
+      "question": "My sister ___ two children.",
+      "options": ["have", "there is", "has", "there are"],
+      "answer": 2,
+      "explanation": "Posse com 3ª pessoa singular (my sister = she) → **has**."
+    },
+    {
+      "question": "___ many students in the classroom.",
+      "options": ["There is", "Has", "Have", "There are"],
+      "answer": 3,
+      "explanation": "Existência + plural (many students) → **There are**."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "Have a meeting at 10 a.m.",
+        "There is a meeting at 10 a.m.",
+        "There are a meeting at 10 a.m.",
+        "Has a meeting at 10 a.m."
+      ],
+      "answer": 1,
+      "explanation": "\"Tem uma reunião\" = existência → **There is** + singular. O erro clássico é começar com \"Have\"."
+    },
+    {
+      "question": "We ___ a test tomorrow, and ___ a lot of topics to study.",
+      "options": ["have / there are", "has / there is", "there is / have", "have / has"],
+      "answer": 0,
+      "explanation": "\"We\" → **have** (posse). \"A lot of topics\" existe (plural) → **there are**."
+    },
+    {
+      "question": "___ any sugar in the coffee — I don't like it sweet.",
+      "options": ["There aren't", "Have not", "There isn't", "Hasn't"],
+      "answer": 2,
+      "explanation": "Existência negativa com incontável (sugar = singular) → **There isn't**."
+    }
+  ]
+}

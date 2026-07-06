@@ -1,0 +1,129 @@
+{
+  "id": "present-perfect",
+  "title": "Present Perfect",
+  "titleHighlight": "Perfect",
+  "subtitle": "Passado que conecta com o presente — have/has + particípio",
+  "category": "tenses",
+  "tags": ["present perfect", "have", "has", "particípio", "ever", "never", "already", "yet", "just", "since", "for"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "1",
+      "title": "Quando usar",
+      "subtitle": "Passado sem data + conexão com o presente",
+      "examples": [
+        { "en": "I **have visited** London three times.", "pt": "Eu visitei Londres três vezes. (experiência de vida)" },
+        { "en": "She **has lost** her keys.", "pt": "Ela perdeu as chaves. (efeito agora: está sem elas)" },
+        { "en": "We **have lived** here since 2015.", "pt": "Moramos aqui desde 2015. (começou e continua)" }
+      ],
+      "keyPoints": ["Experiência de vida", "Efeito no presente", "Ação que ainda continua"]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "2",
+      "title": "Forma",
+      "subtitle": "have/has + particípio (3ª coluna do verbo)",
+      "formula": [
+        { "label": "Afirmativa →", "value": "Sujeito + **have/has** + particípio" },
+        { "label": "Negativa →", "value": "Sujeito + **haven't/hasn't** + particípio" },
+        { "label": "Pergunta →", "value": "**Have/Has** + sujeito + particípio?" }
+      ],
+      "examples": [
+        { "en": "They **have finished** the project.", "pt": "Eles terminaram o projeto." },
+        { "en": "He **hasn't eaten** anything today.", "pt": "Ele não comeu nada hoje." },
+        { "en": "**Have** you **seen** this movie?", "pt": "Você já viu esse filme?" }
+      ],
+      "keyPoints": ["has = he/she/it", "have = os demais", "Particípio: seen, done, gone…"]
+    },
+    {
+      "type": "card",
+      "accent": "green",
+      "badge": "3",
+      "title": "Palavras-sinal",
+      "subtitle": "ever · never · already · yet · just · since · for",
+      "formula": [
+        { "label": "ever / never →", "value": "experiência: `Have you **ever**…?` / `I have **never**…`" },
+        { "label": "already / yet →", "value": "**already** (afirmativa) · **yet** (negativa e pergunta)" },
+        { "label": "just / since / for →", "value": "**just** = acabou de · **since** + ponto · **for** + duração" }
+      ],
+      "examples": [
+        { "en": "I have **already** done my homework.", "pt": "Eu já fiz minha lição de casa." },
+        { "en": "She hasn't arrived **yet**.", "pt": "Ela ainda não chegou." },
+        { "en": "We have known each other **for** ten years.", "pt": "Nós nos conhecemos há dez anos." }
+      ],
+      "keyPoints": ["Viu essas palavras? Pense em Present Perfect", "yet vai no fim da frase"]
+    },
+    {
+      "type": "table",
+      "title": "Present Perfect vs Past Simple",
+      "headers": ["", "Present Perfect", "Past Simple"],
+      "rows": [
+        ["Quando", "Tempo **indefinido** (não diz quando)", "Tempo **definido** (yesterday, in 2020…)"],
+        ["Conexão", "Ligado ao **presente**", "Passado **encerrado**"],
+        ["Exemplo", "`I have seen that movie.`", "`I saw that movie last week.`"],
+        ["Sinais", "`ever, already, yet, since, for`", "`yesterday, ago, last…, in 1999`"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "I **have seen** him yesterday.", "right": "I **saw** him yesterday.", "note": "tempo definido (yesterday) pede Past Simple" },
+        { "wrong": "I have lived here **since** five years.", "right": "I have lived here **for** five years.", "note": "for + duração; since + ponto de partida" },
+        { "wrong": "She **have** finished the report.", "right": "She **has** finished the report.", "note": "he/she/it usa has" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "**since** = ponto de partida (`since 2020`, `since Monday`); **for** = duração (`for two years`, `for a week`). Se dá para responder \"desde quando?\", é since; se responde \"por quanto tempo?\", é for."
+    },
+    {
+      "type": "tip",
+      "text": "Se a frase diz **quando** aconteceu (yesterday, last year, in 2010, two days ago), esqueça o Present Perfect — use **Past Simple**."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "I ___ to Japan twice.",
+      "options": ["have been", "was", "have being", "had be"],
+      "answer": 0,
+      "explanation": "Experiência de vida, sem dizer quando: **have + particípio** (been)."
+    },
+    {
+      "question": "She ___ her homework yet.",
+      "options": ["didn't finish", "hasn't finished", "haven't finished", "doesn't finish"],
+      "answer": 1,
+      "explanation": "**yet** pede Present Perfect; com she, o auxiliar é **hasn't**."
+    },
+    {
+      "question": "We have lived in this city ___ 2018.",
+      "options": ["for", "during", "since", "from"],
+      "answer": 2,
+      "explanation": "2018 é um **ponto de partida** → **since**. \"For\" seria para duração (for six years)."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "I have seen him yesterday.",
+        "I have saw him yesterday.",
+        "I seen him yesterday.",
+        "I saw him yesterday."
+      ],
+      "answer": 3,
+      "explanation": "\"Yesterday\" é tempo **definido** → Past Simple (**saw**), nunca Present Perfect."
+    },
+    {
+      "question": "___ you ever ___ sushi?",
+      "options": ["Did / eat", "Have / ate", "Have / eaten", "Do / eat"],
+      "answer": 2,
+      "explanation": "Pergunta de experiência com **ever**: **Have** + sujeito + **particípio** (eaten)."
+    },
+    {
+      "question": "He has ___ arrived — his coat is still wet.",
+      "options": ["yet", "just", "never", "since"],
+      "answer": 1,
+      "explanation": "**just** = acabou de acontecer. \"Yet\" só aparece em negativas e perguntas."
+    }
+  ]
+}

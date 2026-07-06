@@ -1,0 +1,151 @@
+{
+  "id": "comparatives-superlatives",
+  "title": "Comparatives & Superlatives",
+  "titleHighlight": "&",
+  "subtitle": "Mais alto que · o mais alto — -er/-est vs more/most e os irregulares",
+  "category": "basics",
+  "tags": ["comparative", "superlative", "comparativo", "superlativo", "more", "most", "than", "better", "best", "bigger"],
+  "blocks": [
+    {
+      "type": "card",
+      "accent": "blue",
+      "badge": "1",
+      "title": "Comparative",
+      "subtitle": "Comparar duas coisas — \"mais ... que\"",
+      "formula": [
+        { "label": "Adjetivo curto →", "value": "adjetivo + **-er** + than" },
+        { "label": "Adjetivo longo →", "value": "**more** + adjetivo + than" }
+      ],
+      "examples": [
+        { "en": "My brother is **taller than** me.", "pt": "Meu irmão é mais alto que eu." },
+        { "en": "This book is **more interesting than** that one.", "pt": "Este livro é mais interessante que aquele." },
+        { "en": "Today is **hotter than** yesterday.", "pt": "Hoje está mais quente que ontem." }
+      ],
+      "keyPoints": ["Curto (1-2 sílabas) → -er", "Longo (2+ sílabas) → more", "Sempre com than"]
+    },
+    {
+      "type": "card",
+      "accent": "orange",
+      "badge": "2",
+      "title": "Superlative",
+      "subtitle": "O máximo do grupo — \"o mais ...\"",
+      "formula": [
+        { "label": "Adjetivo curto →", "value": "**the** + adjetivo + **-est**" },
+        { "label": "Adjetivo longo →", "value": "**the most** + adjetivo" }
+      ],
+      "examples": [
+        { "en": "She is **the tallest** girl in the class.", "pt": "Ela é a menina mais alta da turma." },
+        { "en": "It's **the most expensive** restaurant in town.", "pt": "É o restaurante mais caro da cidade." },
+        { "en": "This is **the best** day of my life!", "pt": "Este é o melhor dia da minha vida!" }
+      ],
+      "keyPoints": ["Sempre com the", "Curto → the -est", "Longo → the most"]
+    },
+    {
+      "type": "card",
+      "accent": "purple",
+      "badge": "!",
+      "title": "Irregulares",
+      "subtitle": "Não seguem regra — tem que decorar",
+      "formula": [
+        { "label": "good →", "value": "**better** → **the best**" },
+        { "label": "bad →", "value": "**worse** → **the worst**" },
+        { "label": "far →", "value": "**further/farther** → **the furthest/farthest**" }
+      ],
+      "examples": [
+        { "en": "Her English is **better than** mine.", "pt": "O inglês dela é melhor que o meu." },
+        { "en": "That was **the worst** movie ever.", "pt": "Aquele foi o pior filme de todos." }
+      ],
+      "keyPoints": ["good/better/best", "bad/worse/worst", "far/further/furthest"]
+    },
+    {
+      "type": "card",
+      "accent": "green",
+      "badge": "abc",
+      "title": "Ortografia",
+      "subtitle": "Ajustes ao adicionar -er / -est",
+      "formula": [
+        { "label": "CVC (1 sílaba) →", "value": "dobra a consoante: big → **bigger**" },
+        { "label": "Termina em -y →", "value": "y → i: happy → **happier**" },
+        { "label": "Termina em -e →", "value": "só acrescenta -r/-st: nice → **nicer**" }
+      ],
+      "examples": [
+        { "en": "big → **bigger** → the **biggest**", "pt": "grande → maior → o maior" },
+        { "en": "happy → **happier** → the **happiest**", "pt": "feliz → mais feliz → o mais feliz" },
+        { "en": "large → **larger** → the **largest**", "pt": "grande → maior → o maior" }
+      ],
+      "keyPoints": ["consoante-vogal-consoante → dobra", "-y vira -ier", "-e só ganha -r"]
+    },
+    {
+      "type": "table",
+      "title": "Resumo Rápido",
+      "headers": ["Adjetivo", "Comparativo", "Superlativo"],
+      "rows": [
+        ["tall (curto)", "`taller than`", "`the tallest`"],
+        ["big (CVC)", "`bigger than`", "`the biggest`"],
+        ["happy (-y)", "`happier than`", "`the happiest`"],
+        ["expensive (longo)", "`more expensive than`", "`the most expensive`"],
+        ["**good**", "`better than`", "`the best`"],
+        ["**bad**", "`worse than`", "`the worst`"]
+      ]
+    },
+    {
+      "type": "mistakes",
+      "items": [
+        { "wrong": "This one is **more better**.", "right": "This one is **better**.", "note": "nunca more + comparativo junto" },
+        { "wrong": "She is taller **that** me.", "right": "She is taller **than** me.", "note": "comparativo pede than, não that" },
+        { "wrong": "He is **most intelligent** student.", "right": "He is **the most intelligent** student.", "note": "superlativo sempre com the" }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Nunca misture as duas formas: ou **-er** ou **more** — `more better`, `more taller` e `most biggest` não existem."
+    },
+    {
+      "type": "tip",
+      "text": "Comparativo anda com **than** (taller **than**); superlativo anda com **the** (**the** tallest). Se faltar um deles, a frase está incompleta."
+    }
+  ],
+  "exercises": [
+    {
+      "question": "My car is ___ than yours.",
+      "options": ["more fast", "faster", "the fastest", "most fast"],
+      "answer": 1,
+      "explanation": "Adjetivo curto (fast) → **faster** + than. \"More fast\" não existe."
+    },
+    {
+      "question": "This is ___ hotel in the city.",
+      "options": ["expensiver", "more expensive", "the most expensive", "most expensive"],
+      "answer": 2,
+      "explanation": "Superlativo de adjetivo longo → **the most expensive**. Não esqueça o \"the\"."
+    },
+    {
+      "question": "Her grades are ___ than last year — she studied a lot.",
+      "options": ["better", "more good", "gooder", "the best"],
+      "answer": 0,
+      "explanation": "Irregular: good → **better** → the best. \"More good\" e \"gooder\" não existem."
+    },
+    {
+      "question": "Today is ___ day of the year.",
+      "options": ["happier", "the happier", "happiest", "the happiest"],
+      "answer": 3,
+      "explanation": "Superlativo com the + ortografia: happy → y vira i → **the happiest**."
+    },
+    {
+      "question": "Qual frase está correta?",
+      "options": [
+        "This exam was more worse than the last one.",
+        "This exam was worse that the last one.",
+        "This exam was worse than the last one.",
+        "This exam was the worse than the last one."
+      ],
+      "answer": 2,
+      "explanation": "Irregular bad → **worse** + **than**. Sem \"more\" e sem \"that\"."
+    },
+    {
+      "question": "São Paulo is ___ than my hometown.",
+      "options": ["biger", "bigger", "more big", "the biggest"],
+      "answer": 1,
+      "explanation": "Big é CVC (consoante-vogal-consoante): dobra o g → **bigger** than."
+    }
+  ]
+}
