@@ -734,6 +734,26 @@ td .highlight { font-weight: 600; color: var(--blue); }
 
 .auth-hint { font-size: 14px; color: var(--muted); }
 
+.auth-info {
+  font-size: 13px;
+  color: var(--green);
+  background: var(--green-dim);
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.auth-forgot {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.auth-forgot:hover { color: var(--text); }
+
 .button-primary {
   display: block;
   text-align: center;

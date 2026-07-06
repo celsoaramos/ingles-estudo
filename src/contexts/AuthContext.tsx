@@ -13,9 +13,16 @@ interface AuthContextValue {
   user: User | null;
   /** true enquanto a sessão inicial ainda não foi resolvida */
   loading: boolean;
+  /** true quando o usuário chegou pelo link de recuperação de senha */
+  recoveryMode: boolean;
   signIn(email: string, password: string): Promise<string | null>;
   signUp(email: string, password: string): Promise<string | null>;
   signOut(): Promise<void>;
+  /** envia o e-mail de "esqueci minha senha" */
+  resetPassword(email: string): Promise<string | null>;
+  /** define a nova senha (usuário precisa estar na sessão de recuperação) */
+  updatePassword(newPassword: string): Promise<string | null>;
+  clearRecovery(): void;
 }
 
 const AuthContext = createContext<AuthContextValue | null>(null);
@@ -28,7 +35,9 @@ function translateAuthError(message: string): string {
     [/password should be at least/i, 'A senha precisa ter pelo menos 6 caracteres.'],
     [/unable to validate email|invalid email/i, 'E-mail inválido.'],
     [/email not confirmed/i, 'E-mail ainda não confirmado. Verifique sua caixa de entrada.'],
-    [/rate limit|too many requests/i, 'Muitas tentativas. Aguarde um pouco e tente de novo.'],
+    [/rate limit|too many requests|security purposes/i, 'Muitas tentativas. Aguarde um minuto e tente de novo.'],
+    [/should be different from the old/i, 'A nova senha precisa ser diferente da atual.'],
+    [/auth session missing|session.*expired/i, 'Link expirado. Peça um novo e-mail de recuperação.'],
   ];
   for (const [re, pt] of map) if (re.test(message)) return pt;
   return 'Não foi possível completar a ação. Tente novamente.';
@@ -37,6 +46,7 @@ function translateAuthError(message: string): string {
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
+  const [recoveryMode, setRecoveryMode] = useState(false);
 
   useEffect(() => {
     supabase.auth.getSession().then(({ data }) => {
@@ -45,6 +55,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     });
     const { data: sub } = supabase.auth.onAuthStateChange((event, session) => {
       setUser(session?.user ?? null);
+      if (event === 'PASSWORD_RECOVERY') {
+        setRecoveryMode(true);
+      }
       if (event === 'SIGNED_IN' && session?.user) {
         void mergeLocalProgressIntoAccount(session.user.id);
       }
@@ -71,8 +84,39 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     await supabase.auth.signOut();
   }
 
+  async function resetPassword(email: string) {
+    // o link do e-mail volta para a raiz do app (sem o hash do router);
+    // o supabase-js detecta o token na URL e dispara PASSWORD_RECOVERY
+    const { error } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: window.location.origin + window.location.pathname,
+    });
+    return error ? translateAuthError(error.message) : null;
+  }
+
+  async function updatePassword(newPassword: string) {
+    const { error } = await supabase.auth.updateUser({ password: newPassword });
+    if (!error) setRecoveryMode(false);
+    return error ? translateAuthError(error.message) : null;
+  }
+
+  function clearRecovery() {
+    setRecoveryMode(false);
+  }
+
   return (
-    <AuthContext.Provider value={{ user, loading, signIn, signUp, signOut }}>
+    <AuthContext.Provider
+      value={{
+        user,
+        loading,
+        recoveryMode,
+        signIn,
+        signUp,
+        signOut,
+        resetPassword,
+        updatePassword,
+        clearRecovery,
+      }}
+    >
       {children}
     </AuthContext.Provider>
   );
