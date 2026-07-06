@@ -49,7 +49,7 @@
         { "label": "Som de \"iu\"/\"u̯\" →", "value": "**a** university, **a** one-way street" }
       ],
       "examples": [
-        { "en": "**a** university (soa \"iuniversity\" = som de consoante)", "pt": "uma universidade" },
+        { "en": "**a** university (soa \"iuniversity\" ou \"yuniversity\" = som de consoante)", "pt": "uma universidade" },
         { "en": "**an** hour (o \"h\" é mudo, soa \"áuer\")", "pt": "uma hora" },
         { "en": "**a** one-way street (soa \"uan\" = som de W)", "pt": "uma rua de mão única" }
       ],
