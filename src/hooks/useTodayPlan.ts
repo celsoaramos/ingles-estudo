@@ -16,9 +16,9 @@ export interface TodayPlan {
   streak: number;
   /** Questões respondidas hoje (0 se anônimo). */
   todayCount: number;
-  /** Flashcards vencidos a revisar. */
+  /** Flashcards vencidos ainda não revisados hoje. */
   dueFlashcards: number;
-  /** Questões que o usuário já errou e pode refazer (só logado). */
+  /** Questões cuja última tentativa foi errada (a refazer). */
   wrongCount: number;
   /** Tópico com menor acerto (só logado, com histórico suficiente). */
   weakTopic: { id: string; title: string; accuracyPct: number } | null;
