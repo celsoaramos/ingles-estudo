@@ -1,6 +1,12 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import type { Exercise } from '../domain/types';
 import { useProgressRepository } from '../hooks/useProgressRepository';
+import {
+  canonicalOptionIndex,
+  shuffle,
+  shuffleExerciseOptions,
+} from '../lib/shuffle';
+import { AiExplanation } from './AiExplanation';
 import { RichText } from './RichText';
 
 interface QuizState {
@@ -8,9 +14,16 @@ interface QuizState {
   [questionIndex: number]: number;
 }
 
-export function ExerciseQuiz({ exercises }: { exercises: Exercise[] }) {
+export function ExerciseQuiz({ exercises: source }: { exercises: Exercise[] }) {
   const [answers, setAnswers] = useState<QuizState>({});
+  // round muda no "refazer" para reembaralhar — nunca a mesma ordem
+  const [round, setRound] = useState(0);
   const progress = useProgressRepository();
+  const exercises = useMemo(
+    () => shuffle(source).map(shuffleExerciseOptions),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [source, round],
+  );
 
   if (exercises.length === 0) return null;
 
@@ -28,7 +41,8 @@ export function ExerciseQuiz({ exercises }: { exercises: Exercise[] }) {
         {
           exerciseId: ex.id,
           topicId: ex.topicId,
-          chosen: optionIndex,
+          // grava o índice canônico, não o da ordem exibida
+          chosen: canonicalOptionIndex(ex, optionIndex),
           isCorrect: optionIndex === ex.answer,
           answeredAt: new Date().toISOString(),
         },
@@ -79,14 +93,17 @@ export function ExerciseQuiz({ exercises }: { exercises: Exercise[] }) {
               })}
             </div>
             {isAnswered && (
-              <div
-                className={`quiz-feedback ${
-                  chosen === ex.answer ? 'ok' : 'nok'
-                }`}
-              >
-                {chosen === ex.answer ? '✓ Correto! ' : '✗ Não foi dessa vez. '}
-                <RichText text={ex.explanation} />
-              </div>
+              <>
+                <div
+                  className={`quiz-feedback ${
+                    chosen === ex.answer ? 'ok' : 'nok'
+                  }`}
+                >
+                  {chosen === ex.answer ? '✓ Correto! ' : '✗ Não foi dessa vez. '}
+                  <RichText text={ex.explanation} />
+                </div>
+                <AiExplanation exercise={ex} />
+              </>
             )}
           </div>
         );
@@ -96,7 +113,10 @@ export function ExerciseQuiz({ exercises }: { exercises: Exercise[] }) {
         <button
           type="button"
           className="quiz-reset"
-          onClick={() => setAnswers({})}
+          onClick={() => {
+            setAnswers({});
+            setRound((r) => r + 1);
+          }}
         >
           ↻ Refazer exercícios
         </button>

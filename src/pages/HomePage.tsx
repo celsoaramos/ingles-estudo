@@ -36,8 +36,8 @@ const SECTIONS = [
     to: '/dicionario',
     accent: 'teal',
     icon: '📖',
-    title: 'Dicionário',
-    text: 'Inglês ↔ Português com contexto, exemplos e colocações',
+    title: 'Dicionário · IA',
+    text: 'Inglês ↔ Português com IA: contexto, exemplos e colocações',
   },
   {
     to: '/videos',

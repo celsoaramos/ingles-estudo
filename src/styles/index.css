@@ -822,6 +822,17 @@ td .highlight { font-weight: 600; color: var(--blue); }
   transition: background 0.15s;
 }
 .ai-explain-btn:hover { background: var(--purple-dim); }
+.ai-badge {
+  display: inline-block;
+  background: var(--purple);
+  color: var(--bg);
+  border-radius: 5px;
+  padding: 1px 5px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  vertical-align: 1px;
+}
 .ai-explain-login {
   margin-top: 8px;
   font-size: 12px;

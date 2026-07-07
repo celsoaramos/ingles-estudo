@@ -1,18 +1,10 @@
 import type { Exercise } from '../domain/types';
+import { shuffle } from '../lib/shuffle';
 import { exerciseRepository } from '../repositories/ExerciseRepository';
 import type { ProgressRepository } from '../repositories/ProgressRepository';
 
 /** Máximo de questões numa rodada de revisão de erros. */
 export const MAX_REVIEW = 20;
-
-function shuffle<T>(list: T[]): T[] {
-  const arr = [...list];
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-  return arr;
-}
 
 /**
  * Monta a lista de questões erradas pelo usuário para uma sessão de revisão

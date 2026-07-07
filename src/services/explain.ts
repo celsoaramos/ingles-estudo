@@ -1,4 +1,5 @@
 import type { Exercise } from '../domain/types';
+import { canonicalExercise } from '../lib/shuffle';
 import { supabase } from '../lib/supabase';
 
 export interface ExplanationExample {
@@ -26,12 +27,14 @@ export interface ExplainResult {
  * Só funciona logado — a função retorna 401 para anônimos.
  */
 export async function explainExercise(ex: Exercise): Promise<ExplainResult> {
+  // sempre na ordem canônica do banco: o cache é compartilhado por exercício
+  const { options, answer } = canonicalExercise(ex);
   const { data, error } = await supabase.functions.invoke('explain', {
     body: {
       exerciseId: ex.id,
       question: ex.question,
-      options: ex.options,
-      answer: ex.answer,
+      options,
+      answer,
     },
   });
 

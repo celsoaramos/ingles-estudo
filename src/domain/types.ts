@@ -93,6 +93,12 @@ export interface Exercise {
   answer: number;
   explanation: string;
   difficulty: Difficulty;
+  /**
+   * Presente quando as opções foram embaralhadas para exibição:
+   * optionOrder[índiceExibido] = índice original no banco. Usado para
+   * gravar tentativas e consultar a IA sempre na ordem canônica.
+   */
+  optionOrder?: number[];
 }
 
 /** 'imediata': corrige a cada resposta · 'simulado': corrige tudo no final */

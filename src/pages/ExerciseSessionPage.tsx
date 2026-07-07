@@ -9,6 +9,11 @@ import type {
   SessionMode,
 } from '../domain/types';
 import { useProgressRepository } from '../hooks/useProgressRepository';
+import {
+  canonicalOptionIndex,
+  shuffle,
+  shuffleExerciseOptions,
+} from '../lib/shuffle';
 import { exerciseRepository } from '../repositories/ExerciseRepository';
 
 export interface SessionResultState {
@@ -23,23 +28,17 @@ interface LocationState {
   retry?: { exercises: Exercise[]; mode: SessionMode };
 }
 
-function shuffle<T>(list: T[]): T[] {
-  const arr = [...list];
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-  return arr;
-}
-
 export function ExerciseSessionPage() {
   const location = useLocation();
   const navigate = useNavigate();
   const progress = useProgressRepository();
   const state = (location.state ?? {}) as LocationState;
 
+  // retry também embaralha (questões e alternativas): nunca a mesma ordem
   const [exercises, setExercises] = useState<Exercise[] | null>(
-    state.retry ? state.retry.exercises : null,
+    state.retry
+      ? shuffle(state.retry.exercises).map(shuffleExerciseOptions)
+      : null,
   );
   const [emptyReason, setEmptyReason] = useState<string | null>(null);
   const [current, setCurrent] = useState(0);
@@ -74,7 +73,7 @@ export function ExerciseSessionPage() {
         config.questionCount === 'all'
           ? shuffle(pool)
           : shuffle(pool).slice(0, config.questionCount);
-      if (active) setExercises(picked);
+      if (active) setExercises(picked.map(shuffleExerciseOptions));
     })();
     return () => {
       active = false;
@@ -103,7 +102,8 @@ export function ExerciseSessionPage() {
     const attempts: AttemptRecord[] = exercises.map((ex, i) => ({
       exerciseId: ex.id,
       topicId: ex.topicId,
-      chosen: finalChosen[i],
+      // grava o índice canônico, não o da ordem exibida
+      chosen: canonicalOptionIndex(ex, finalChosen[i]),
       isCorrect: finalChosen[i] === ex.answer,
       answeredAt: now,
     }));

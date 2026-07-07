@@ -42,7 +42,7 @@ export function AiExplanation({ exercise }: { exercise: Exercise }) {
           className="ai-explain-btn"
           onClick={() => void ask()}
         >
-          🤖 Me explica melhor
+          🤖 Me explica melhor <span className="ai-badge">IA</span>
         </button>
         {status === 'login' && (
           <p className="ai-explain-login">
@@ -73,7 +73,7 @@ export function AiExplanation({ exercise }: { exercise: Exercise }) {
 
   return (
     <div className="ai-explain">
-      <div className="ai-explain-head">🤖 Explicação</div>
+      <div className="ai-explain-head">🤖 Explicação gerada por IA</div>
       <p className="ai-explain-text">
         <RichText text={content.explanation} />
       </p>

@@ -63,9 +63,9 @@ export function DictionaryPage() {
           Dicio<span className="accent">nário</span>
         </h1>
         <p className="subtitle">
-          📖 Dicionário, não tradutor — busque <strong>palavras ou
-          expressões curtas</strong> e veja tradução, contexto, exemplos e
-          combinações comuns.
+          📖 Dicionário com IA, não tradutor — busque <strong>palavras ou
+          expressões curtas</strong> e a IA monta o verbete: tradução,
+          contexto, exemplos e combinações comuns.
         </p>
       </header>
 
