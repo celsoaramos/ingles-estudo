@@ -9,6 +9,8 @@ interface StoredExercise {
   correct: number;
   wrong: number;
   lastAnsweredAt: string;
+  /** Resultado da tentativa mais recente (ausente em dados antigos). */
+  lastWasCorrect?: boolean;
 }
 
 interface StoredProgress {
@@ -44,6 +46,7 @@ export class LocalProgressRepository implements ProgressRepository {
       if (a.isCorrect) ex.correct += 1;
       else ex.wrong += 1;
       ex.lastAnsweredAt = a.answeredAt;
+      ex.lastWasCorrect = a.isCorrect;
       data.exercises[a.exerciseId] = ex;
     }
     if (session) {
@@ -64,10 +67,11 @@ export class LocalProgressRepository implements ProgressRepository {
   }
 
   async getWrongExerciseIds() {
+    // errou alguma vez e não acertou na tentativa mais recente
     const data = load();
     return new Set(
       Object.entries(data.exercises)
-        .filter(([, ex]) => ex.wrong > 0)
+        .filter(([, ex]) => ex.wrong > 0 && ex.lastWasCorrect !== true)
         .map(([id]) => id),
     );
   }
@@ -77,12 +81,19 @@ export class LocalProgressRepository implements ProgressRepository {
 export function exportLocalAttempts(): AttemptRecord[] {
   const data = load();
   return Object.entries(data.exercises).flatMap(([exerciseId, ex]) => {
+    // preserva qual foi o resultado mais recente: a última tentativa fica com
+    // lastAnsweredAt e as demais um minuto antes, para a conta reproduzir a
+    // mesma lista de "refazer meus erros" depois do merge.
+    const lastWasCorrect = ex.lastWasCorrect ?? ex.wrong === 0;
+    const earlier = new Date(
+      new Date(ex.lastAnsweredAt).getTime() - 60_000,
+    ).toISOString();
     const mk = (isCorrect: boolean): AttemptRecord => ({
       exerciseId,
       topicId: ex.topicId,
       chosen: -1, // opção original não é guardada no resumo local
       isCorrect,
-      answeredAt: ex.lastAnsweredAt,
+      answeredAt: isCorrect === lastWasCorrect ? ex.lastAnsweredAt : earlier,
     });
     return [
       ...Array.from({ length: ex.correct }, () => mk(true)),

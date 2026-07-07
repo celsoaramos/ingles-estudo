@@ -54,12 +54,21 @@ export class SupabaseProgressRepository implements ProgressRepository {
   }
 
   async getWrongExerciseIds() {
+    // olha a tentativa mais recente de cada exercício: quem foi corrigido
+    // numa revisão sai da lista; quem errar de novo volta.
     const { data, error } = await supabase
       .from('answer_attempts')
-      .select('exercise_id')
+      .select('exercise_id, is_correct, answered_at')
       .eq('user_id', this.userId)
-      .eq('is_correct', false);
+      .order('answered_at', { ascending: false });
     if (error) throw new Error(`Erro ao consultar erros: ${error.message}`);
-    return new Set((data ?? []).map((r) => r.exercise_id as string));
+    const latest = new Map<string, boolean>();
+    for (const r of data ?? []) {
+      const id = r.exercise_id as string;
+      if (!latest.has(id)) latest.set(id, r.is_correct as boolean);
+    }
+    return new Set(
+      [...latest].filter(([, isCorrect]) => !isCorrect).map(([id]) => id),
+    );
   }
 }

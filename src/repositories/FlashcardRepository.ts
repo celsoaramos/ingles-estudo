@@ -1,5 +1,6 @@
 import type { Accent } from '../domain/types';
 import { supabase } from '../lib/supabase';
+import { todayInSaoPaulo } from './StatsRepository';
 
 export interface FlashcardDeck {
   id: string;
@@ -24,6 +25,8 @@ export interface CardProgress {
   dueAt: string;
   correct: number;
   wrong: number;
+  /** Última revisão (ausente em dados locais antigos). */
+  lastReviewedAt?: string;
 }
 
 const LOCAL_KEY = 'ingles.flashcards.v1';
@@ -38,7 +41,13 @@ function nextProgress(prev: CardProgress | undefined, gotIt: boolean): CardProgr
     dueAt: due.toISOString(),
     correct: (prev?.correct ?? 0) + (gotIt ? 1 : 0),
     wrong: (prev?.wrong ?? 0) + (gotIt ? 0 : 1),
+    lastReviewedAt: new Date().toISOString(),
   };
+}
+
+/** Início do dia atual em São Paulo (o Brasil não tem mais horário de verão). */
+function todayStartIso(): string {
+  return new Date(`${todayInSaoPaulo()}T00:00:00-03:00`).toISOString();
 }
 
 function loadLocal(): Record<string, CardProgress> {
@@ -137,16 +146,26 @@ export class FlashcardRepository {
 
   // ---------- progresso ----------
 
-  /** Quantos cards estão vencidos (due_at <= agora) — para o painel do dia. */
+  /**
+   * Quantos cards estão vencidos (due_at <= agora) e ainda não foram revisados
+   * hoje — para o painel do dia. Sem o filtro de "hoje", um card errado (box 1
+   * vence na hora) manteria o contador preso mesmo depois da rodada.
+   */
   async countDue(): Promise<number> {
     const now = new Date().toISOString();
+    const todayStart = todayStartIso();
     if (!this.userId) {
-      return Object.values(loadLocal()).filter((p) => p.dueAt <= now).length;
+      return Object.values(loadLocal()).filter(
+        (p) =>
+          p.dueAt <= now &&
+          (!p.lastReviewedAt || p.lastReviewedAt < todayStart),
+      ).length;
     }
     const { count, error } = await supabase
       .from('flashcard_progress')
       .select('card_id', { count: 'exact', head: true })
-      .lte('due_at', now);
+      .lte('due_at', now)
+      .or(`last_reviewed_at.is.null,last_reviewed_at.lt.${todayStart}`);
     if (error) throw new Error(error.message);
     return count ?? 0;
   }
