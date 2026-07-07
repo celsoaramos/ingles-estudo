@@ -20,6 +20,7 @@ import { ResetPasswordPage } from './pages/ResetPasswordPage';
 import { StatsPage } from './pages/StatsPage';
 import { TopicPage } from './pages/TopicPage';
 import { TopicsPage } from './pages/TopicsPage';
+import { TrilhaPage } from './pages/TrilhaPage';
 import { VideosPage } from './pages/VideosPage';
 
 function ScrollToTop() {
@@ -52,6 +53,7 @@ export default function App() {
         <Routes>
           <Route element={<AppLayout />}>
             <Route path="/" element={<HomePage />} />
+            <Route path="/trilha" element={<TrilhaPage />} />
             <Route path="/topicos" element={<TopicsPage />} />
             <Route path="/topico/:id" element={<TopicPage />} />
             <Route path="/entrar" element={<LoginPage />} />

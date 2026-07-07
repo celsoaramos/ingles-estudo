@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { RichText } from '../components/RichText';
 import { useAuth } from '../contexts/AuthContext';
 import { useTopics } from '../hooks/useTopics';
+import { exerciseRepository } from '../repositories/ExerciseRepository';
 import {
   computeStreak,
   statsRepository,
@@ -23,9 +24,19 @@ interface StatsData {
 export function StatsPage() {
   const { user, loading: authLoading } = useAuth();
   const location = useLocation();
+  const navigate = useNavigate();
   const { topics: allTopics } = useTopics();
   const [data, setData] = useState<StatsData | null>(null);
   const [error, setError] = useState<string | null>(null);
+
+  async function redoOne(exerciseId: string) {
+    const [ex] = await exerciseRepository.getByIds([exerciseId]);
+    if (ex) {
+      navigate('/exercicios/sessao', {
+        state: { retry: { exercises: [ex], mode: 'imediata' } },
+      });
+    }
+  }
 
   const topicTitle = useMemo(() => {
     const map = new Map(allTopics.map((t) => [t.id, t.title]));
@@ -231,16 +242,23 @@ export function StatsPage() {
       {data.hardest.length > 0 && (
         <section className="stats-section">
           <h2 className="setup-title">Questões que você mais erra</h2>
+          <p className="stats-hint">Toque numa questão para refazê-la agora.</p>
           {data.hardest.map((h) => (
-            <div className="stats-hard-row" key={h.exerciseId}>
+            <button
+              type="button"
+              className="stats-hard-row"
+              key={h.exerciseId}
+              onClick={() => void redoOne(h.exerciseId)}
+            >
               <span className="stats-hard-question">
                 <RichText text={h.question} />
                 <small>{topicTitle(h.topicId)}</small>
               </span>
               <span className="stats-hard-count">
                 {h.wrong}✗ / {h.attempts}
+                <span className="stats-hard-redo">↻</span>
               </span>
-            </div>
+            </button>
           ))}
         </section>
       )}

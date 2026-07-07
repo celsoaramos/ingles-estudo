@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Navigate, useLocation, useNavigate } from 'react-router-dom';
+import { AiExplanation } from '../components/AiExplanation';
 import { RichText } from '../components/RichText';
 import type {
   AttemptRecord,
@@ -236,16 +237,19 @@ export function ExerciseSessionPage() {
           </div>
 
           {mode === 'imediata' && revealed && (
-            <div
-              className={`quiz-feedback ${
-                currentChoice === exercise.answer ? 'ok' : 'nok'
-              }`}
-            >
-              {currentChoice === exercise.answer
-                ? '✓ Correto! '
-                : '✗ Não foi dessa vez. '}
-              <RichText text={exercise.explanation} />
-            </div>
+            <>
+              <div
+                className={`quiz-feedback ${
+                  currentChoice === exercise.answer ? 'ok' : 'nok'
+                }`}
+              >
+                {currentChoice === exercise.answer
+                  ? '✓ Correto! '
+                  : '✗ Não foi dessa vez. '}
+                <RichText text={exercise.explanation} />
+              </div>
+              <AiExplanation key={exercise.id} exercise={exercise} />
+            </>
           )}
 
           <button

@@ -1,8 +1,16 @@
 import { Link } from 'react-router-dom';
 import { LoginCta } from '../components/LoginCta';
+import { TodayPanel } from '../components/TodayPanel';
 import { useAuth } from '../contexts/AuthContext';
 
 const SECTIONS = [
+  {
+    to: '/trilha',
+    accent: 'green',
+    icon: '🧭',
+    title: 'Trilha',
+    text: 'Estude na ordem certa, do básico ao avançado, acompanhando seu progresso',
+  },
   {
     to: '/topicos',
     accent: 'blue',
@@ -69,6 +77,8 @@ export function HomePage() {
           👋 Olá! Seu progresso está sendo salvo na sua conta.
         </p>
       )}
+
+      <TodayPanel />
 
       <div className="hub-grid">
         {SECTIONS.map((s) => (

@@ -52,4 +52,14 @@ export class SupabaseProgressRepository implements ProgressRepository {
     if (error) throw new Error(`Erro ao consultar progresso: ${error.message}`);
     return new Set((data ?? []).map((r) => r.exercise_id as string));
   }
+
+  async getWrongExerciseIds() {
+    const { data, error } = await supabase
+      .from('answer_attempts')
+      .select('exercise_id')
+      .eq('user_id', this.userId)
+      .eq('is_correct', false);
+    if (error) throw new Error(`Erro ao consultar erros: ${error.message}`);
+    return new Set((data ?? []).map((r) => r.exercise_id as string));
+  }
 }

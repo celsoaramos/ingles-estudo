@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
+import { AiExplanation } from '../components/AiExplanation';
 import { LoginCta } from '../components/LoginCta';
 import { RichText } from '../components/RichText';
 import { useTopics } from '../hooks/useTopics';
@@ -93,6 +94,7 @@ export function ExercisesResultPage() {
                 <div className="quiz-feedback nok">
                   <RichText text={ex.explanation} />
                 </div>
+                <AiExplanation exercise={ex} />
               </div>
             ),
           )}

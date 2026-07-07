@@ -137,6 +137,20 @@ export class FlashcardRepository {
 
   // ---------- progresso ----------
 
+  /** Quantos cards estão vencidos (due_at <= agora) — para o painel do dia. */
+  async countDue(): Promise<number> {
+    const now = new Date().toISOString();
+    if (!this.userId) {
+      return Object.values(loadLocal()).filter((p) => p.dueAt <= now).length;
+    }
+    const { count, error } = await supabase
+      .from('flashcard_progress')
+      .select('card_id', { count: 'exact', head: true })
+      .lte('due_at', now);
+    if (error) throw new Error(error.message);
+    return count ?? 0;
+  }
+
   async getProgress(cardIds: string[]): Promise<Map<string, CardProgress>> {
     if (!this.userId) {
       const local = loadLocal();

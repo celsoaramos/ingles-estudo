@@ -62,6 +62,15 @@ export class LocalProgressRepository implements ProgressRepository {
         .map(([id]) => id),
     );
   }
+
+  async getWrongExerciseIds() {
+    const data = load();
+    return new Set(
+      Object.entries(data.exercises)
+        .filter(([, ex]) => ex.wrong > 0)
+        .map(([id]) => id),
+    );
+  }
 }
 
 /** Exporta as tentativas locais para o merge local→conta no primeiro login. */

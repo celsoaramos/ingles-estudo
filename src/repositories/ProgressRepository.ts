@@ -10,4 +10,6 @@ export interface ProgressRepository {
   recordAttempts(attempts: AttemptRecord[], session?: SessionSummary): Promise<void>;
   /** IDs de exercícios que o usuário já acertou ao menos uma vez nos tópicos dados. */
   getCorrectExerciseIds(topicIds: string[]): Promise<Set<string>>;
+  /** IDs de exercícios que o usuário já errou ao menos uma vez (para revisão). */
+  getWrongExerciseIds(): Promise<Set<string>>;
 }

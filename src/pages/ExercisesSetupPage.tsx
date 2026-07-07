@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { LoginCta } from '../components/LoginCta';
 import type { QuizConfig, SessionMode } from '../domain/types';
+import { useMistakesReview } from '../hooks/useMistakesReview';
 import { useTopics } from '../hooks/useTopics';
 
 const COUNT_OPTIONS: { value: QuizConfig['questionCount']; label: string }[] = [
@@ -13,11 +14,18 @@ const COUNT_OPTIONS: { value: QuizConfig['questionCount']; label: string }[] = [
 export function ExercisesSetupPage() {
   const { topics, loading } = useTopics();
   const navigate = useNavigate();
+  const { start: startReview, starting } = useMistakesReview();
+  const [noMistakes, setNoMistakes] = useState(false);
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [mode, setMode] = useState<SessionMode>('imediata');
   const [includeMastered, setIncludeMastered] = useState(true);
   const [questionCount, setQuestionCount] =
     useState<QuizConfig['questionCount']>(10);
+
+  async function reviewMistakes() {
+    const ok = await startReview();
+    if (!ok) setNoMistakes(true);
+  }
 
   const allSelected = topics.length > 0 && selected.size === topics.length;
 
@@ -53,6 +61,26 @@ export function ExercisesSetupPage() {
       </header>
 
       <LoginCta />
+
+      <button
+        type="button"
+        className="review-mistakes-cta"
+        disabled={starting}
+        onClick={() => void reviewMistakes()}
+      >
+        <span className="today-action-icon">🔁</span>
+        <span className="today-action-text">
+          <strong>
+            {starting ? 'Preparando…' : 'Refazer meus erros'}
+          </strong>
+          <small>
+            {noMistakes
+              ? 'Você ainda não tem erros registrados para revisar 🎉'
+              : 'Treino rápido só com as questões que você já errou'}
+          </small>
+        </span>
+        <span className="today-action-arrow">→</span>
+      </button>
 
       <section className="setup-section">
         <div className="setup-title-row">
